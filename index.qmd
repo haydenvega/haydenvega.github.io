@@ -1,10 +1,37 @@
 ---
-title: "haydenvega.github.io"
+title: "Hayden Vega"
+image: Hayden's Headshot.jpg
+toc: false
+about: 
+  template: trestles
+image-shape: round
+image-width: 20em
+links:
+    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hayden-vega/
+    - icon: github
+      text: GitHub
+      href: https://github.com/haydenvega
+    - icon: envelope
+      text: Email
+      href: mailto:haydenvega@ucsb.edu
+
+
+
+
+
+#links:
+  #- icon: linkedin
+   #   text: LinkedIn
+    #  href: https://www.linkedin.com/in/hayden-vega/
+#  - icon: github
+ #     text: Github
+  #    href: https://github.com/haydenvega
+#-icon: envelope
+ # text: Email
+ # href: mailto: haydenvega@ucsb.edu
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
