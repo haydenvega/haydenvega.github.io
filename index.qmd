@@ -1,15 +1,15 @@
 ---
-title: "Hayden Vega"
-image: Hayden's Headshot.jpg
-toc: false
+title: "Hayden Vega" # if using a built-in template, this title appears under your photo
+image: hs_hv.jpg # great spot for your professional headshot :) 
+toc: false # remove "On this page" table of contents
 about: 
-  template: trestles
-image-shape: round
-image-width: 20em
+  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+  image-shape: round
+  image-width: 20em
 links:
-    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
+    - icon: linkedin 
       text: LinkedIn
-      href: https://www.linkedin.com/in/hayden-vega/
+      href: https://www.linkedin.com/in/hayden-vega-6893a3207/
     - icon: github
       text: GitHub
       href: https://github.com/haydenvega
