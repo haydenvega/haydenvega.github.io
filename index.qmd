@@ -1,11 +1,12 @@
 ---
-title: "Hayden Vega" # if using a built-in template, this title appears under your photo
-image: hs_hv.jpg # great spot for your professional headshot :) 
-toc: false # remove "On this page" table of contents
+title: "Hayden Vega" 
+ #why doesn't this work?
+toc: false 
 about: 
-  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+  image: images/crab.png
+  template: jolla 
   image-shape: round
-  image-width: 20em
+  image-width: 20em #why doesnt this whole about section work?
 links:
     - icon: linkedin 
       text: LinkedIn
@@ -16,7 +17,6 @@ links:
     - icon: envelope
       text: Email
       href: mailto:haydenvega@ucsb.edu
-
 
 
 
@@ -32,7 +32,3 @@ links:
  # text: Email
  # href: mailto: haydenvega@ucsb.edu
 ---
-
-```{r}
-1 + 1
-```

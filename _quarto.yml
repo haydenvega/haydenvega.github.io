@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
+ site-url: https://haydenvega.github.io/
  navbar:
     title: "Hayden Vega" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
     right:
       - href: index.qmd
         text: Home # use 'text' option to update the name as you want it to appear in your navbar
-    #  - about.qmd
-     # - href: resources.qmd
-     #   text: Resources
+      - about.qmd
+      - href: resources.qmd
+        text: Resources
       - href: cv_hv.pdf
         text: CV
       - icon: github # add icons that link to social media, etc.
@@ -36,6 +37,7 @@ website:
 
 format:
   html:
+  
     theme:
       - styles.scss
     mainfont: Marcellus
