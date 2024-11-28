@@ -2,3 +2,4 @@
 title: "Resources"
 image: images/crab.png
 ---
+bruh this me trying to fix
