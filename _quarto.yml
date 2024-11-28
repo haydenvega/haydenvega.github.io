@@ -42,7 +42,8 @@ website:
 
 format:
   html:
-    theme: styles.scss
+    theme: 
+    - styles.scss
     mainfont: Marcellus
     toc: true
 
