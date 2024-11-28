@@ -3,25 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
 // Colors
-$dark-green: #858E79;
-$offwhite: antiquewhite;
+$dark-green: #ADC2A9;
+$offwhite: #FEF5ED;
 $cream: lavenderblush;
 $beigeish: burlywood;
 $blurple: darkslateblue;
 $orange: #ad7237;
+$darker-green: #99A799;
+$light-green: #d3e4cD;
 
 // Base document colors
-$navbar-bg: $cream; // navbar
+$navbar-bg: $offwhite; // navbar
 $navbar-fg: $dark-green; // navbar foreground elements
 $navbar-hl: $blurple; // highlight color when hovering over navbar links
 $body-bg: $offwhite; // page background 
-$body-color: $beigeish; // page text 
-$footer-bg: $cream; // footer 
+$body-color: $darker-green; // page text 
+$footer-bg: $offwhite; // footer 
 $link-color: $blurple; // hyperlinks 
 
 // Inline code
-$code-bg: $cream; // inline code background color
+$code-bg: $offwhite; // inline code background color
 $code-color: $blurple; // inline code text color
 
 // Code blocks
 $code-block-bg: $cream; // code block background color
+
+/*--scss:rules--*/
+//update "about page" button color
+div.quarto-about-jolla .about-link {
+  color: $darker-green;
+}
