@@ -2,3 +2,5 @@
 title: "Resources"
 image: images/crab.png
 ---
+
+This is the resources page
