@@ -3,4 +3,6 @@ title: "Resources"
 image: images/crab.png
 ---
 
-This is the resources page
+
+
+This is me trying to get the page to work
