@@ -6,6 +6,11 @@ website:
  site-url: https://haydenvega.github.io/
  navbar:
     title: "Hayden Vega" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
+    favicon: Logo maker project.png
+    navbar:
+    title:  false
+    logo: Logo maker project.png
+    logo-alt: "Alt text for logo"
     right:
       - href: index.qmd
         text: Home # use 'text' option to update the name as you want it to appear in your navbar
@@ -17,7 +22,7 @@ website:
       - icon: github # add icons that link to social media, etc.
         href: https://github.com/haydenvega
  page-footer:
-    background: light # or dark
+    background: dark
     left:
       - "Hayden Vega"
     right:
@@ -37,9 +42,8 @@ website:
 
 format:
   html:
-  
-    theme:
-      - styles.scss
+    theme: 
+    - styles.scss
     mainfont: Marcellus
     toc: true
 

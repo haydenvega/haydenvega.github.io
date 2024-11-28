@@ -1,12 +1,12 @@
 ---
 title: "Hayden Vega" 
- #why doesn't this work?
+
 toc: false 
 about: 
   image: images/crab.png
   template: jolla 
   image-shape: round
-  image-width: 20em #why doesnt this whole about section work?
+  image-width: 20em 
 links:
     - icon: linkedin 
       text: LinkedIn
