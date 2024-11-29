@@ -1,16 +1,15 @@
 ---
 title: "Hayden Vega" 
-
+images: images/crab.png
 toc: false 
 about: 
-  image: images/crab.png
   template: jolla 
   image-shape: round
   image-width: 20em 
-links:
+  links:
     - icon: linkedin 
       text: LinkedIn
-      href: https://www.linkedin.com/in/hayden-vega-6893a3207/
+      href: https://www.linkedin.com/in/hayden-vega-6893a3207
     - icon: github
       text: GitHub
       href: https://github.com/haydenvega
