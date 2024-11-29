@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
- site-url: https://haydenvega.github.io/
+  title: "Hayden Vega"
+  site-url: https://haydenvega.github.io/
+  favicon: images/logo.png
+  
  navbar:
-    title: "Hayden Vega" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
-    favicon: images/Logo maker project.png
-    navbar:
-    title:  false
-    logo: Logo maker project.png
+    title: false
+    logo: images/logo.png
     logo-alt: "Alt text for logo"
     right:
       - href: index.qmd
@@ -23,29 +23,18 @@ website:
         href: https://github.com/haydenvega
  page-footer:
     background: dark
-    left:
-      - "Hayden Vega"
+    left: Hayden Vega
     right:
       - icon: github
         href: https://github.com/haydenvega
       - icon: linkedin
         href: https://www.linkedin.com/in/hayden-vega-6893a3207/
-  #page-footer:
-   # background: dark # or light
-    #left:
-     # - "Hayden Vega"
-    #right:
-     # - icon: github
-      #  href: https://github.com/haydenvega
-      #- icon: envelope
-       # href: mailto:haydenvega@ucsb.edu
-
+  
 format:
   html:
-    theme: 
-    - styles.scss
+    page-layout: full
+    sidebar: false
+    theme: jolla
+    css: styles.css
     mainfont: Marcellus
     toc: true
-
-editor: visual
-
