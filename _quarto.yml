@@ -6,7 +6,7 @@ website:
  site-url: https://haydenvega.github.io/
  navbar:
     title: "Hayden Vega" # this is the website title as it appears in the top left corner -- clicking on this will jump you back to your landing page from where ever you are
-    favicon: Logo maker project.png
+    favicon: images/Logo maker project.png
     navbar:
     title:  false
     logo: Logo maker project.png
