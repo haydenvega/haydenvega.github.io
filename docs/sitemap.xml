@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://haydenvega.github.io/about.html</loc>
-    <lastmod>2023-11-21T05:09:00.046Z</lastmod>
+    <lastmod>2024-12-14T06:39:56.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haydenvega.github.io/index.html</loc>
+    <lastmod>2024-12-14T06:39:57.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haydenvega.github.io/posts.html</loc>
+    <lastmod>2024-12-14T06:39:58.785Z</lastmod>
   </url>
   <url>
     <loc>https://haydenvega.github.io/resources.html</loc>
-    <lastmod>2024-11-28T07:19:52.759Z</lastmod>
+    <lastmod>2024-12-14T06:39:59.156Z</lastmod>
   </url>
 </urlset>

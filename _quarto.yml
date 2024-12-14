@@ -5,22 +5,20 @@ project:
 website:
   title: "Hayden Vega"
   site-url: https://haydenvega.github.io/
-  favicon: images/logo.png
-  
   navbar:
-   title: false
-    logo: images/logo.png
-    logo-alt: "Alt text for logo"
     right:
       - href: index.qmd
         text: Home # use 'text' option to update the name as you want it to appear in your navbar
-      - about.qmd
+      - href: about.qmd
+        text: About
       - href: resources.qmd
         text: Resources
       - href: cv_hv.pdf
         text: CV
       - icon: github # add icons that link to social media, etc.
         href: https://github.com/haydenvega
+      - href: posts.qmd
+        text: My Blog
   page-footer:
     background: dark
     left: Hayden Vega
