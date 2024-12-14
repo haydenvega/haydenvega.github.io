@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hayden Vega – index</title>
+<title>Hayden Vega - Fish are Friends: An EDS 240 Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -114,16 +177,125 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a>
+  <ul class="collapse">
+  <li><a href="#background-fish-are-friends" id="toc-background-fish-are-friends" class="nav-link" data-scroll-target="#background-fish-are-friends">Background: Fish are friends!</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#fish-presence-and-wounding-intensity-do-not-influence-photosynthetic-efficiency-of-undisturbed-tissue.-undisturbed-tissue-data-shows-no-discernible-difference-across-treatments" id="toc-fish-presence-and-wounding-intensity-do-not-influence-photosynthetic-efficiency-of-undisturbed-tissue.-undisturbed-tissue-data-shows-no-discernible-difference-across-treatments" class="nav-link" data-scroll-target="#fish-presence-and-wounding-intensity-do-not-influence-photosynthetic-efficiency-of-undisturbed-tissue.-undisturbed-tissue-data-shows-no-discernible-difference-across-treatments">Fish presence and wounding intensity do <strong>not</strong> influence photosynthetic efficiency of <strong>undisturbed</strong> tissue. Undisturbed tissue data shows no discernible difference across treatments</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Fish are Friends: An EDS 240 Analysis</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>This document summarizes the data collected in an experiment comparing the effect of wounding intensity (none, small, large) and fish presence (<em>Dascyllus flavicaudus</em>) on a coral’s (<em>Pocillopora sp.</em>) photosynthetic efficiency. Our results show no significant effect of wounding intensity on photosynthetic efficiency among all treatments and datasets. Our results also show a positive, yet not significant, effect of fish presence on the photosynthetic efficiency of healed tissue among high wound intensity treatments only. Under no and small wounding intensities for all data sets the effect of fish on photosynthetic efficiency was negligible.</p>
+<p>When drawing conclusions about our data, it’s important to acknowledge that our data suffers from a small sample size. Our experiment contained three intensities of wounding and a binary variable of fish presence, creating six unique combinations of wounding intensity and fish presence. Within each unique combination of treatments n=12. Conclusions about the relationships governing the observed data should be drawn carefully.</p>
+<p>Thank you for your time.</p>
+<section id="background-fish-are-friends" class="level2">
+<h2 class="anchored" data-anchor-id="background-fish-are-friends">Background: Fish are friends!</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/c6mVl6fAxLw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Some scientists think that your grandchildren may never see a natural coral reef(Hoegh-Guldberg 2019). Corals are in global decline, and climate change is throwing new stressors at our corals faster than they can adapt. One of these new stressors and an emerging source of coral mortality is wounding(Bright 2015). This refers to the mechanical breakdown of coral tissue and skeleton, which can be caused by a variety of sources from a carelessly placed anchor to an abandoned fishing net. Yet, the most devastating and prevalent source of coral wounds is from predators.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cots.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Crown of Thorns Seastar (<em>Acanthaster planci</em>) is a deadly coral predator, consuming 10 meters<sup>2</sup> of coral year<sup>-1</sup></figcaption><p></p>
+</figure>
+</div>
+<p>Wounds are deadly to corals because they strain a coral’s physiological machinery. Wounds have been shown to decrease a coral’s ability to grow, reproduce, and photosynthesize (Munk 2024).When wounding intensity is high, corals may not have the energy to heal a wound or deal with the strain associated with the damage. Ultimately, this results in an individual’s death. Predation pressure and wounding is only predicted to increase with climate change, resulting in a future where predators may kill entire reefs.</p>
+<p>Luckily, corals have some pretty good friends in the fight against climate change and wounding. Fish, particularly those who use corals as shelter, have been shown to alleviate strain on a coral’s physiological machinery(Shantz 2023). Fish have been shown to increase a coral’s ability to grow, reproduce, and photosynthesize.Fish help corals make more energy by providing nutrients through excretion and increasing the waterflow around the coral(Shantz 2023).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="dascyllus.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Yellowtail Dascyllus (<em>Dascyllus flavicaudus</em>) sheltering among the coral <em>Pocillopora sp.</em></figcaption><p></p>
+</figure>
+</div>
+<p>Our experiment is interested in elucidating how coral health changes as a function of wounding intensity and fish presence. We studied this relationship in a tank experiment. We collected 72 <em>Pocillopora sp.</em> corals and gave them either no, small, or a large wound. We then spread equal numbers of each wounding treatment into six tanks (12 corals/tank). Thirty grams of the coral sheltering fish, the Yellowtail Dascyllus (<em>Dascyllus flavicaudus</em>) was added to half of these tanks, creating six unique treatments. Corals were housed in treatment tanks for five weeks, and all physiological data was collected at the end.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Screenshot 2024-12-13 202809.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Experimental Design: Six tanks, three with fish, three without. All tanks with 4 corals without wounds, 4 corals with a small wound, and 4 corals with a large wound. N=72</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>There are two datasets described in this document: photosynthetic efficiency of undisturbed tissue and photosynthetic efficiency of healed tissue. Coral is a colonial organism, thus wounding, however localized, could affect the entire colony’s ability to photosynthesize, as well as the ability of the tissue local to the wound. To account for this potential result, we collected data on both undisturbed (whole colony) tissue and tissue that had regrown over the wound (healed tissue). Our guiding questions were, “Is there a significant difference between photosynthetic efficiency among wounding treatments and fish presence?”</p>
+<p>To address our question, we first qualitatively observed the data to inform our later analysis. Then we used randomized hypothesis testing against a null model to form conclusions about the interaction of wounding intensity and fish presence on photosynthetic efficiency. Specifically testing the hypotheses of whether or not there was a difference in photosynthetic efficiency across and among treatments. For treatments that showed a distinct pattern, we created a generalized linear model to characterize the effect.</p>
+</section>
+<section id="fish-presence-and-wounding-intensity-do-not-influence-photosynthetic-efficiency-of-undisturbed-tissue.-undisturbed-tissue-data-shows-no-discernible-difference-across-treatments" class="level2">
+<h2 class="anchored" data-anchor-id="fish-presence-and-wounding-intensity-do-not-influence-photosynthetic-efficiency-of-undisturbed-tissue.-undisturbed-tissue-data-shows-no-discernible-difference-across-treatments">Fish presence and wounding intensity do <strong>not</strong> influence photosynthetic efficiency of <strong>undisturbed</strong> tissue. Undisturbed tissue data shows no discernible difference across treatments</h2>
+<section id="load-in-data" class="level4">
+<h4 class="anchored" data-anchor-id="load-in-data">Load in Data</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"pam_undisturbed_healed.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>pam_healed <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"pam_healed.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="qualitative-visualize-data-yields-no-discernible-difference-among-or-across-treatments" class="level4">
+<h4 class="anchored" data-anchor-id="qualitative-visualize-data-yields-no-discernible-difference-among-or-across-treatments">Qualitative visualize data yields no discernible difference among or across treatments</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span> (<span class="at">x =</span> fish, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> fish)) <span class="sc">+</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Boxplot of PAM including x = wound and  fish = fill</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> wound, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> fish))<span class="sc">+</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Boxplot of PAM including x = fish and fill = wound</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> fish, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> wound))<span class="sc">+</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> wound, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> wound))<span class="sc">+</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="undisturbed_fish_boxplot.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Fig 1. Photosynthetic efficiency of undisturbed tissue as a function of fish presence. Note that the two distributions are nearly identical.</figcaption><p></p>
+</figure>
+</div>
 
 
+<!-- -->
+
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -191,6 +363,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -258,7 +481,93 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb3" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Fish are Friends: An EDS 240 Analysis"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">    echo: true</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">    eval: false</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu"># Summary</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>This document summarizes the data collected in an experiment comparing the effect of wounding intensity (none, small, large) and fish presence (*Dascyllus flavicaudus*) on a coral's (*Pocillopora sp.*) photosynthetic efficiency. Our results show no significant effect of wounding intensity on photosynthetic efficiency among all treatments and datasets. Our results also show a positive, yet not significant, effect of fish presence on the photosynthetic efficiency of healed tissue among high wound intensity treatments only. Under no and small wounding intensities for all data sets the effect of fish on photosynthetic efficiency was negligible.</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>When drawing conclusions about our data, it's important to acknowledge that our data suffers from a small sample size. Our experiment contained three intensities of wounding and a binary variable of fish presence, creating six unique combinations of wounding intensity and fish presence. Within each unique combination of treatments n=12. Conclusions about the relationships governing the observed data should be drawn carefully.</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>Thank you for your time.</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Background: Fish are friends!</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/watch?v=c6mVl6fAxLw&amp;t=34s&amp;pp=ygUZZmlzaCBhcmUgZnJpZW5kcyBub3QgZm9vZA%3D%3D &gt;}}</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>Some scientists think that your grandchildren may never see a natural coral reef(Hoegh-Guldberg 2019). Corals are in global decline, and climate change is throwing new stressors at our corals faster than they can adapt. One of these new stressors and an emerging source of coral mortality is wounding(Bright 2015). This refers to the mechanical breakdown of coral tissue and skeleton, which can be caused by a variety of sources from a carelessly placed anchor to an abandoned fishing net. Yet, the most devastating and prevalent source of coral wounds is from predators.</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="al">![Crown of Thorns Seastar (*Acanthaster planci*) is a deadly coral predator, consuming 10 meters^2^ of coral year^-1^](cots.jpg)</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>Wounds are deadly to corals because they strain a coral's physiological machinery. Wounds have been shown to decrease a coral's ability to grow, reproduce, and photosynthesize (Munk 2024).When wounding intensity is high, corals may not have the energy to heal a wound or deal with the strain associated with the damage. Ultimately, this results in an individual's death. Predation pressure and wounding is only predicted to increase with climate change, resulting in a future where predators may kill entire reefs.</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>Luckily, corals have some pretty good friends in the fight against climate change and wounding. Fish, particularly those who use corals as shelter, have been shown to alleviate strain on a coral's physiological machinery(Shantz 2023). Fish have been shown to increase a coral's ability to grow, reproduce, and photosynthesize.Fish help corals make more energy by providing nutrients through excretion and increasing the waterflow around the coral(Shantz 2023).</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a><span class="al">![Yellowtail Dascyllus (*Dascyllus flavicaudus*) sheltering among the coral *Pocillopora sp.*](dascyllus.png)</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>Our experiment is interested in elucidating how coral health changes as a function of wounding intensity and fish presence. We studied this relationship in a tank experiment. We collected 72 *Pocillopora sp.* corals and gave them either no, small, or a large wound. We then spread equal numbers of each wounding treatment into six tanks (12 corals/tank). Thirty grams of the coral sheltering fish, the Yellowtail Dascyllus (*Dascyllus flavicaudus*) was added to half of these tanks, creating six unique treatments. Corals were housed in treatment tanks for five weeks, and all physiological data was collected at the end.</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="al">![Experimental Design: Six tanks, three with fish, three without. All tanks with 4 corals without wounds, 4 corals with a small wound, and 4 corals with a large wound. N=72](Screenshot%202024-12-13%20202809.png)</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## Analysis</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>There are two datasets described in this document: photosynthetic efficiency of undisturbed tissue and photosynthetic efficiency of healed tissue. Coral is a colonial organism, thus wounding, however localized, could affect the entire colony's ability to photosynthesize, as well as the ability of the tissue local to the wound. To account for this potential result, we collected data on both undisturbed (whole colony) tissue and tissue that had regrown over the wound (healed tissue). Our guiding questions were, "Is there a significant difference between photosynthetic efficiency among wounding treatments and fish presence?"</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>To address our question, we first qualitatively observed the data to inform our later analysis. Then we used randomized hypothesis testing against a null model to form conclusions about the interaction of wounding intensity and fish presence on photosynthetic efficiency. Specifically testing the hypotheses of whether or not there was a difference in photosynthetic efficiency across and among treatments. For treatments that showed a distinct pattern, we created a generalized linear model to characterize the effect.</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## Fish presence and wounding intensity do **not** influence photosynthetic efficiency of **undisturbed** tissue. Undisturbed tissue data shows no discernible difference across treatments</span></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Load in Data</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: setup</span></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"pam_undisturbed_healed.csv"</span>)</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>pam_healed <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"pam_healed.csv"</span>)</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Qualitative visualize data yields no discernible difference among or across treatments</span></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span> (<span class="at">x =</span> fish, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> fish)) <span class="sc">+</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Boxplot of PAM including x = wound and  fish = fill</span></span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> wound, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> fish))<span class="sc">+</span></span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Boxplot of PAM including x = fish and fill = wound</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> fish, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> wound))<span class="sc">+</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>pam_undisturbed_healed <span class="sc">%&gt;%</span> </span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span> (<span class="fu">aes</span> (<span class="at">x =</span> wound, <span class="at">y =</span> fv_fm, <span class="at">fill =</span> wound))<span class="sc">+</span></span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="al">![Fig 1. Photosynthetic efficiency of undisturbed tissue as a function of fish presence. Note that the two distributions are nearly identical.](undisturbed_fish_boxplot.png)</span></span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
