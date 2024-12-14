@@ -2,6 +2,11 @@
 title: "My Blog"
 format: html
 editor: visual
+listing: 
+  contents: blog_posts 
+  type: grid 
+  sort: "date desc" # can also sort on more than one field
+  categories: true
 ---
 
 ## Quarto
