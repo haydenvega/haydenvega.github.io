@@ -1,6 +1,6 @@
 ---
 title: "Hayden Vega" 
-images: images/crab.png
+image: images/scubashot.png
 toc: false 
 about: 
   template: jolla 

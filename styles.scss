@@ -2,23 +2,25 @@
 // Import fonst
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
+
+
 // Colors
 $dark-green: #ADC2A9;
 $offwhite: #FEF5ED;
 $cream: lavenderblush;
 $beigeish: burlywood;
-$blurple: darkslateblue;
+$blurple: #183d3d;
 $orange: #ad7237;
 $darker-green: #99A799;
 $light-green: #d3e4cD;
 
 // Base document colors
-$navbar-bg: $offwhite; // navbar
-$navbar-fg: $dark-green; // navbar foreground elements
+$navbar-bg: $darker-green; // navbar
+$navbar-fg: $offwhite; // navbar foreground elements
 $navbar-hl: $blurple; // highlight color when hovering over navbar links
 $body-bg: $offwhite; // page background 
 $body-color: $darker-green; // page text 
-$footer-bg: $offwhite; // footer 
+$footer-bg: $dark-green; // footer 
 $link-color: $blurple; // hyperlinks 
 
 // Inline code
