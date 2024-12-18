@@ -1,0 +1,118 @@
+---
+title: "Fieldwork"
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+---
+
+Fieldwork is one of my favorite things about being a scientist. Here are some photos from the amazing places I've had the good fortune to work at!
+
+
+### Mo'orea, French Polynesia
+
+::: {layout="[[1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]"}
+
+![](images/coralscape.jpg){group="Mo'orea"
+description="Hilton Reef"}
+
+![](images/scubashot.png){group="Mo'orea"
+}
+
+![](images/stingray.jpg){group="Mo'orea"
+description="Pink Whiprays at Stingray Flats; both individuals had a five foot wingspan! "}
+
+![](images/blacktip.jpg){group="Mo'orea"
+description="Blacktips at Stingray Flats"}
+
+![](images/humpback.jpg){group="Mo'orea"
+description="Mother and newborn humpback"}
+
+![](images/snorkelbot.jpg){group="Mo'orea"
+description="Fish surveys via snorkel on a protected reef."}
+
+![](images/snorkeltop.jpg){group="Mo'orea"
+}
+
+![](images/surfacedive.jpg){group="Mo'orea"
+description="Hayden and Ninah after a dive on MRB Reef."}
+
+![](images/survey.jpg){group="Mo'orea"
+description="Survey of a dying reef."}
+
+![](images/colorfulrock.jpg){group="Mo'orea"
+description="Fluorescent encrusting coral"}
+
+![](images/colorfulchristmastree.jpg){group="Mo'orea"
+description="A festive-lookin' Christmas Tree Worm"}
+
+![](images/colorfulrockrock.jpg){group="Mo'orea"
+description="Encrusting coral"}
+
+![](images/brownchristmastree.jpg){group="Mo'orea"
+description="A less festive Christmas Tree Worm"}
+
+:::
+
+### Kruger National Park, South Africa
+
+::: {layout="[[1], [1, 1, 1, 1, 1]]"}
+
+![](images/lion.jpg){group="kruger"}
+
+![](images/roller.jpg){group="kruger"
+description="Lilac Breasted Roller"}
+
+![](images/leopard.jpg){group="kruger"
+description="Leopard hiding after a successful kill"}
+
+![](images/elephant.jpg){group="kruger"}
+
+![](images/rhino.jpg){group="kruger"
+description="Black Rhinoceros"}
+
+![](images/giraffe.jpg){group="kruger"}
+
+:::
+
+### Jack and Laura Dangermond Preserve
+
+::: {layout="[[1], [1, 1, 1, 1, 1]]"}
+
+![](images/bwrise.jpg){group="dangermond"}
+
+![](images/sunrise.jpg){group="dangermond"}
+
+![](images/purple.jpg){group="dangermond"}
+
+![](images/morning.jpg){group="dangermond"}
+
+![](images/rosie.jpg){group="dangermond"
+description="Rosie during an auditory survey"}
+
+![](images/bluebird.jpg){group="dangermond"
+description="Western Bluebird"}
+
+:::
+
+
+### Coal Oil Point Nature Reserve
+
+::: {layout="[[1], [1, 1, 1, 1]]"}
+
+![](images/slough.jpg){group="COPR"
+}
+
+![](images/acorn.png){group="COPR"
+description="Acorn Woodpecker"}
+
+![](images/redwing.png){group="COPR"
+description="Red-winged Blackbird"}
+
+![](images/treecorm.png){group="COPR"
+description="Cormorant"}
+
+![](images/beltfisher.png){group="COPR"
+description="Belted Kingfisher"}
+
+:::

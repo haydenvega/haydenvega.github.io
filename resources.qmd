@@ -1,7 +1,0 @@
----
-title: "Resources"
-image: images/crab.png
----
-
-
-

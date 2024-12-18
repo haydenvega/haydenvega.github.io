@@ -11,13 +11,13 @@ website:
     logo: images/logo.png
     right:
       - href: index.qmd
-        text: Home # use 'text' option to update the name as you want it to appear in your navbar
+        text: home # use 'text' option to update the name as you want it to appear in your navbar
       - href: about.qmd
-        text: About
+        text: about
       - href: posts.qmd
-        text: My Blog
-      - href: resources.qmd
-        text: Resources
+        text: blog
+      - href: fieldwork.qmd
+        text: fieldwork
       - href: cv_hv.pdf
         text: CV
       - icon: github # add icons that link to social media, etc.
