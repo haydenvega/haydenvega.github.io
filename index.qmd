@@ -1,6 +1,6 @@
 ---
 title: "Hayden Vega" 
-image: images/scubashot.png
+image: images/scubashot.jpg
 toc: false 
 about: 
   template: jolla 
@@ -17,3 +17,23 @@ about:
       text: Email
       href: mailto:haydenvega@ucsb.edu
 ---
+
+Hi, I'm Hayden! I'm a marine scientist interested in leveraging marine ecology and environmental science to improve social and environmental systems. Addressing environmental issues is complex, so I wear many hats as a scientist, photographer, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
+
+------------------------------------------------------------------------
+
+#### Education
+
+<p class="custom-subtitle">
+
+**B.A. Marine Biology, B.S. Environmental Studies, B.S. Ecology and Evolution**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+
+
