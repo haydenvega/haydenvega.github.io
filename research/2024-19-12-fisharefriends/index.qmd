@@ -1,0 +1,8 @@
+---
+title: "Fish are Friends: An EDS 240 Analysis"
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+---

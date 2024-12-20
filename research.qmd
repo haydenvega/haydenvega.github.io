@@ -1,0 +1,10 @@
+---
+title: "Research"
+format: html
+editor: visual
+listing: 
+  contents: research 
+  type: grid 
+  sort: "date desc" # can also sort on more than one field
+  categories: true
+---

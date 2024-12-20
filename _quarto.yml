@@ -12,8 +12,8 @@ website:
     right:
       - href: index.qmd
         text: home # use 'text' option to update the name as you want it to appear in your navbar
-      - href: about.qmd
-        text: about
+      - href: research.qmd
+        text: research
       - href: posts.qmd
         text: blog
       - href: fieldwork.qmd
