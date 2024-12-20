@@ -1,5 +1,5 @@
 ---
-title: "Fish are Friends: An EDS 240 Analysis"
+title: "fish are friends"
 format: 
   html:
     echo: true
