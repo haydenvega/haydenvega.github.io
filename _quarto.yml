@@ -4,11 +4,11 @@ project:
 
 website:
   title: "Hayden Vega"
-  favicon: images/logo.png
+  favicon: images/fish logo.png
   site-url: https://haydenvega.github.io/
   navbar:
     title: false
-    logo: images/logo.png
+    logo: images/fish logo.png
     right:
       - href: index.qmd
         text: home # use 'text' option to update the name as you want it to appear in your navbar
