@@ -1,9 +1,82 @@
 ---
 title: "fish are friends"
+image: dascyllus.png
 format: 
   html:
     echo: true
     eval: false
     code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
 ---
 
+![Me after presenting the results of this project at WSN 2024 (15 Min. Talk)](hayden_wsn.jpg)
+
+# Summary
+
+Coral reefs are in global decline. An emerging source of coral mortality is wounds, which are most often caused by predation. In 2024, I conducted an experiment comparing the effect of wounding intensity (none, small, large) and fish presence (*Dascyllus flavicaudus*) on a coral's (*Pocillopora sp.*) health and ability to heal. Our results show no significant effect of wounding intensity or fish presence on a coral's health or ability to heal. Our results also show a positive, yet not significant, effect of fish presence on a coral's health among high wound intensity treatments only. This suggests there is a metabolic threshold/gradient that governs the effect of fish benefits. Our data lead us to expect significant relationships under higher thresholds of stress consistent with the stress gradient hypothesis.
+
+## Background: Fish are friends!
+
+{{< video https://www.youtube.com/watch?v=c6mVl6fAxLw&t=34s&pp=ygUZZmlzaCBhcmUgZnJpZW5kcyBub3QgZm9vZA%3D%3D >}}
+
+Some scientists think that your grandchildren may never see a natural coral reef (Hoegh-Guldberg 2019). Corals are in global decline, and climate change is throwing new stressors at our corals faster than they can adapt. One of these new stressors and an emerging source of coral mortality is wounding (Bright 2015). This refers to the physical breakdown of coral tissue and skeleton, which can be caused by a variety of sources from a carelessly placed anchor to an abandoned fishing net. Yet, the most devastating and prevalent source of coral wounds is from predators.
+
+![Crown of Thorns Seastar (*Acanthaster planci*) is a deadly coral predator, consuming 10 meters^2^ of coral year^-1^](cots.jpg)
+
+Wounds are deadly to corals because they strain a coral's physiological machinery. Wounds have been shown to decrease a coral's ability to grow, reproduce, and photosynthesize (Munk 2024).When wounding intensity is high, corals may not have the energy to heal a wound or deal with the strain associated with the damage. Ultimately, this results in an individual's death. Predation pressure and wounding is only predicted to increase with climate change, resulting in a future where predators may kill entire reefs.
+
+Luckily, corals have some pretty good friends in the fight against climate change and wounding. Fish, particularly those who use corals as shelter, have been shown to alleviate strain on a coral's physiological machinery(Shantz 2023). Fish have been shown to increase a coral's ability to grow, reproduce, and photosynthesize. Fish help corals make more energy by providing nutrients through excretion and increasing the waterflow around the coral(Shantz 2023).
+
+![Yellowtail Dascyllus (*Dascyllus flavicaudus*) sheltering among the coral *Pocillopora sp.*](dascyllus.png)
+
+Our experiment is interested in elucidating how coral health changes as a function of wounding intensity and fish presence. We studied this relationship in a tank experiment. We collected 72 *Pocillopora sp.* corals and gave them either no, small, or a large wound. We then spread equal numbers of each wounding treatment into six tanks (12 corals/tank). Thirty grams of the coral sheltering fish, the Yellowtail Dascyllus (*Dascyllus flavicaudus*) was added to half of these tanks, creating six unique treatments. Corals were housed in treatment tanks for five weeks, and all physiological data was collected at the end.
+
+![Experimental Design: Six tanks, three with fish, three without. All tanks with 4 corals without wounds, 4 corals with a small wound, and 4 corals with a large wound. N=72](Screenshot 2024-12-13 202809.png)
+
+## Analysis
+
+To address our question, we first qualitatively observed the data to inform our later analysis. Then we used randomized hypothesis testing against a null model to form conclusions about the interaction of wounding intensity and fish presence on photosynthetic efficiency. Specifically testing the hypotheses of whether or not there was a difference in growth, photosynthetic efficiency, or healing rate across and among treatments. For treatments that showed a distinct pattern, we created a generalized linear model to characterize the effect.
+
+## Results
+
+We saw no significant effect of wounding nor fish presence on a coral's health. We did see a positive but not significant effect of fish on a coral's photosynthetic efficiency and healing rate. This suggests that the magnitude of benefits from fish is governed by gradients of stress. 
+
+## Figures
+
+![Fig 1. Photosynthetic efficiency of undisturbed tissue as a function of fish presence. Note that the two distributions are nearly identical.](undisturbed_fish_boxplot.png)
+
+![Fig 2. Photosynthetic efficiency of undisturbed tissue as a function of wound size colored by fish presence. Note that all distributions are identical, but large wounds show the largest fish effect.](undisturbed_wound_boxplot.png)
+
+![Fig 4. Photosynthetic efficiency of healed tissue as a function of fish presence. Note that the two distributions are similar, but the fish treatment has greater overall photosynthetic efficiency.](healed_fish_boxplot.png)
+![Fig 5. Photosynthetic efficiency of healed tissue as a function of wound size colored by fish presence. Note that there is a large fish effect on the large wound treatment that isn't seen on the small wound treatment.](healed_wound_boxplot.png)
+
+## Video and Photos
+
+
+![Collecting fish on SCUBA](fishcatch.MP4){group="photos"}
+
+![](coralmicroscopy.MP4){group="photos"}
+
+![](tank.MP4){group="photos"}
+
+![](island.jpg){group="photos"}
+
+![](thankyou.png){group="photos"}
+
+
+
+
+
+
+##### *Bibliography*
+
+Bright, A. J., Cameron, C. M., & Miller, M. W. (2015). Enhanced susceptibility to predation in corals of compromised condition. PeerJ, 3, e1239.
+
+Hoegh-Guldberg, O., Pendleton, L., & Kaup, A. (2019). People and the changing nature of coral reefs. Regional Studies in Marine Science, 30, 100699.
+
+Munk, N. J. (2024). Host and Symbiont Physiology During Wound Regeneration in Acropora pulchra Under Warming Conditions (Master's thesis, University of California, Santa Barbara).
+
+Shantz, A. A., Ladd, M. C., Ezzat, L., Schmitt, R. J., Holbrook, S. J., Schmeltzer, E., ... & Burkepile, D. E. (2023). Positive interactions between corals and damselfish increase coral resistance to temperature stress. Global Change Biology, 29(2), 417-431.

@@ -11,7 +11,7 @@
     "href": "fieldwork.html",
     "title": "Fieldwork",
     "section": "",
-    "text": "Fieldwork is one of my favorite things about being a scientist. Here are some photos from the amazing places I’ve had the good fortune to work at!\n\nMo’orea, French Polynesia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKruger National Park, South Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJack and Laura Dangermond Preserve\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoal Oil Point Nature Reserve"
+    "text": "Fieldwork is one of my favorite things about being a scientist. Here are photos I’ve taken (and a couple others have) from the amazing places I’ve had the good fortune to work at!\n\nMo’orea, French Polynesia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKruger National Park, South Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJack and Laura Dangermond Preserve\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoal Oil Point Nature Reserve"
   },
   {
     "objectID": "index.html",
@@ -19,6 +19,48 @@
     "title": "Hayden Vega",
     "section": "",
     "text": "Hi, I’m Hayden! I’m a marine scientist interested in leveraging marine ecology and environmental science to improve social and environmental systems. Addressing environmental issues is complex, so I wear many hats as a scientist, photographer, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!\n\n\nEducation\n\nB.A. Marine Biology, B.S. Environmental Studies, B.S. Ecology and Evolution\n\n\nUniversity of California, Santa Barbara"
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html",
+    "href": "research/2024-19-12-fisharefriends/index.html",
+    "title": "fish are friends",
+    "section": "",
+    "text": "Me after presenting the results of this project at WSN 2024 (15 Min. Talk)"
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html#background-fish-are-friends",
+    "href": "research/2024-19-12-fisharefriends/index.html#background-fish-are-friends",
+    "title": "fish are friends",
+    "section": "Background: Fish are friends!",
+    "text": "Background: Fish are friends!\n\nSome scientists think that your grandchildren may never see a natural coral reef (Hoegh-Guldberg 2019). Corals are in global decline, and climate change is throwing new stressors at our corals faster than they can adapt. One of these new stressors and an emerging source of coral mortality is wounding (Bright 2015). This refers to the physical breakdown of coral tissue and skeleton, which can be caused by a variety of sources from a carelessly placed anchor to an abandoned fishing net. Yet, the most devastating and prevalent source of coral wounds is from predators.\n\n\n\nCrown of Thorns Seastar (Acanthaster planci) is a deadly coral predator, consuming 10 meters2 of coral year-1\n\n\nWounds are deadly to corals because they strain a coral’s physiological machinery. Wounds have been shown to decrease a coral’s ability to grow, reproduce, and photosynthesize (Munk 2024).When wounding intensity is high, corals may not have the energy to heal a wound or deal with the strain associated with the damage. Ultimately, this results in an individual’s death. Predation pressure and wounding is only predicted to increase with climate change, resulting in a future where predators may kill entire reefs.\nLuckily, corals have some pretty good friends in the fight against climate change and wounding. Fish, particularly those who use corals as shelter, have been shown to alleviate strain on a coral’s physiological machinery(Shantz 2023). Fish have been shown to increase a coral’s ability to grow, reproduce, and photosynthesize. Fish help corals make more energy by providing nutrients through excretion and increasing the waterflow around the coral(Shantz 2023).\n\n\n\nYellowtail Dascyllus (Dascyllus flavicaudus) sheltering among the coral Pocillopora sp.\n\n\nOur experiment is interested in elucidating how coral health changes as a function of wounding intensity and fish presence. We studied this relationship in a tank experiment. We collected 72 Pocillopora sp. corals and gave them either no, small, or a large wound. We then spread equal numbers of each wounding treatment into six tanks (12 corals/tank). Thirty grams of the coral sheltering fish, the Yellowtail Dascyllus (Dascyllus flavicaudus) was added to half of these tanks, creating six unique treatments. Corals were housed in treatment tanks for five weeks, and all physiological data was collected at the end.\n\n\n\nExperimental Design: Six tanks, three with fish, three without. All tanks with 4 corals without wounds, 4 corals with a small wound, and 4 corals with a large wound. N=72"
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html#analysis",
+    "href": "research/2024-19-12-fisharefriends/index.html#analysis",
+    "title": "fish are friends",
+    "section": "Analysis",
+    "text": "Analysis\nTo address our question, we first qualitatively observed the data to inform our later analysis. Then we used randomized hypothesis testing against a null model to form conclusions about the interaction of wounding intensity and fish presence on photosynthetic efficiency. Specifically testing the hypotheses of whether or not there was a difference in growth, photosynthetic efficiency, or healing rate across and among treatments. For treatments that showed a distinct pattern, we created a generalized linear model to characterize the effect."
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html#results",
+    "href": "research/2024-19-12-fisharefriends/index.html#results",
+    "title": "fish are friends",
+    "section": "Results",
+    "text": "Results\nWe saw no significant effect of wounding nor fish presence on a coral’s health. We did see a positive but not significant effect of fish on a coral’s photosynthetic efficiency and healing rate. This suggests that the magnitude of benefits from fish is governed by gradients of stress."
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html#figures",
+    "href": "research/2024-19-12-fisharefriends/index.html#figures",
+    "title": "fish are friends",
+    "section": "Figures",
+    "text": "Figures\n\n\n\nFig 1. Photosynthetic efficiency of undisturbed tissue as a function of fish presence. Note that the two distributions are nearly identical.\n\n\n\n\n\nFig 2. Photosynthetic efficiency of undisturbed tissue as a function of wound size colored by fish presence. Note that all distributions are identical, but large wounds show the largest fish effect."
+  },
+  {
+    "objectID": "research/2024-19-12-fisharefriends/index.html#video-and-photos",
+    "href": "research/2024-19-12-fisharefriends/index.html#video-and-photos",
+    "title": "fish are friends",
+    "section": "Video and Photos",
+    "text": "Video and Photos\n\n\nVideo\nCollecting fish on SCUBA\n\n\n\n\nVideo\n\n\n\n\nVideo\n\n\n\n\n\n\n\n\n\n\n\n\n\nBibliography\nBright, A. J., Cameron, C. M., & Miller, M. W. (2015). Enhanced susceptibility to predation in corals of compromised condition. PeerJ, 3, e1239.\nHoegh-Guldberg, O., Pendleton, L., & Kaup, A. (2019). People and the changing nature of coral reefs. Regional Studies in Marine Science, 30, 100699.\nMunk, N. J. (2024). Host and Symbiont Physiology During Wound Regeneration in Acropora pulchra Under Warming Conditions (Master’s thesis, University of California, Santa Barbara).\nShantz, A. A., Ladd, M. C., Ezzat, L., Schmitt, R. J., Holbrook, S. J., Schmeltzer, E., … & Burkepile, D. E. (2023). Positive interactions between corals and damselfish increase coral resistance to temperature stress. Global Change Biology, 29(2), 417-431."
   },
   {
     "objectID": "research.html",
