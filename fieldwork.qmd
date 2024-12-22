@@ -6,7 +6,7 @@ lightbox: auto
 freeze: auto
 ---
 
-Fieldwork is one of my favorite things about being a scientist. Here are some photos from the amazing places I've had the good fortune to work at!
+Fieldwork is one of my favorite things about being a scientist. Here are photos I've taken (and a couple others have) from the amazing places I've had the good fortune to work at!
 
 
 ### Mo'orea, French Polynesia
@@ -15,9 +15,6 @@ Fieldwork is one of my favorite things about being a scientist. Here are some ph
 
 ![](images/coralscape.jpg){group="Mo'orea"
 description="Hilton Reef"}
-
-![](images/scubashot.png){group="Mo'orea"
-}
 
 ![](images/stingray.jpg){group="Mo'orea"
 description="Pink Whiprays at Stingray Flats; both individuals had a five foot wingspan! "}
@@ -29,28 +26,25 @@ description="Blacktips at Stingray Flats"}
 description="Mother and newborn humpback"}
 
 ![](images/snorkelbot.jpg){group="Mo'orea"
-description="Fish surveys via snorkel on a protected reef."}
+description="Fish surveys via snorkel on a protected reef; PC: Ninah Munk"}
 
 ![](images/snorkeltop.jpg){group="Mo'orea"
-}
+description="PC: Ninah Munk"}
 
 ![](images/surfacedive.jpg){group="Mo'orea"
 description="Hayden and Ninah after a dive on MRB Reef."}
 
 ![](images/survey.jpg){group="Mo'orea"
-description="Survey of a dying reef."}
+description="Survey of a dying reef. PC: Ninah Munk"}
 
 ![](images/colorfulrock.jpg){group="Mo'orea"
-description="Fluorescent encrusting coral"}
+description="Fluorescent encrusting coral. PC: Ninah Munk"}
 
 ![](images/colorfulchristmastree.jpg){group="Mo'orea"
-description="A festive-lookin' Christmas Tree Worm"}
+description="A festive-lookin' Christmas Tree Worm. PC: Ninah Munk"}
 
 ![](images/colorfulrockrock.jpg){group="Mo'orea"
-description="Encrusting coral"}
-
-![](images/brownchristmastree.jpg){group="Mo'orea"
-description="A less festive Christmas Tree Worm"}
+description="Encrusting coral. PC: Ninah Munk"}
 
 :::
 
