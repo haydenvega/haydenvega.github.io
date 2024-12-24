@@ -1,0 +1,24 @@
+---
+title: "debris free seas"
+image: odapic.png
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+---
+
+# Summary
+
+Marine debris is an inescapable symptom of an ocean in the Anthropocene. Marine debris can cause entanglements with marine animals. A large source of entanglements comes from fishing industries and results in many fisheries being shut down or delayed. Luckily, many people are trying to resolve conflicts between conservation and fishing interests. I worked with BREN Master's Group Debris Free Seas and the non-profit Ocean Defenders Alliance (ODA) to analyze debris data and communicate about removal methods. We designed interactive maps of debris hotspots using collection data from ODA and graphs summarizing gear removal by type and quantity. We then used these data analyses and media provided by ODA to synthesize communication materials to inform the public on marine debris and ODA's mission. 
+
+![](debrisfree.png){group="photos"}
+![](map.png){group="photos"}
+![](odapic.png){group="photos"}
+![](crane.png){group="photos"}
+
+
