@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-07-25">
 
 <title>Hayden Vega - past, present, predictions</title>
 <style>
@@ -207,6 +208,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 25, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -444,34 +451,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  - lightbox</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="an">lightbox:</span><span class="co"> auto</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="an">freeze:</span><span class="co"> auto</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu"># Summary</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Kelp forests are one of the most productive marine ecosystems and provide economic, cultural, and conservation value to millions of people. Increased ocean temperatures, greater storm intensity, and other anthropogenic stressors threaten our kelp forests and the value they give to us. Our project applies a functional approach to predict ecosystem function and changes of diversity as a tool for managers and researchers to protect these vital ecosystems. In conjunction with PhD candidate An Bui, I designed generalized linear models to track how functional traits of understory macroalgae change through time and through the process of herbarium preservation. </span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 7/25/23</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu"># Summary</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>Kelp forests are one of the most productive marine ecosystems and provide economic, cultural, and conservation value to millions of people. Increased ocean temperatures, greater storm intensity, and other anthropogenic stressors threaten our kelp forests and the value they give to us. Our project applies a functional approach to predict ecosystem function and changes of diversity as a tool for managers and researchers to protect these vital ecosystems. In conjunction with PhD candidate An Bui, I designed generalized linear models to track how functional traits of understory macroalgae change through time and through the process of herbarium preservation. </span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Background</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>Giant kelp forests provide critical habitat and nutrients to many species (Dayton 1985, Reed et al. 2016), including those of conservation and cultural interest like giant sea bass (Stereolepis gigas), California spiny lobster (Panulirus interruptus), and abalone (Haliotis spp.). However, due to changing climate regimes, these ecosystems are under threat from increased storm frequency and warming oceans. To protect these crucial ecosystems, we need to understand how each component, or species, works: by identifying key species and how they contribute to the ecosystem, we have the potential to link smaller pieces to a larger picture of ecosystem function.</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>One promising link between species and ecosystem function are functional traits, which are morphological, physiological, or behavioral characteristics of a species that influences its fitness, distribution, and niche (Violle et al. 2007). In contrast, ecosystem functions are broadly defined as processes that identify where and how materials like biomass and nutrients move through ecosystems (reviewed in Forbes et al. 2019). Importantly, functional traits are the mechanism through which species contribute to ecosystem function (Lavorel and Garnier 2012). Functional trait approaches tying species to ecosystems have allowed researchers to make recommendations for ecosystem restoration (Carlucci et al. 2020) and predict changes to diversity in the face of global change (Brandl et al. 2019). </span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>In addition to linking species to ecosystem function, functional traits also change through time: understanding the degree to which they change through time  is crucial to understanding how ecosystem function may change in the future. Herbaria are emerging as major sources of trait data to connect species to ecosystem function in the face of climate change (Meineke, Hebeling 2021). Herbarium specimens are dried, preserved snapshots of organisms, reflecting environmental conditions at a particular moment in time (Meineke). Measuring functional traits of herbarium specimens can reveal changes through time in response to changing climate conditions: for macroalgae, herbarium-derived trait measurement has revealed shifts in stable isotope concentrations to historical oceanographic conditions (Miller et al. 2018). However, since preserved specimens are dried and shrunken compared to their original forms (Blonder et al. 2012), using herbarium-derived trait measurements of morphological characteristics in particular requires validation of functional traits measured from preserved specimens with fresh specimens (Hebeling 2021). By integrating functional trait data derived from herbarium specimens with data collected in current conditions, we can better understand changes in functional traits through time, providing an opportunity to link species to ecosystem function in the face of a changing climate.</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Analysis</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>We designed species and treatment specific generalized linear models to predict functional trait values through time and preservation. Many models were highly predictive of functional traits, but this relationship varied by the functional trait tested, preservation treatment, and species. Most models follow this general formula: original trait ~ treatment trait * species + 1|individual</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Figures</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="al">![](heighth.png)</span>{group="photos"}</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="al">![](hspecies.png)</span>{group="photos"}</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="al">![](perimeterir.png)</span>{group="photos"}</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="al">![](saspecies.png)</span>{group="photos"} </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## Background</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Giant kelp forests provide critical habitat and nutrients to many species (Dayton 1985, Reed et al. 2016), including those of conservation and cultural interest like giant sea bass (Stereolepis gigas), California spiny lobster (Panulirus interruptus), and abalone (Haliotis spp.). However, due to changing climate regimes, these ecosystems are under threat from increased storm frequency and warming oceans. To protect these crucial ecosystems, we need to understand how each component, or species, works: by identifying key species and how they contribute to the ecosystem, we have the potential to link smaller pieces to a larger picture of ecosystem function.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>One promising link between species and ecosystem function are functional traits, which are morphological, physiological, or behavioral characteristics of a species that influences its fitness, distribution, and niche (Violle et al. 2007). In contrast, ecosystem functions are broadly defined as processes that identify where and how materials like biomass and nutrients move through ecosystems (reviewed in Forbes et al. 2019). Importantly, functional traits are the mechanism through which species contribute to ecosystem function (Lavorel and Garnier 2012). Functional trait approaches tying species to ecosystems have allowed researchers to make recommendations for ecosystem restoration (Carlucci et al. 2020) and predict changes to diversity in the face of global change (Brandl et al. 2019). </span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>In addition to linking species to ecosystem function, functional traits also change through time: understanding the degree to which they change through time  is crucial to understanding how ecosystem function may change in the future. Herbaria are emerging as major sources of trait data to connect species to ecosystem function in the face of climate change (Meineke, Hebeling 2021). Herbarium specimens are dried, preserved snapshots of organisms, reflecting environmental conditions at a particular moment in time (Meineke). Measuring functional traits of herbarium specimens can reveal changes through time in response to changing climate conditions: for macroalgae, herbarium-derived trait measurement has revealed shifts in stable isotope concentrations to historical oceanographic conditions (Miller et al. 2018). However, since preserved specimens are dried and shrunken compared to their original forms (Blonder et al. 2012), using herbarium-derived trait measurements of morphological characteristics in particular requires validation of functional traits measured from preserved specimens with fresh specimens (Hebeling 2021). By integrating functional trait data derived from herbarium specimens with data collected in current conditions, we can better understand changes in functional traits through time, providing an opportunity to link species to ecosystem function in the face of a changing climate.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">## Analysis</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>We designed species and treatment specific generalized linear models to predict functional trait values through time and preservation. Many models were highly predictive of functional traits, but this relationship varied by the functional trait tested, preservation treatment, and species. Most models follow this general formula: original trait ~ treatment trait * species + 1|individual</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">## Figures</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="al">![](heighth.png)</span>{group="photos"}</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="al">![](hspecies.png)</span>{group="photos"}</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="al">![](perimeterir.png)</span>{group="photos"}</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="al">![](saspecies.png)</span>{group="photos"} </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
@@ -495,7 +503,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":true});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":true,"closeEffect":"zoom"});</script>
 
 
 

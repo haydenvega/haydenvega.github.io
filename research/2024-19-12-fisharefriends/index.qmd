@@ -10,6 +10,7 @@ filters:
   - lightbox
 lightbox: auto
 freeze: auto
+date: 12/24/24
 ---
 
 ![Me after presenting the results of this project at WSN 2024 (15 Min. Talk)](hayden_wsn.jpg)

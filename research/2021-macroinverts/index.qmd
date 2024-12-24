@@ -1,5 +1,5 @@
 ---
-title: "macroinvertebrate"
+title: "macroscopic messengers"
 image: cope.jpg
 format: 
   html:
@@ -10,5 +10,17 @@ filters:
   - lightbox
 lightbox: auto
 freeze: auto
-date: 12/23/24
+date: 5/23/22
+editor: source
 ---
+
+# Summary
+Macroinvertebrates are tiny aquatic animals just barely visible to the naked eye. These little guys are eaten by fish and birds and everything in between. As a main food-source for many animals, tracking the abundance and diversity of macroinvertebrates can tell us a lot about the health of an ecosystem. In my first-ever research project, I worked with undergraduate students from UCSB's Cheadle Center for Biodiversity and Ecological Restoration to catalog the abundance, diversity, and location of macroinvertebrate populations in the Coal Oil Point Reserve. We interpreted these analyses into ecosystem health metrics and presented our findings to restoration managers. 
+
+
+::: {layout="[[1], [1, 1]]"}
+
+![](invertposter.png){group="photos"}
+![](cope.jpg){group="photos"}
+
+:::
