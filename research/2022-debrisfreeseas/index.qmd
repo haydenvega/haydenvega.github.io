@@ -10,6 +10,7 @@ filters:
   - lightbox
 lightbox: auto
 freeze: auto
+date: 12/22/24
 ---
 
 # Summary

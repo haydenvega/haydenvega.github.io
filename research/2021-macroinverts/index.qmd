@@ -1,0 +1,14 @@
+---
+title: "macroinvertebrate"
+image: cope.jpg
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+date: 12/23/24
+---
