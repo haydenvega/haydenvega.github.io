@@ -1,0 +1,41 @@
+---
+title: "past, present, predictions"
+image: ccscan.jpg
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+---
+
+# Summary
+
+Kelp forests are one of the most productive marine ecosystems and provide economic, cultural, and conservation value to millions of people. Increased ocean temperatures, greater storm intensity, and other anthropogenic stressors threaten our kelp forests and the value they give to us. Our project applies a functional approach to predict ecosystem function and changes of diversity as a tool for managers and researchers to protect these vital ecosystems. In conjunction with PhD candidate An Bui, I designed generalized linear models to track how functional traits of understory macroalgae change through time and through the process of herbarium preservation. 
+
+
+
+## Background
+
+Giant kelp forests provide critical habitat and nutrients to many species (Dayton 1985, Reed et al. 2016), including those of conservation and cultural interest like giant sea bass (Stereolepis gigas), California spiny lobster (Panulirus interruptus), and abalone (Haliotis spp.). However, due to changing climate regimes, these ecosystems are under threat from increased storm frequency and warming oceans. To protect these crucial ecosystems, we need to understand how each component, or species, works: by identifying key species and how they contribute to the ecosystem, we have the potential to link smaller pieces to a larger picture of ecosystem function.
+
+One promising link between species and ecosystem function are functional traits, which are morphological, physiological, or behavioral characteristics of a species that influences its fitness, distribution, and niche (Violle et al. 2007). In contrast, ecosystem functions are broadly defined as processes that identify where and how materials like biomass and nutrients move through ecosystems (reviewed in Forbes et al. 2019). Importantly, functional traits are the mechanism through which species contribute to ecosystem function (Lavorel and Garnier 2012). Functional trait approaches tying species to ecosystems have allowed researchers to make recommendations for ecosystem restoration (Carlucci et al. 2020) and predict changes to diversity in the face of global change (Brandl et al. 2019). 
+
+In addition to linking species to ecosystem function, functional traits also change through time: understanding the degree to which they change through time  is crucial to understanding how ecosystem function may change in the future. Herbaria are emerging as major sources of trait data to connect species to ecosystem function in the face of climate change (Meineke, Hebeling 2021). Herbarium specimens are dried, preserved snapshots of organisms, reflecting environmental conditions at a particular moment in time (Meineke). Measuring functional traits of herbarium specimens can reveal changes through time in response to changing climate conditions: for macroalgae, herbarium-derived trait measurement has revealed shifts in stable isotope concentrations to historical oceanographic conditions (Miller et al. 2018). However, since preserved specimens are dried and shrunken compared to their original forms (Blonder et al. 2012), using herbarium-derived trait measurements of morphological characteristics in particular requires validation of functional traits measured from preserved specimens with fresh specimens (Hebeling 2021). By integrating functional trait data derived from herbarium specimens with data collected in current conditions, we can better understand changes in functional traits through time, providing an opportunity to link species to ecosystem function in the face of a changing climate.
+
+## Analysis
+
+We designed species and treatment specific generalized linear models to predict functional trait values through time and preservation. Many models were highly predictive of functional traits, but this relationship varied by the functional trait tested, preservation treatment, and species. Most models follow this general formula: original trait ~ treatment trait * species + 1|individual
+
+## Figures
+
+![](heighth.png){group="photos"}
+
+![](hspecies.png){group="photos"}
+![](perimeterir.png){group="photos"}
+
+![](saspecies.png){group="photos"} 
+
