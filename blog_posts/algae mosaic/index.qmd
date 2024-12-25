@@ -1,0 +1,14 @@
+---
+title: "algae mosaics"
+image: ccscan.jpg
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+date: 7/25/23
+---
