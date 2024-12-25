@@ -1,6 +1,6 @@
 ---
-title: "algae mosaics"
-image: ccscan.jpg
+title: "fishing line recycling program"
+image: line.png
 format: 
   html:
     echo: true
