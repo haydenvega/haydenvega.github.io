@@ -31,7 +31,7 @@ In addition to linking species to ecosystem function, functional traits also cha
 
 We designed species and treatment specific generalized linear models to predict functional trait values through time and preservation. Many models were highly predictive of functional traits, but this relationship varied by the functional trait tested, preservation treatment, and species. Most models follow this general formula: original trait ~ treatment trait * species + 1|individual
 
-## Figures
+![](algae.jpg){group="photos"}
 
 ![](heighth.png){group="photos"}
 
