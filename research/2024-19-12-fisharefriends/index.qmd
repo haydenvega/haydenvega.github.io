@@ -1,6 +1,7 @@
 ---
 title: "fish are friends"
 image: dascyllus.png
+description: FISH ARE FRIENDS-fish help corals deal with stress!
 format: 
   html:
     echo: true
