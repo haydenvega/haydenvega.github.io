@@ -1,6 +1,7 @@
 ---
 title: "debris free seas"
 image: odapic.png
+description: Disentangling whale and fisheries entanglement data 
 format: 
   html:
     echo: true

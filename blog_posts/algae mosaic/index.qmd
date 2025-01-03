@@ -1,6 +1,7 @@
 ---
 title: "algae mosaics"
-image: ccscan.jpg
+image: algaemosaic.png
+description: Art and science exhibit to teach us about the beautiful diversity within our kelp forests
 format: 
   html:
     echo: true
@@ -12,3 +13,21 @@ lightbox: auto
 freeze: auto
 date: 7/25/23
 ---
+
+This interactive exhibit is housed at the Coal Oil Point Nature Reserve in Goleta, CA. The species shown here can be found swaying just beneath the waves or lounging on the beaches. 
+
+Seaweeds come in all manners of  forms and sizes, each with their own delicate geometry. Some may not have holdfasts, stipes, blades, and pneumatocysts but rather a unique combination of those or similar parts. I encourage you to compare and contrast each specimen. How do you think their similarities and differences help them survive?
+
+::: {layout="[[1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]"}
+![](algaemosaic.png){group="photos"}
+![](lightdrawer.png){group="photos"}
+![](lightdrawer3.png){group="photos"}
+![](lightsolo.png){group="photos"}
+![](lightcloseup.jpg){group="photos"}
+![](light closeup.jpg){group="photos"}
+![](lightbranching.jpg){group="photos"}
+![](touchdrawer.jpg){group="photos"}
+![](touchdrawer2.png){group="photos"}
+![](macrocyano.png){group="photos"}
+![](othercyano.png){group="photos"}
+:::

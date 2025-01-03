@@ -1,6 +1,7 @@
 ---
 title: "macroscopic messengers"
 image: cope.jpg
+description: Macroinvertebrate population dynamics in Devereaux Slough!
 format: 
   html:
     echo: true

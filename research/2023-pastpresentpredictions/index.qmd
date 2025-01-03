@@ -1,6 +1,7 @@
 ---
 title: "past, present, predictions"
 image: ccscan.jpg
+description: Learning from the past to predict the future of kelp forests.
 format: 
   html:
     echo: true
