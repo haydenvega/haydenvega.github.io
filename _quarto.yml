@@ -15,11 +15,11 @@ website:
       - href: research.qmd
         text: research
       - href: posts.qmd
-        text: blog
+        text: outreach
       - href: fieldwork.qmd
         text: fieldwork
       - href: cv_hv.pdf
-        text: CV
+        text: cv
       - icon: github # add icons that link to social media, etc.
         href: https://github.com/haydenvega
   page-footer:
@@ -33,7 +33,6 @@ website:
   
 format:
   html:
-    page-layout: full
     sidebar: false
     theme: 
       - jolla

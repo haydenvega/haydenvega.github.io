@@ -12,3 +12,5 @@ lightbox: auto
 freeze: auto
 date: 7/25/23
 ---
+
+I founded the Seal Beach Fishing Line Recycling program in 2020. My goal was, and still is, to build a community of fishers and activists centered around the protection of our oceans. Our program works with Seal Beach Municipalities, the Seal Beach Police Department, OC Coastkeeper, and the Boat US Foundation to collect and recycle fishing debris in the city of Seal Beach.
