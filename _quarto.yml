@@ -9,6 +9,7 @@ website:
   navbar:
     title: false
     logo: images/fish logo.png
+    css: logo.scss
     right:
       - href: index.qmd
         text: home # use 'text' option to update the name as you want it to appear in your navbar

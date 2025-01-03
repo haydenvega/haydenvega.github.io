@@ -30,12 +30,6 @@ $code-color: $blurple; // inline code text color
 // Code blocks
 $code-block-bg: $cream; // code block background color
 
-// Resize logo
-img[src="images/fish logo.png"] {
-  width: 1050px !important;
-  height: auto !important;
-}
-
 /*--scss:rules--*/
 //update "about page" button color
 div.quarto-about-jolla .about-link {

@@ -11,7 +11,7 @@ filters:
   - lightbox
 lightbox: auto
 freeze: auto
-date: 7/25/23
+date: 5/5/24
 ---
 
 This interactive exhibit is housed at the Coal Oil Point Nature Reserve in Goleta, CA. The species shown here can be found swaying just beneath the waves or lounging on the beaches. 
