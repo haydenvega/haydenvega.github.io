@@ -6,6 +6,9 @@ website:
   title: "Hayden Vega"
   favicon: images/fish logo.png
   site-url: https://haydenvega.github.io/
+  google-analytics: 
+    tracking-id: "G-KTFM8KEX8J"
+    anonymize-ip: true
   navbar:
     title: false
     logo: images/fish logo.png
