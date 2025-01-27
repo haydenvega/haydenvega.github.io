@@ -1,0 +1,24 @@
+---
+title: "flashcard review"
+image: flashcard.png
+description: A story, not about flashcards, but rather the lessons I learned while navigating, pride, pressure, and personal loss.
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+date: 1/26/25
+---
+
+
+I used to wake up in darkness every day. My parents would wake up earlier. I had to go to school and they had to go to work. The streetlights were still on when my mom drove me to my friend’s house. I would lay on their floor, wrap my arms around my knees, and rifle through flashcards I’d made the night before. The white of the cards was just enough contrast in the dull morning to keep me awake. When I was done with each card, I would tuck it underneath my cheek, and by the time my friend’s mom woke up to drive us to school, I had a makeshift pillow and a terribly sore cheek. This daily ritual was a reminder of how precarious yet important my education was. My parents graduated from high school just a block from our house, but they were adamant that they would wake an hour earlier and drive 30 miles farther so that I could go to a school outside of our district. As the son and daughter of immigrants, my parents believed education was the key to their dreams, just as their parents believed. When they had children, they bore that same belief into me.
+
+My parents were hard workers, and I wanted to be a hard worker too. When I went to high school, I decided to carry the weight of my parents’ sacrifices in my book bag and use it to push myself forward, but I never made it as far as my parents wanted me to. My first report card read: GPA 2.5. My parents and I held the assumption that those two numbers reflected my effort, intelligence, and worth: 2.5 out of 5.0. The card said that I was half trying, half as intelligent, and worth half as much as I should be. I pushed harder. Within a year I developed stress-induced rashes, morning nausea, and an eating disorder. It was like my body was rejecting all the pressure I was putting on myself, but I kept going for my family.
+
+At least, I would always say that it was for my family, even though I would prioritize school over them. At birthday parties or cook-outs, I would keep flashcards in my pocket so I could study under the table; I was physically present but mentally distanced. When my abuelo got cancer, my dad drove ten hours every weekend to visit him. My sisters and mother would tag along while I stayed home to study. They visited ten times, but I went once, flashcards in my pocket. He died a month later. All I can remember is that I was still holding flashcards in my hand when my parents told me. I can’t remember what the cards said or why I was even holding them, but a decade later, I can still remember my grandfather. I still catch whiffs of his cologne hanging in the air. I still see his crooked smile peeking from underneath his mustache. I still hear him whispering mijo in my ear, and I still regret being selfish. The truth is that I didn’t spend so much time studying just for my family. I did it for me too. I wanted to be better, and I thought that if I tried harder I could prove I was worth more than 2.5-worth everything that my family had sacrificed. I was selfish and scared to disappoint them, so I treated my family like they were less important than my goals and justified it by saying that it was all for them.
+
+Many years later, I now have the perspective to navigate the distinction between my own pride and my family’s pressure. Still, it’s hard for me to believe that my past self thought flashcards we won’t remember were more important than making new memories with people we’ll never forget. I haven’t touched flashcards since high school, but every time I see them, my fingers itch and my cheek hurts a little – flashcards really do make terrible pillows. That’s why I give flashcards 2.5/5.0 stars.

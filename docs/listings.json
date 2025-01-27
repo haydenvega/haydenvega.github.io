@@ -14,5 +14,13 @@
       "/research/2022-debrisfreeseas/index.html",
       "/research/2021-macroinverts/index.html"
     ]
+  },
+  {
+    "listing": "/words.html",
+    "items": [
+      "/words_posts/flashcard_review/index.html",
+      "/words_posts/fishing_line/index.html",
+      "/words_posts/boating/index.html"
+    ]
   }
 ]

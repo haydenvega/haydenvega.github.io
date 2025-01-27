@@ -1,12 +1,12 @@
 ---
-title: "Fieldwork"
+title: "fieldwork"
 filters: 
   - lightbox
 lightbox: auto
 freeze: auto
 ---
 
-Fieldwork is one of my favorite things about being a scientist. Here are photos I've taken (and a couple others have) from the amazing places I've had the good fortune to work at!
+Fieldwork is one of my favorite things about being a scientist. Here are photos I and others have taken from the places I've had the good fortune to work at! Underwater photos are shot with a GoPro Hero 7, and terrestrial photos are shot with a Canon Powershot digital camera.
 
 
 ### Mo'orea, French Polynesia
@@ -23,7 +23,7 @@ description="Pink Whiprays at Stingray Flats; both individuals had a five foot w
 description="Blacktips at Stingray Flats"}
 
 ![](images/humpback.jpg){group="Mo'orea"
-description="Mother and newborn humpback"}
+description="Mother and newborn humpback; PC: Kathryn Scafidi"}
 
 ![](images/snorkelbot.jpg){group="Mo'orea"
 description="Fish surveys via snorkel on a protected reef; PC: Ninah Munk"}

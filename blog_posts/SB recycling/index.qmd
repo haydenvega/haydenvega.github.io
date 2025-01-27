@@ -14,15 +14,14 @@ freeze: auto
 date: 7/25/23
 ---
 
-The Seal Beach Fishing Line Recycling Program works with Seal Beach Municipalities, the Seal Beach Police Department, OC Coastkeeper, and the Boat US Foundation to collect and recycle fishing debris in the city of Seal Beach. 
+The Seal Beach Fishing Line Recycling Program works with Seal Beach Municipalities, the Seal Beach Police Department, OC Coastkeeper, and the Boat US Foundation to collect and recycle fishing debris in the city of Seal Beach.
 
 We've recycled over one hundred pounds of fishing debris, but my main goal is to build a community of fishers and activists centered around the protection of our oceans.
 
 ::: {layout="[[1, 1]]"}
-![](sticker.jpg){group="photos"
-description="Putting the final touches on a recycling receptacle on the Seal Beach Pier-2020"}
-![](receptacle.jpg){group="photos"}
+![](sticker.jpg){group="photos" description="Putting the final touches on a recycling receptacle on the Seal Beach Pier-2020"} ![](receptacle.jpg){group="photos"}
 :::
 
 #### Acknowledgements
-I'd like to thank my mentors Dyana Peña and Cristina Robinson from the OC Coastkeeper for their unwavering support. Also a huge thanks to Capt. Henderson at the SBPD for organizing volunteers. 
+
+I'd like to thank my mentors Dyana Peña and Cristina Robinson from the OC Coastkeeper for their unwavering support. Also a huge thanks to Capt. Henderson at the SBPD for organizing volunteers.

@@ -1,0 +1,31 @@
+---
+title: "safe boating & fishing"
+image: boat.png
+description: A page turner about boating maintenance and fishing line recycling. Orginally published through the OC Coastkeeper website
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+date: 1/21/2021
+---
+
+
+
+
+
+Boating and fishing are some of the most popular ways that people enjoy their local waterways. Unfortunately, unsafe habits like littering and dumping while on the water can drastically weaken an ecosystem’s health. It is estimated that over 100 million marine animals will die this year due to pollution alone. Practicing safe boating and fishing habits can help mitigate the effects of pollution and help your waterways thrive for many years.
+
+As a boater, one of the most common environmental impacts is chemical pollution. Common boat soaps and boat paints contain toxic chemicals such as cuprous oxide, which is a known biocide. Cuprous oxide pollution can result in a deadly fog of chemicals that drifts through the water column, resulting in die offs of organisms such as aquatic plants and native fish species. By cleaning your boat on land and using products without cuprous oxide, you can help mitigate the loss of marine life and keep your waterway healthy. Also, another way to mitigate your chemical impact is by getting your boat checked by the U.S. Coast Guard. The U.S. Coast Guard offers free boat inspections and educational courses to make sure that your boat meets the necessary safety and environmental standards within your state. This includes checking for any fuel or chemical leaks that may be present. By adopting healthy boating practices, you can protect the health of your waterway for many years to come.
+
+![](boat_paint.png){group="photos"}
+
+Along with boating, unhealthy fishing habits can negatively impact your waterways. As of 2018, there is an estimated 79,000 metric tons of plastic in the Great Pacific Garbage Patch, with 46% being composed of discarded fishing nets alone. One of the main culprits of fishing pollution is discarded fishing line. A good tip for your next fishing trip is to take a reusable bag and use it as your designated line receptacle while you are out. The most common fishing line pollution is small bits of tag line that are cut from fishing knots. It may not seem like a lot, but those small pieces can add up by the end of the day. In addition, a healthy habit is to recycle your unwanted fishing line. Many bodies of water have fishing line recycling receptacles available for you. If none are available to you, you can still recycle by mailing your fishing line to a nearby fishing line recycling plant. Last year alone, the Boat U.S. Foundation’s Reel In and Recycle Program collected enough fishing lines from their recycling containers to stretch from Washington D.C. to San Diego, CA. By practicing healthy fishing habits, you can help minimize your contribution to global pollution.
+
+![](bird.png){group="photos"}
+
+It’s important to understand that what we do on the water has impacts on not only the environment but also the people around us. By practicing safer boating and fishing habits, we can minimize our impacts on the environment and ensure the longevity of the natural resources we enjoy

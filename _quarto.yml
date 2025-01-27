@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Hayden Vega"
-  favicon: images/fish logo.png
+  favicon: images/logo.png
   site-url: https://haydenvega.github.io/
   google-analytics: 
     tracking-id: "G-KTFM8KEX8J"
@@ -22,6 +22,8 @@ website:
         text: outreach
       - href: fieldwork.qmd
         text: fieldwork
+      - href: words.qmd
+        text: words
       - href: cv_hv.pdf
         text: cv
       - icon: github # add icons that link to social media, etc.

@@ -1,0 +1,12 @@
+---
+title: "words"
+format: html
+editor: visual
+listing: 
+  contents: words_posts
+  type: grid 
+  sort: "date desc" # can also sort on more than one field
+  categories: true
+---
+
+A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you. Enjoy!

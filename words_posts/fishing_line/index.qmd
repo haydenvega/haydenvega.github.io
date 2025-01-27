@@ -1,0 +1,41 @@
+---
+title: "bringing fishing line recycling to Seal Beach"
+image: receptacle.jpg
+description: How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper
+format: 
+  html:
+    echo: true
+    eval: false
+    code-tools: true
+filters: 
+  - lightbox
+lightbox: auto
+freeze: auto
+date: 1/23/21
+---
+
+
+
+
+Orange County Coastkeeper’s education and internship programs offer a unique opportunity for students and community members to take action regarding their concerns with water quality and local aquatic habitats. Though this year has been very limited, our committed students have found ways to remain motivated and carry out some real, meaningful work.
+
+Below you will find the story of our intern, Hayden Vega’s experience working with Coastkeeper. Hayden is a student at Troy High School in Fullerton, CA. 
+
+![](receptacle.jpg){group="photos"}
+
+From Hayden: 
+
+“The beast anchored itself in the merciless current, but with one last heave, I wrenched the monster from its stronghold. As my bounty lied at my feet, I realized this was no ordinary fish. More akin to a soggy bedsheet, this faceless blob and its kind can plague our waters for nearly 1,000 years. The bane of all environmentalists: a plastic takeout bag. As a fisherman, I saw myself as partly responsible for this scene, but I also saw an opportunity to solve a problem I was passionate about.
+
+Recently, I saw that I’ve been catching more red herrings, whether it’s plastic bags or even tangled fishing line. This is especially true at one of my favorite spots: the Seal Beach Fishing Pier. The pier was losing its reputation as a safe space for families as abandoned hooks and tumbleweeds of fishing line became more commonplace.
+
+
+After some research, the California State Parks city-based fishing line recycling program caught my eye. It was perfect. I wanted to contact Seal Beach officials, so I mixed somber pollution statistics with cliche John Muir quotes into a monstrosity of an email that I sent to the director of public works, Steve Myrter.
+
+![](sticker.jpg){group="photos"}
+
+Within a month, we worked out the major details like location, design, and maintenance of fishing line recycling bins. I was able to create a digital 3D model of  CA State Parks’s receptacle design for the program’s future use and worked with city planners to finalize locations for the bins at the pier’s fishing hotspots. Through this experience, I learned that sometimes all it takes to help is to care and speak up. I did, and now my community is cleaner for it.”
+
+
+
+We are inspired by Hayden’s commitment and hope that we can continue to be the avenue by which our community members can take action.  
