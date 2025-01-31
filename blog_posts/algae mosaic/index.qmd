@@ -13,10 +13,11 @@ lightbox: auto
 freeze: auto
 date: 5/5/24
 ---
+This exhibit aims to teach visitors about the delicate geometry and diversity of seaweed under our feet and beneath the waves at the Coal Oil Point Nature Reserve. 
 
-This interactive exhibit is housed at the Coal Oil Point Nature Reserve in Goleta, CA. The species shown here can be found swaying just beneath the waves or lounging on the beaches. 
+This exhibit is composed of three parts; the first is a touch drawer full of preserved seaweed (uniquely designed for this exhibit), a three foot microscope slide to view all the microscopic life seaweed supports, and a collection of labeled seaweed specimens for identification.
 
-Seaweeds come in all manners of  forms and sizes, each with their own delicate geometry. Some may not have holdfasts, stipes, blades, and pneumatocysts but rather a unique combination of those or similar parts. I encourage you to compare and contrast each specimen. How do you think their similarities and differences help them survive?
+This exhibit is under construction and will be available for viewing in June 2025. 
 
 ::: {layout="[[1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]"}
 ![](algaemosaic.png){group="photos"}

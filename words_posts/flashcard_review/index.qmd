@@ -1,7 +1,7 @@
 ---
 title: "flashcard review"
 image: flashcard.png
-description: A story, not about flashcards, but rather the lessons I learned while navigating, pride, pressure, and personal loss.
+description: A story, not about flashcards, but rather navigating pride, pressure, and personal loss.
 format: 
   html:
     echo: true
