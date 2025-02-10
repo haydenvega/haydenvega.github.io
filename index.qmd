@@ -18,7 +18,7 @@ about:
       href: mailto:haydenvega@ucsb.edu
 ---
 
-Hi, I'm Hayden! I'm a marine scientist interested in leveraging marine ecology and environmental science to improve social and environmental systems. Addressing environmental issues is complex, so I wear many hats as a scientist, photographer, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
+Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology and environmental science to conserve marine systems. Through my work, I hope to connect others to science and our natural world, so I wear many hats as a scientist, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ Hi, I'm Hayden! I'm a marine scientist interested in leveraging marine ecology a
 
 <p class="custom-subtitle">
 
-**B.A. Marine Science, B.S. Environmental Studies, B.S. Ecology and Evolution**
+**B.A. Marine Science, B.S. Environmental Studies, B.S. Ecology and Evolution, 2025**
 
 </p>
 
