@@ -1,7 +1,7 @@
 ---
 title: "bringing fishing line recycling to Seal Beach"
 image: receptacle.jpg
-description: How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper
+description: How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website
 format: 
   html:
     echo: true
