@@ -11,7 +11,7 @@ website:
     anonymize-ip: true
   navbar:
     title: false
-    logo: images/fish logo.png
+    logo: images/logo.png
     css: styles.scss
     right:
       - href: index.qmd
@@ -43,5 +43,5 @@ format:
     theme: 
       - jolla
       - styles.scss
-    mainfont: Marcellus
+    mainfont: Lexend
     toc: true

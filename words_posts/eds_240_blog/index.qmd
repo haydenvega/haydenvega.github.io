@@ -9,7 +9,7 @@ format:
     code-tools: true
     code-fold: true
     code-summary: "Show me the code!"
-    code-block-border-left: "#ad7237"
+    code-block-border-left: "#183d3d"
 filters: 
   - lightbox
 lightbox: auto
