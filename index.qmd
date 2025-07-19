@@ -1,10 +1,10 @@
 ---
 title: "Hayden Vega" 
-image: images/scubashot.jpg
+image: images/_ERK4501.jpg
 toc: false 
 about: 
-  template: jolla 
-  image-shape: round
+  template: trestles
+  image-shape: rounded
   image-width: 20em 
   links:
     - icon: linkedin 
@@ -17,8 +17,8 @@ about:
       text: Email
       href: mailto:haydenvega@ucsb.edu
 ---
-
-Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology and environmental science to conserve marine systems. Through my work, I hope to connect others to science and our natural world, so I wear many hats as a scientist, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
+#### About Me
+Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology and environmental science to conserve marine systems. I hope to connect others to science and our natural world, so I wear many hats as a scientist, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
 
 ------------------------------------------------------------------------
 
