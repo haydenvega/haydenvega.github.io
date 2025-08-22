@@ -6,10 +6,35 @@ lightbox: auto
 freeze: auto
 ---
 
-Fieldwork is one of my favorite things about being a scientist. Here are photos I and others have taken from the places I've had the good fortune to work at! Underwater photos are shot with a GoPro Hero 7, and terrestrial photos are shot with a Canon Powershot digital camera.
+Fieldwork is one of my favorite things about being a scientist! Pictures never do it justice, but here are some photos of the field anyway! 
 
 
-### Mo'orea, French Polynesia
+### Mo'orea, French Polynesia 2025
+
+::: {layout="[[1], [1,1,1,1,1,1]]"}
+
+![](images/auhurra.jpg){group="moorea2025"
+description="My mentee, Auhurra, planting experimental corals on the reef."}
+
+![](images/puffer_2.png){group="moorea2025" description="A guineafowl puffer *(Arothron meleagris)* named Meep."}
+
+![](images/auhurra_liv.jpg){group="moorea2025" description="Auhurra and her other mentor, Olivia, outplanting corals."}
+
+![](images/liv.jpg){group="moorea2025"
+description="Olivia outplanting corals."}
+
+![](images/puffer_3.jpg){group="moorea2025"
+description="Another adorable guineafowl puffer."}
+
+![](images/puffer_1.jpg){group="moorea2025"
+description="Yet another guineafowl puffer - can you guess what species I worked on this summer?"}
+
+![](images/toby_1.jpg){group="moorea2025"
+description="A toby taking a snail siesta."}
+
+:::
+
+### Mo'orea, French Polynesia 2024
 
 ::: {layout="[[1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]"}
 
