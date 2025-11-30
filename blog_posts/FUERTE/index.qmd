@@ -21,7 +21,7 @@ date: 4/5/25
 
 ## There's something in the water.
 
-I had been begging to be on the Catalina trip for two years. But when I finally hopped off our boat and onto the island, a bolt of electricity shot up my spine-and what I thought was excitement curdled into fear. 
+I begged to be on the Catalina trip for two years. But when I finally hopped off our boat and onto the island, a bolt of electricity shot up my spine. And what I thought was excitement curdled into fear. 
 
 My journey to Catalina started three years earlier with FUERTE (Field-based Undergraduate Engagement through Research, Teaching, and Education), a program at UC Santa Barbara that supports underrepresented students in fieldwork and research. As part of the first cohort of fellows, FUERTE showed me the magic in science and the value of investing in students. Now, I wanted to give back to FUERTE, and Catalina was the perfect place.
 
@@ -29,21 +29,21 @@ My journey to Catalina started three years earlier with FUERTE (Field-based Unde
 
 >[All photos were taken by the talented [**Matt Perko**](https://www.mattperko.com/)]{.small-text}
 
-In early spring of 2025, FUERTE sent me and five other mentors to Catalina with thirty mentees to explore ecological principles through mock experiments, snorkeling and hikes. When I took my first step onto the island, my excitement faded into fear. But why? This was supposed to be *the moment*. The lytic stage of my metamorphosis from mentee to mentor when I spread my wings as a bonafide ecologist. Only, I didn’t feel like a mentor or an ecologist. 
+In early spring of 2025, FUERTE sent me and five other mentors to Catalina with thirty budding ecology students and one objective: to introduce our students to ecology through mock experiments, snorkeling and hikes. I was terrified. But why? This was supposed to be *the moment*. The lytic stage of my metamorphosis from mentee to mentor when I spread my wings as a bonafide ecologist. Only, I didn’t feel like an ecologist. But that wasn't going to stop me from trying to be one.
 
-Our first activity was tide pooling. As we hiked down, I began to sweat. What is an ecologist, really? Most of the ecologists I knew were old white men, who seemed to have been born with PhDs. I thought I needed to emulate them. My group started out strong, estimating percent cover and cataloging every barnacle, while I regurgitated case studies. For a moment, I thought this could actually work. But midway through Connell’s theories of interspecific competition, I heard the dreaded sound: a yawn. Then, another student wiped at their watering eyes–tears of joy, no doubt. Five minutes later, I was fighting the Sandman–and losing. Fifteen minutes in, I turned the students loose to explore the tide pools–or nap. 
+Our first activity was tide pooling. As we hiked down, I began to sweat. What is an ecologist, really? Most of the ecologists I knew were like the Moon: old, white, and almost alien. But those celestial bodies had trained me for years, and I know how they think. If I wanted to be an ecologist, I had to think like them. I had to be them. My group started out strong, estimating percent cover and cataloging every barnacle, while I regurgitated case studies. For a moment, I thought this could actually work. But midway through Connell’s theories of interspecific competition, I heard the dreaded sound: a yawn. Then, a student wiped at their watering eyes–tears of joy, no doubt. I turned the students loose to explore the tide pools–or nap. 
 
 ![](hv_quadrat.jpg){group=fuerte description="Estimating percent cover using a quadrat"}
 
-The next morning, I woke up early and hiked to the cove where our group would be snorkeling. Conditions were perfect: visibility was 40 feet, swell and wind were calm; it would be like snorkeling in an aquarium. Sitting on the beach, I replayed yesterday’s tidepooling trouble. I imitated the “best” ecologists I knew, and nearly bored us all to death. That’s not how I wanted my group to see marine ecology. I wanted them to see it the way I do.
+The next morning, I woke up early and hiked to the cove where our group would be snorkeling. Conditions were perfect: water clarity was 40 feet, swell and wind were calm; it would be like snorkeling in an aquarium. Sitting on the beach, I replayed yesterday’s tidepooling trouble. I imitated the “best” ecologists I knew, and nearly bored us all to death. That’s not how I wanted my group to see marine ecology. I wanted them to see it the way I do.
 
 ![](morning_glass.jpg){group="fuerte" description="Glassy conditions the morning of the dive."}
 
-I became a marine ecologist because, to me, there’s a certain magic in water. It’s difficult to explain, but it catalyzes a reaction within my bones. There’s something inherently special in understanding and sharing our ocean. At my core, I’m just a guy who likes to be in the water and look at critters. Being in nature is what brightens my day, and I wanted to share that feeling with my group. 
+I became a marine ecologist because, to me, there’s a certain magic in water. It’s difficult to explain, but it catalyzes a reaction within my bones. There’s something inherently special in understanding and sharing our ocean. And at my core, I just love to be in the water and look at critters. I wanted to share that feeling and that magic with my group. 
 
 ![](snorkeling.jpg){group="fuerte" description="My group and I snorkeling in the kelp."}
 
-As we swam out to the reef, I spotted it. About twenty feet below, two delicate claws peeked from outside a boulder. It was a Sheep Crab, and one of the biggest ones I had ever seen. I wrestled the thick claws away from my hands and the commotion drew my group in closer. I could see the gears turning in their heads as they confronted this familiar, yet alien creature. Soon, they were asking about crab and kelp ecology. “What is that?”, “How old is it?”, “Where does it live?”, “What does it eat?”, “Can we eat it?”, “Can I catch one?”
+As we swam out to the reef, I spotted it. About twenty feet below, two delicate claws peeked from outside a boulder. It was a Sheep Crab, and one of the biggest ones I had ever seen. As I wrestled the beast from its den, the commotion drew my group in closer. When I surfaced, I could see the gears turning in their heads turning as they confronted this familiar, yet alien creature.“What is that?”, “How old is it?”, “Where does it live?”, “What does it eat?”, “Can we eat it?” All of these questions were, essentially, ecological questions. But even better, they were *their* questions. As I began to tell the ecological story behind this crab, I thought back to one of my own questions: what is an ecologist, really? I'm sure it's different for everyone, but, to me, an ecologist is just someone who likes to look at critters and is willing to ask questions about them—and probably someone who's willing to wrestle a crab 20 feet underwater. 
 
 ::: {layout="[[1],[1]]"}
 ![](hayden_crab.jpg){group="fuerte" description="Me posing with the catch of the day!"}
@@ -51,7 +51,7 @@ As we swam out to the reef, I spotted it. About twenty feet below, two delicate 
 ![](hayden_crab_point.jpg){group="fuerte" description="Pointing to the crab's apron. This is how you can tell females, like this one, apart from males."}
 :::
 
-In the intertidal, I treated my group like we were in a lecture hall, believing that rigor made my words valuable. Inundating my group with facts and case studies only drowned their curiosity. When I stopped forcing ecology and showed them what excites me about nature, they had space to ask their own questions. Being in the water gave us the opportunity to build a conversation around science and the ocean. If that isn’t magical, I don’t know what is. 
+In the intertidal, I treated my group like we were in a lecture hall, believing that rigor made my words valuable. Inundating my group with facts and case studies only drowned their curiosity. When I stopped forcing ecology and showed them what excites me about nature, they had space to ask their own questions. Being in the water gave us the opportunity to build a conversation around science and the ocean that fundamentally changed my view of ecology and my place within it. If that isn’t magic, I don’t know what is. 
 
 
 ::: {layout="[[1],[1,1,1]]"}
