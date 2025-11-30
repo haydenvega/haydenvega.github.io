@@ -256,14 +256,14 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 <p>Before I dive into my data visualization process, here’s some context about the paper I’m creating these data visualizations for. My paper is an extension of a project called <a href="https://haydenvega.github.io/research/2023-pastpresentpredictions/">Past, Present, Predictions: functional approaches to link species to ecosystem function</a>.It builds off the PhD thesis of one of my mentors and another data science icon, <a href="https://an-bui.com/">An Bui</a>. My project explores the idea that we can leverage the large collections of seaweeds that are preserved by museums and universities into long-term data about kelp forests. Many museums and universities have collections of seaweeds that span hundreds of specimens, species, and even years. These collections are used to studying the anatomy of seaweeds, but my project aims to study how these seaweeds functioned within their kelp forest. We can get data about a seaweed’s function by measuring its characteristics like height, width, volume, or thickness. Measurements like these are called <strong>functional traits</strong> and they can give us clues as to how a seaweed contributed to kelp forest functions/characteristics such as photosynthetic rates, wave reduction, and overall mass of seaweed.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="hw-diagram.png" class="lightbox" title="A diagram showing how height and width (common functional traits) are measured on a simulated seaweed specimen" data-gallery="quarto-lightbox-gallery-1"><img src="hw-diagram.png" class="img-fluid figure-img"></a></p>
+<p><a href="hw-diagram.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A diagram showing how height and width (common functional traits) are measured on a simulated seaweed specimen"><img src="hw-diagram.png" class="img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">A diagram showing how height and width (common functional traits) are measured on a simulated seaweed specimen</figcaption><p></p>
 </figure>
 </div>
 <p>What’s unique about <i>preserved</i> seaweed is that they are a snapshot in time, and we can use them as a window to the past of kelp forest function. Using preserved seaweed, we can observe how a kelp forest functioned at a point in time that predates any data we currently have. This is important because we can use our understanding of the past to predict how kelp forests will function in an uncertain future. But using preserved seaweed also presents a unique challenge when using functional traits.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="kelp-pressing.jpg" class="lightbox" title="One of the oldest pressed seaweeds at the UCSB Herbarium. Collected in 1902 by Mary S. Snyder, this specimen is over one hundred years old!" data-gallery="quarto-lightbox-gallery-2"><img src="kelp-pressing.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="kelp-pressing.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="One of the oldest pressed seaweeds at the UCSB Herbarium. Collected in 1902 by Mary S. Snyder, this specimen is over one hundred years old!"><img src="kelp-pressing.jpg" class="img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">One of the oldest pressed seaweeds at the UCSB Herbarium. Collected in 1902 by Mary S. Snyder, this specimen is over one hundred years old!</figcaption><p></p>
 </figure>
 </div>
@@ -274,7 +274,7 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 <p>I started this process with two concrete goals for my visualizations: to show that our models vary by trait and to show that our models vary by species. But as I learned and thought more about the purpose of data visualization, I added a third goal: tell a story.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="ugly-viz.png" class="lightbox" title="An example of an early visualization showing all the different models for each treatment. Note that this plot is hard to read and lacks structure and a clear message" data-gallery="quarto-lightbox-gallery-3"><img src="ugly-viz.png" class="img-fluid figure-img"></a></p>
+<p><a href="ugly-viz.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="An example of an early visualization showing all the different models for each treatment. Note that this plot is hard to read and lacks structure and a clear message"><img src="ugly-viz.png" class="img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">An example of an early visualization showing all the different models for each treatment. Note that this plot is hard to read and lacks structure and a clear message</figcaption><p></p>
 </figure>
 </div>
@@ -1559,7 +1559,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":true,"openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":true,"openEffect":"zoom"});</script>
 
 
 
