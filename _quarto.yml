@@ -40,8 +40,12 @@ website:
 format:
   html:
     sidebar: false
-    theme: 
-      - jolla
-      - styles.scss
+    theme:
+      light:
+        - jolla
+        - styles.scss
+      dark:
+        - darkly
+        - styles-dark.scss
     mainfont: Lexend
     toc: true

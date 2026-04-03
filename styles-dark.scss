@@ -6,49 +6,31 @@
 $fig: 'Figtree', sans-serif;
 $lexend: 'Lexend', sans-serif;
 
-// ── New Palette ─────────────────────────────────
-//   #355872  deep slate blue
-//   #7AAACE  sky blue
-//   #9CD5FF  powder blue
-//   #F7F8F0  off-white
+// ── Dark Palette ─────────────────────────────────
 $deep-slate:   #355872;
 $sky-blue:     #7AAACE;
 $powder-blue:  #9CD5FF;
 $offwhite:     #F7F8F0;
 
-// Keep old variable names pointing to new palette
-// so any existing references still resolve cleanly
-$dark-green:    $sky-blue;
-$darker-green:  $deep-slate;
-$light-green:   $powder-blue;
-$blurple:       $deep-slate;
-$orange:        $sky-blue;
-$cream:         $offwhite;
-$beigeish:      $powder-blue;
+// Dark mode surface colors
+$dark-bg:      #0f1e26;
+$dark-surface: #1a2e3a;
+$dark-deeper:  #1e3a4a;
 
-// Base document colors
-$navbar-bg:    $deep-slate;   // navbar background
-$navbar-fg:    $offwhite;     // navbar foreground / links
-$navbar-hl:    $powder-blue;  // hover highlight on navbar links
-$body-bg:      $offwhite;     // page background
-$body-color:   $deep-slate;   // page text
-$footer-bg:    $deep-slate;   // footer background
-$link-color:   $sky-blue;     // hyperlinks
+// Quarto SCSS variables
+$navbar-bg:    $dark-deeper;
+$navbar-fg:    $offwhite;
+$navbar-hl:    $powder-blue;
+$body-bg:      $dark-bg;
+$body-color:   $offwhite;
+$footer-bg:    $dark-deeper;
+$link-color:   $powder-blue;
 
-// Inline code
-$code-bg:      $offwhite;
-$code-color:   $deep-slate;
-
-// Code blocks
-$code-block-bg: $offwhite;
+$code-bg:      $dark-surface;
+$code-color:   $powder-blue;
+$code-block-bg: $dark-surface;
 
 /*-- scss:rules --*/
-
-// Resize logo
-img[src="images/fish logo.png"] {
-  width: 1050px !important;
-  height: auto !important;
-}
 
 // Navbar logo sizing
 .navbar-brand img {
@@ -66,7 +48,7 @@ img[src="images/fish logo.png"] {
   color: $powder-blue !important;
 }
 
-// Navbar icons (GitHub etc.)
+// Navbar icons
 .navbar-nav .bi {
   color: $offwhite !important;
 }
@@ -75,16 +57,7 @@ img[src="images/fish logo.png"] {
   color: $powder-blue !important;
 }
 
-// Mobile hamburger
-.navbar-toggler {
-  border-color: rgba(247, 248, 240, 0.4) !important;
-}
-
-.navbar-toggler-icon {
-  filter: brightness(0) invert(1);
-}
-
-// Footer text & links
+// Footer
 .nav-footer,
 .nav-footer-left,
 .nav-footer-center,
@@ -107,17 +80,17 @@ img[src="images/fish logo.png"] {
   opacity: 1;
 }
 
-// "About page" button
+// About page button
 div.quarto-about-jolla .about-link {
   color: $sky-blue;
 }
 
-/* ELEMENT SELECTORS */
+// Headings
 h1, h2, h3, h4, h5, h6 {
   font-family: $lexend;
   letter-spacing: 1px;
   font-weight: 700;
-  color: $deep-slate;
+  color: $offwhite;
 }
 
 body {
@@ -127,7 +100,6 @@ body {
   font-weight: 375;
 }
 
-// Blockquote styling
 blockquote {
   margin: 0 0 1rem;
   padding: 0.625rem 1.25rem;

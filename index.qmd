@@ -1,42 +1,458 @@
 ---
-title: "Hayden Vega" 
-image: images/_ERK4501.jpg
-toc: false 
-about: 
-  template: trestles
-  image-shape: rounded
-  image-width: 20em 
-  links:
-    - icon: linkedin 
-      text: LinkedIn
-      href: https://www.linkedin.com/in/hayden-vega-6893a3207
-    - icon: github
-      text: GitHub
-      href: https://github.com/haydenvega
-    - icon: envelope
-      text: Email
-      href: mailto:haydenvega@ucsb.edu
+title: ""
+format:
+  html:
+    toc: false
+    theme:
+      light:
+        - jolla
+        - styles.scss
+      dark:
+        - darkly
+        - styles-dark.scss
+    mainfont: Lexend
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
+        <style>
+          /* ── Palette variables ────────────────────────── */
+          :root {
+            --hv-bg:          #F7F8F0;
+            --hv-bg-fade:     #F7F8F0;
+            --hv-text:        #355872;
+            --hv-accent:      #7AAACE;
+            --hv-light:       #9CD5FF;
+            --hv-card-bg:     #ffffff;
+            --hv-card-shadow: rgba(53,88,114,0.08);
+            --hv-card-hover:  rgba(53,88,114,0.15);
+            --hv-cv-bg:       #355872;
+            --hv-cv-text:     #F7F8F0;
+            --hv-cv-accent:   #9CD5FF;
+          }
+
+          [data-bs-theme="dark"] {
+            --hv-bg:          #0f1e26;
+            --hv-bg-fade:     #0f1e26;
+            --hv-text:        #F7F8F0;
+            --hv-accent:      #9CD5FF;
+            --hv-light:       #7AAACE;
+            --hv-card-bg:     #1a2e3a;
+            --hv-card-shadow: rgba(0,0,0,0.25);
+            --hv-card-hover:  rgba(0,0,0,0.4);
+            --hv-cv-bg:       #1e3a4a;
+            --hv-cv-text:     #F7F8F0;
+            --hv-cv-accent:   #9CD5FF;
+          }
+
+          /* ── Reset & Base ─────────────────────────────── */
+          body { margin: 0; background: var(--hv-bg); color: var(--hv-text); }
+
+          #quarto-content, .quarto-container, main {
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+
+          /* ── Hero ─────────────────────────────────────── */
+          .hv-hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 2rem 6rem;
+            position: relative;
+            background: var(--hv-bg);
+          }
+
+          .hv-hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 120px;
+            background: linear-gradient(to bottom, transparent, var(--hv-bg-fade));
+            pointer-events: none;
+          }
+
+          .hv-photo-ring {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid var(--hv-light);
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 40px var(--hv-card-shadow);
+            animation: fadeUp 1s ease both;
+          }
+
+          .hv-photo-ring img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 20%;
+          }
+
+          .hv-name {
+            font-family: 'Lexend', sans-serif;
+            font-size: clamp(2.2rem, 6vw, 4.5rem);
+            font-weight: 300;
+            letter-spacing: 0.04em;
+            color: var(--hv-text);
+            margin: 0 0 0.4rem;
+            animation: fadeUp 1s 0.15s ease both;
+          }
+
+          .hv-tagline {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 300;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--hv-accent);
+            margin: 0 0 2rem;
+            animation: fadeUp 1s 0.3s ease both;
+          }
+
+          .hv-about {
+            max-width: 520px;
+            font-family: 'Lexend', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.8;
+            color: var(--hv-text);
+            margin: 0 auto 2.5rem;
+            animation: fadeUp 1s 0.45s ease both;
+          }
+
+          .hv-links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            animation: fadeUp 1s 0.6s ease both;
+          }
+
+          .hv-links a {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hv-accent);
+            text-decoration: none;
+            border-bottom: 1px solid currentColor;
+            padding-bottom: 2px;
+            transition: color 0.2s;
+          }
+
+          .hv-links a:hover { color: var(--hv-text); }
+
+          .hv-scroll-hint {
+            position: absolute;
+            bottom: 2.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            animation: fadeUp 1s 1s ease both;
+          }
+
+          .hv-scroll-hint span {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--hv-light);
+          }
+
+          .hv-scroll-arrow {
+            width: 1px;
+            height: 40px;
+            background: linear-gradient(to bottom, var(--hv-light), transparent);
+            animation: scrollPulse 2s ease infinite;
+          }
+
+          /* ── Section Cards ────────────────────────────── */
+          .hv-sections {
+            padding: 2rem 2rem 6rem;
+            max-width: 860px;
+            margin: 0 auto;
+          }
+
+          .hv-section-label {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--hv-light);
+            text-align: center;
+            margin-bottom: 3rem;
+          }
+
+          .hv-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin-bottom: 1.5rem;
+            background: var(--hv-card-bg);
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 2px 20px var(--hv-card-shadow);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            transform: translateY(32px);
+          }
+
+          .hv-card:nth-child(even) { grid-template-columns: 1fr 1fr; }
+          .hv-card:nth-child(even) .hv-card-img { order: 2; }
+          .hv-card:nth-child(even) .hv-card-body { order: 1; }
+
+          .hv-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.7s ease, transform 0.7s ease, box-shadow 0.3s ease;
+          }
+
+          .hv-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px var(--hv-card-hover);
+          }
+
+          .hv-card-img {
+            overflow: hidden;
+            max-height: 260px;
+          }
+
+          .hv-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+          }
+
+          .hv-card:hover .hv-card-img img { transform: scale(1.04); }
+
+          .hv-card-body {
+            padding: 2.8rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+
+          .hv-card-title {
+            font-family: 'Lexend', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 1.1;
+            color: var(--hv-text);
+            margin-bottom: 0.6rem;
+          }
+
+          .hv-card-desc {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--hv-accent);
+            margin-bottom: 1.4rem;
+          }
+
+          .hv-card-cta {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hv-accent);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+          }
+
+          .hv-card-cta::after {
+            content: '→';
+            transition: transform 0.2s;
+          }
+
+          .hv-card:hover .hv-card-cta::after { transform: translateX(4px); }
+          .hv-card:hover .hv-card-cta { color: var(--hv-text); }
+
+          /* CV card — full width */
+          .hv-card-cv {
+            grid-template-columns: 1fr !important;
+            background: var(--hv-cv-bg);
+            color: var(--hv-cv-text);
+            text-align: center;
+            padding: 3rem 2rem;
+            justify-items: center;
+          }
+
+          .hv-card-cv .hv-card-title { color: var(--hv-cv-text); }
+          .hv-card-cv .hv-card-desc  { color: var(--hv-cv-accent); }
+          .hv-card-cv .hv-card-cta   { color: var(--hv-cv-accent); }
+          .hv-card-cv:hover .hv-card-cta { color: var(--hv-cv-text); }
+
+          /* ── Education strip ──────────────────────────── */
+          .hv-edu {
+            text-align: center;
+            padding: 3rem 2rem 5rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.7s, transform 0.7s;
+          }
+
+          .hv-edu.visible { opacity: 1; transform: none; }
+
+          .hv-edu-label {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.65rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--hv-light);
+            margin-bottom: 0.6rem;
+          }
+
+          .hv-edu-degree {
+            font-family: 'Lexend', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: var(--hv-text);
+          }
+
+          /* ── Animations ───────────────────────────────── */
+          @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to   { opacity: 1; transform: translateY(0); }
+          }
+
+          @keyframes scrollPulse {
+            0%, 100% { opacity: 0.4; }
+            50%       { opacity: 1; }
+          }
+
+          /* ── Responsive ───────────────────────────────── */
+          @media (max-width: 640px) {
+            .hv-card, .hv-card:nth-child(even) {
+              grid-template-columns: 1fr !important;
+            }
+            .hv-card:nth-child(even) .hv-card-img { order: 0; }
+            .hv-card:nth-child(even) .hv-card-body { order: 1; }
+            .hv-card-img { max-height: 200px; }
+          }
+        </style>
 ---
 
-#### About Me
-Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology and environmental-social science to help ecosystems and people. 
+```{=html}
+<!-- HERO -->
+<section class="hv-hero">
+  <div class="hv-photo-ring">
+    <img src="images/_ERK4501.jpg" alt="Hayden Vega">
+  </div>
+  <h1 class="hv-name">Hayden Vega</h1>
+  <p class="hv-tagline">Marine Scientist &nbsp;·&nbsp; Writer &nbsp;·&nbsp; Artist</p>
+  <p class="hv-about">
+    Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology 
+    and environmental-social science to help ecosystems and people.
+    I wear many hats as a scientist, writer, artist, teacher, and student.
+  </p>
+  <div class="hv-links">
+    <a href="https://www.linkedin.com/in/hayden-vega-6893a3207/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/haydenvega" target="_blank">GitHub</a>
+    <a href="mailto:haydenvega@ucsb.edu">Email</a>
+  </div>
+  <div class="hv-scroll-hint">
+    <span>explore</span>
+    <div class="hv-scroll-arrow"></div>
+  </div>
+</section>
 
-I hope to connect others to science and our natural world, so I wear many hats as a scientist, writer, artist, teacher, and student. Feel free to browse some of my work and reach out!
+<!-- SECTION CARDS -->
+<div class="hv-sections">
+  <p class="hv-section-label">My Work</p>
 
-------------------------------------------------------------------------
+  <!-- Research -->
+  <a class="hv-card" href="research.html">
+    <div class="hv-card-img">
+      <img src="https://haydenvega.github.io/research/2024-19-12-fisharefriends/dascyllus.png" alt="Research">
+    </div>
+    <div class="hv-card-body">
+      <div class="hv-card-title">Research</div>
+      <div class="hv-card-desc">Shark fin morphology, coral-fish mutualisms, macroalgal functional traits and more.</div>
+      <div class="hv-card-cta">View research</div>
+    </div>
+  </a>
 
-#### Education
+  <!-- Fieldwork -->
+  <a class="hv-card" href="fieldwork.html">
+    <div class="hv-card-img">
+      <img src="https://haydenvega.github.io/images/coralscape.jpg" alt="Fieldwork">
+    </div>
+    <div class="hv-card-body">
+      <div class="hv-card-title">Fieldwork</div>
+      <div class="hv-card-desc">Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some photos of the field anyway!</div>
+      <div class="hv-card-cta">See photos</div>
+    </div>
+  </a>
 
-<p class="custom-subtitle">
+  <!-- Outreach -->
+  <a class="hv-card" href="posts.html">
+    <div class="hv-card-img">
+      <img src="https://haydenvega.github.io/blog_posts/FUERTE/bigsnorkel.jpg" alt="Outreach">
+    </div>
+    <div class="hv-card-body">
+      <div class="hv-card-title">Outreach</div>
+      <div class="hv-card-desc">As a person of color in STEM, I am passionate about helping people from all backgrounds experience science and the natural world.</div>
+      <div class="hv-card-cta">Read more</div>
+    </div>
+  </a>
 
-**B.A. Marine Science**
+  <!-- Words -->
+  <a class="hv-card" href="words.html">
+    <div class="hv-card-img">
+      <img src="https://haydenvega.github.io/words_posts/eds_240_blog/kelp-pressing.jpg" alt="Words">
+    </div>
+    <div class="hv-card-body">
+      <div class="hv-card-title">Words</div>
+      <div class="hv-card-desc">A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you.</div>
+      <div class="hv-card-cta">Read writing</div>
+    </div>
+  </a>
 
-</p>
+  <!-- CV -->
+  <a class="hv-card hv-card-cv" href="cv_hv.pdf" target="_blank">
+    <div class="hv-card-body">
+      <div class="hv-card-title">CV</div>
+      <div class="hv-card-desc">Education, research experience, publications, and more.</div>
+      <div class="hv-card-cta">Download PDF</div>
+    </div>
+  </a>
 
-<p class="custom-subtitle2">
+</div>
 
-University of California, Santa Barbara
+<!-- EDUCATION -->
+<div class="hv-edu" id="hv-edu">
+  <div class="hv-edu-label">Education</div>
+  <div class="hv-edu-degree">B.A. Marine Science &nbsp;·&nbsp; University of California, Santa Barbara</div>
+</div>
 
-</p>
+<script>
+  // Intersection Observer for scroll-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        // Stagger cards slightly
+        const delay = entry.target.classList.contains('hv-card')
+          ? Array.from(document.querySelectorAll('.hv-card')).indexOf(entry.target) * 80
+          : 0;
+        setTimeout(() => entry.target.classList.add('visible'), delay);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
 
-
+  document.querySelectorAll('.hv-card, .hv-edu').forEach(el => observer.observe(el));
+</script>
+```
