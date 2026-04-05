@@ -6,24 +6,23 @@
 $fig: 'Figtree', sans-serif;
 $lexend: 'Lexend', sans-serif;
 
-// ── Dark Palette ─────────────────────────────────
-$deep-slate:   #355872;
+// ── Palette ──────────────────────────────────────
 $sky-blue:     #7AAACE;
 $powder-blue:  #9CD5FF;
 $offwhite:     #F7F8F0;
 
-// Dark mode surface colors
-$dark-bg:      #0f1e26;
-$dark-surface: #1a2e3a;
-$dark-deeper:  #1e3a4a;
+// Dark mode surfaces — true black base
+$dark-bg:      #111111;
+$dark-surface: #1c1c1c;
+$dark-nav:     #222222;
 
 // Quarto SCSS variables
-$navbar-bg:    $dark-deeper;
+$navbar-bg:    $dark-nav;
 $navbar-fg:    $offwhite;
 $navbar-hl:    $powder-blue;
 $body-bg:      $dark-bg;
 $body-color:   $offwhite;
-$footer-bg:    $dark-deeper;
+$footer-bg:    $dark-nav;
 $link-color:   $powder-blue;
 
 $code-bg:      $dark-surface;
@@ -31,6 +30,15 @@ $code-color:   $powder-blue;
 $code-block-bg: $dark-surface;
 
 /*-- scss:rules --*/
+
+// Force true black — overrides darkly theme's built-in dark navy
+body {
+  background-color: #111111 !important;
+  font-family: $fig;
+  line-height: 1.5;
+  font-size: 19.5px;
+  font-weight: 375;
+}
 
 // Navbar logo sizing
 .navbar-brand img {
@@ -93,13 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $offwhite;
 }
 
-body {
-  font-family: $fig;
-  line-height: 1.5;
-  font-size: 19.5px;
-  font-weight: 375;
-}
-
+// Blockquote
 blockquote {
   margin: 0 0 1rem;
   padding: 0.625rem 1.25rem;
