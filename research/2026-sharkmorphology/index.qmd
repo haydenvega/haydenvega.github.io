@@ -1,7 +1,7 @@
 ---
 title: "fin atlas"
 image: figure1.png
-description: FISH ARE FRIENDS-fish help corals deal with stress!
+description: Shark fin morphometrics for every known species
 format: 
   html:
     echo: true
@@ -14,12 +14,17 @@ freeze: auto
 date: 04/01/26
 ---
 
-Sharks are among the most ecologically successful groups of vertebrates. Fins enabled sharks to thrive for millions of years, but have now become commercial targets, thus driving mortality to supply the shark fin trade. Despite decades of exploitation, fin morphometric and morphological data are scarce, curtailing research on shark conservation, ecology, and evolution. Here, we introduce Fin Atlas, a dataset of fin morphometrics for all 557 extant valid shark species. We used imaging software to extract fin area, length, and free rear tip length for all fins from the scaled pictographs of 490 valid species published in the 2013 edition of Sharks of the World: A Fully Illustrated Guide. We then used random forest regression models to estimate each measurement for the 67 species described afterwards. For all fins and species, we calculated fin aspect ratio, a shape metric used in ecomorphological analyses. Fin Atlas will enable researchers to answer questions on fin desirability for the fin trade, and ecological and evolutionary analyses on shark morphology and movement. 
+# Summary
 
-![Measured vs. Predicted Species](figure2.png)
+Sharks are among the most ecologically successful groups of vertebrates. Specialized fins enabled sharks to thrive for millions of years, but have now become commercial targets in global shark fin markets. Despite decades of exploitation, fin morphometric and morphological data are scarce, curtailing research on shark conservation, ecology, and evolution. In response, my collaborator, Leonardo Manir Feitosa, and I created Fin Atlas, a dataset of fin morphometrics for all 557 extant valid shark species. We used imaging software to extract fin area, length, and free rear tip length for all fins from the scaled pictographs of 490 valid species published in the 2013 edition of Sharks of the World: A Fully Illustrated Guide. We then used random forest regression models to estimate each measurement for the 67 species described afterwards. For all fins and species, we calculated fin aspect ratio, a shape metric used in ecomorphological analyses. Fin Atlas will enable researchers to answer questions on fin desirability for the fin trade, and ecological and evolutionary analyses on shark morphology and movement. 
+
+
+# Figures
+
+![A summary of predicted vs measured species grouped by order](figure2.png)
 
 
 
-![Measurement summaries for each fin](figure3.png)
+![Summaries for each fin and measurement.](figure3.png)
 
 

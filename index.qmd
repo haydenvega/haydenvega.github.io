@@ -438,6 +438,7 @@ format:
 <!-- EDUCATION -->
 <div class="hv-edu" id="hv-edu">
   <div class="hv-edu-label">Education</div>
+  <div class="hv-edu-degree">PhD Environmental Science, Policy, and Management &nbsp;·&nbsp; University of California, Berkeley - Present</div>
   <div class="hv-edu-degree">B.A. Marine Science &nbsp;·&nbsp; University of California, Santa Barbara</div>
 </div>
 
