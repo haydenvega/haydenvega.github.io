@@ -45,6 +45,8 @@ format:
             --hv-cv-accent:   #9CD5FF;
           }
 
+          [data-bs-theme="dark"] .hv-wave svg path { fill: #111111; }
+
           /* ── Reset & Base ─────────────────────────────── */
           body { margin: 0; background: var(--hv-bg); color: var(--hv-text); }
 
@@ -64,15 +66,27 @@ format:
             text-align: center;
             padding: 4rem 2rem 6rem;
             position: relative;
-            background: var(--hv-bg);
+            overflow: hidden;
+            background: #355872;
           }
 
-          .hv-hero::after {
+          /* subtle radial glow behind the photo */
+          .hv-hero::before {
             content: '';
             position: absolute;
+            top: 30%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(156,213,255,0.12) 0%, transparent 70%);
+            pointer-events: none;
+          }
+
+          /* wave SVG bleeds into page bg */
+          .hv-wave {
+            position: absolute;
             bottom: 0; left: 0; right: 0;
-            height: 120px;
-            background: linear-gradient(to bottom, transparent, var(--hv-bg-fade));
+            line-height: 0;
+            z-index: 1;
             pointer-events: none;
           }
 
@@ -81,10 +95,11 @@ format:
             height: 180px;
             border-radius: 50%;
             overflow: hidden;
-            border: 3px solid var(--hv-light);
-            margin-bottom: 2.5rem;
-            box-shadow: 0 8px 40px var(--hv-card-shadow);
+            border: 2px solid rgba(156,213,255,0.5);
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.3);
             animation: fadeUp 1s ease both;
+            position: relative; z-index: 2;
           }
 
           .hv-photo-ring img {
@@ -99,9 +114,10 @@ format:
             font-size: clamp(2.2rem, 6vw, 4.5rem);
             font-weight: 300;
             letter-spacing: 0.04em;
-            color: var(--hv-text);
+            color: #F7F8F0;
             margin: 0 0 0.4rem;
             animation: fadeUp 1s 0.15s ease both;
+            position: relative; z-index: 2;
           }
 
           .hv-tagline {
@@ -110,9 +126,10 @@ format:
             font-weight: 300;
             letter-spacing: 0.22em;
             text-transform: uppercase;
-            color: var(--hv-accent);
+            color: #9CD5FF;
             margin: 0 0 2rem;
             animation: fadeUp 1s 0.3s ease both;
+            position: relative; z-index: 2;
           }
 
           .hv-about {
@@ -121,9 +138,10 @@ format:
             font-size: 1rem;
             font-weight: 300;
             line-height: 1.8;
-            color: var(--hv-text);
+            color: rgba(247,248,240,0.75);
             margin: 0 auto 2.5rem;
             animation: fadeUp 1s 0.45s ease both;
+            position: relative; z-index: 2;
           }
 
           .hv-links {
@@ -132,6 +150,7 @@ format:
             justify-content: center;
             animation: fadeUp 1s 0.6s ease both;
             margin-bottom: 1.5rem;
+            position: relative; z-index: 2;
           }
 
           .hv-links a {
@@ -139,18 +158,18 @@ format:
             font-size: 0.72rem;
             letter-spacing: 0.18em;
             text-transform: uppercase;
-            color: var(--hv-accent);
+            color: #9CD5FF;
             text-decoration: none;
             border-bottom: 1px solid currentColor;
             padding-bottom: 2px;
             transition: color 0.2s;
           }
 
-          .hv-links a:hover { color: var(--hv-text); }
+          .hv-links a:hover { color: #F7F8F0; }
 
           .hv-scroll-hint {
             position: absolute;
-            bottom: 1.5rem;
+            bottom: 2.5rem;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -160,6 +179,7 @@ format:
             align-items: center;
             gap: 0.4rem;
             animation: fadeUp 1s 1s ease both;
+            z-index: 3;
           }
 
           .hv-scroll-hint span {
@@ -167,13 +187,13 @@ format:
             font-size: 0.65rem;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color: var(--hv-light);
+            color: rgba(156,213,255,0.7);
           }
 
           .hv-scroll-arrow {
             width: 1px;
             height: 28px;
-            background: linear-gradient(to bottom, var(--hv-light), transparent);
+            background: linear-gradient(to bottom, rgba(156,213,255,0.7), transparent);
             animation: scrollPulse 2s ease infinite;
           }
 
@@ -371,6 +391,12 @@ format:
     <span>explore</span>
     <div class="hv-scroll-arrow"></div>
   </div>
+  <!-- wave bleeds into page background -->
+  <div class="hv-wave">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,10 1440,40 L1440,80 L0,80 Z" fill="#F7F8F0"/>
+    </svg>
+  </div>
 </section>
 
 <!-- SECTION CARDS -->
@@ -392,7 +418,7 @@ format:
   <!-- Fieldwork -->
   <a class="hv-card" href="fieldwork.html">
     <div class="hv-card-img">
-      <img src="https://haydenvega.github.io/images/coralscape.jpg" alt="Fieldwork">
+      <img src="https://haydenvega.github.io/images/auhurra.jpg" alt="Fieldwork">
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Fieldwork</div>
@@ -439,7 +465,8 @@ format:
 <!-- EDUCATION -->
 <div class="hv-edu" id="hv-edu">
   <div class="hv-edu-label">Education</div>
-  <div class="hv-edu-degree">B.A. Marine Science &nbsp;·&nbsp; University of California, Santa Barbara</div>
+  <div class="hv-edu-degree">Ph.D. Candidate Environmental Science, Policy, and Management &nbsp;·&nbsp; University of California, Berkeley</div>
+  <div class="hv-edu-degree" style="margin-top: 0.6rem;">B.A. Marine Science &nbsp;·&nbsp; University of California, Santa Barbara</div>
 </div>
 
 <script>
