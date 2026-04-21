@@ -422,7 +422,7 @@ format:
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Fieldwork</div>
-      <div class="hv-card-desc">Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some photos of the field anyway!</div>
+      <div class="hv-card-desc">Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some photos anyway.</div>
       <div class="hv-card-cta">See photos</div>
     </div>
   </a>
@@ -434,7 +434,7 @@ format:
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Outreach</div>
-      <div class="hv-card-desc">As a person of color in STEM, I am passionate about helping people from all backgrounds experience science and the natural world.</div>
+      <div class="hv-card-desc">My outreach touches science, activism, and nature. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.</div>
       <div class="hv-card-cta">Read more</div>
     </div>
   </a>
