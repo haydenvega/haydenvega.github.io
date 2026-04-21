@@ -1,6 +1,6 @@
 ---
 title: "fin atlas"
-image: figure1.png
+image: atlas_shark.png
 description: Shark fin morphometrics for every known species
 format: 
   html:

@@ -276,16 +276,17 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
     color: inherit;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
-    transform: translateY(32px);
   }
 
-  .hv-card:nth-child(even) { grid-template-columns: 1fr 1fr; }
+  .hv-card:nth-child(odd)  { transform: translateX(-48px); }
+  .hv-card:nth-child(even) { transform: translateX(48px); }
+
   .hv-card:nth-child(even) .hv-card-img { order: 2; }
   .hv-card:nth-child(even) .hv-card-body { order: 1; }
 
   .hv-card.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
     transition: opacity 0.7s ease, transform 0.7s ease, box-shadow 0.3s ease;
   }
 
@@ -656,13 +657,14 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
   <h1 class="hv-name">Hayden Vega</h1>
   <p class="hv-tagline">Marine Scientist &nbsp;·&nbsp; Writer &nbsp;·&nbsp; Artist</p>
   <p class="hv-about">
-    Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology, art,
-    and environmental-social science to help ecosystems and people. Feel free to browse my work below.
+    Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology 
+    and environmental-social science to help ecosystems and people.
+    I wear many hats as a scientist, writer, artist, teacher, and student.
   </p>
   <div class="hv-links">
     <a href="https://www.linkedin.com/in/hayden-vega-6893a3207/" target="_blank">LinkedIn</a>
     <a href="https://github.com/haydenvega" target="_blank">GitHub</a>
-    <a href="mailto:haydenvega@berkeley.edu">Email</a>
+    <a href="mailto:haydenvega@ucsb.edu">Email</a>
   </div>
   <div class="hv-scroll-hint">
     <span>explore</span>
@@ -689,7 +691,7 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
   <!-- Fieldwork -->
   <a class="hv-card" href="fieldwork.html">
     <div class="hv-card-img">
-      <img src="https://haydenvega.github.io/images/auhurra.jpg" alt="Fieldwork">
+      <img src="https://haydenvega.github.io/images/coralscape.jpg" alt="Fieldwork">
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Fieldwork</div>
@@ -705,7 +707,7 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Outreach</div>
-      <div class="hv-card-desc">My outreach touches science, activism, and nature. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.</div>
+      <div class="hv-card-desc">As a person of color in STEM, I am passionate about helping people from all backgrounds experience science and the natural world.</div>
       <div class="hv-card-cta">Read more</div>
     </div>
   </a>
@@ -736,7 +738,6 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 <!-- EDUCATION -->
 <div class="hv-edu" id="hv-edu">
   <div class="hv-edu-label">Education</div>
-  <div class="hv-edu-degree">PhD Environmental Science, Policy, and Management &nbsp;·&nbsp; University of California, Berkeley - Present</div>
   <div class="hv-edu-degree">B.A. Marine Science &nbsp;·&nbsp; University of California, Santa Barbara</div>
 </div>
 
