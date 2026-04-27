@@ -67,7 +67,18 @@ format:
             padding: 4rem 2rem 6rem;
             position: relative;
             overflow: hidden;
-            background: #355872;
+            background: #355872; /* fallback if image fails to load */
+          }
+
+          /* ── Static background image ──────────────────── */
+          .hv-hero-bg {
+            position: absolute;
+            inset: 0;
+            background-image: url('images/blacktip.jpg'); /* 🔁 change to your preferred image */
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.5);
+            z-index: 0;
           }
 
           /* subtle radial glow behind the photo */
@@ -79,6 +90,13 @@ format:
             width: 500px; height: 500px;
             background: radial-gradient(circle, rgba(156,213,255,0.12) 0%, transparent 70%);
             pointer-events: none;
+            z-index: 1;
+          }
+
+          /* all hero children sit above the bg */
+          .hv-hero > *:not(.hv-hero-bg) {
+            position: relative;
+            z-index: 2;
           }
 
           /* wave SVG bleeds into page bg */
@@ -86,7 +104,7 @@ format:
             position: absolute;
             bottom: 0; left: 0; right: 0;
             line-height: 0;
-            z-index: 1;
+            z-index: 3;
             pointer-events: none;
           }
 
@@ -372,15 +390,18 @@ format:
 ```{=html}
 <!-- HERO -->
 <section class="hv-hero">
+
+  <!-- BACKGROUND IMAGE — change the filename to whichever image you prefer -->
+  <div class="hv-hero-bg"></div>
+
   <div class="hv-photo-ring">
     <img src="images/_ERK4501.jpg" alt="Hayden Vega">
   </div>
   <h1 class="hv-name">Hayden Vega</h1>
   <p class="hv-tagline">Marine Scientist &nbsp;·&nbsp; Writer &nbsp;·&nbsp; Artist</p>
   <p class="hv-about">
-    Hi, I'm Hayden! I'm a marine scientist interested in leveraging ecology 
+    Hi, I'm Hayden! I'm a marine scientist, writer, and artist interested in leveraging ecology 
     and environmental-social science to help ecosystems and people.
-    I wear many hats as a scientist, writer, artist, teacher, and student.
   </p>
   <div class="hv-links">
     <a href="https://www.linkedin.com/in/hayden-vega-6893a3207/" target="_blank">LinkedIn</a>
@@ -406,8 +427,7 @@ format:
   <!-- Research -->
   <a class="hv-card" href="research.html">
     <div class="hv-card-img">
-      <img src="https://haydenvega.github.io/research/2024-19-12-fisharefriends/dascyllus.png" alt="Research">
-    </div>
+<img src="images/dascyllus.jpg" alt="Research">    </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Research</div>
       <div class="hv-card-desc">Shark fin morphology, coral-fish mutualisms, macroalgal functional traits and more.</div>
@@ -422,7 +442,7 @@ format:
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Fieldwork</div>
-      <div class="hv-card-desc">Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some photos anyway.</div>
+      <div class="hv-card-desc">Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway.</div>
       <div class="hv-card-cta">See photos</div>
     </div>
   </a>
@@ -434,7 +454,7 @@ format:
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Outreach</div>
-      <div class="hv-card-desc">My outreach touches science, activism, and nature. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.</div>
+      <div class="hv-card-desc">My outreach touches science, activism, and mentorship. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.</div>
       <div class="hv-card-cta">Read more</div>
     </div>
   </a>
@@ -474,7 +494,6 @@ format:
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        // Stagger cards slightly
         const delay = entry.target.classList.contains('hv-card')
           ? Array.from(document.querySelectorAll('.hv-card')).indexOf(entry.target) * 80
           : 0;
