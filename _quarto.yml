@@ -6,6 +6,14 @@ website:
   title: "Hayden Vega"
   favicon: images/logo.png
   site-url: https://haydenvega.github.io/
+  description: "Hayden Vega is a marine biologist and PhD candidate at UC Berkeley studying global climate change, shark ecology, coral reef ecology, and kelp forest ecology. Previously at UC Santa Barbara (UCSB)."
+  open-graph:
+    title: "Hayden Vega | Marine Biologist | UC Berkeley & UCSB"
+    description: "Marine biologist researching sharks, coral reefs, kelp forests, and climate change at UC Berkeley and UCSB."
+    image: "https://haydenvega.github.io/images/_ERK4501.jpg"
+  twitter-card:
+    title: "Hayden Vega | Marine Biologist"
+    description: "Marine biologist at UC Berkeley & UCSB studying climate change, sharks, coral reefs, and kelp forests."
   google-analytics: 
     tracking-id: "G-KTFM8KEX8J"
     anonymize-ip: true
@@ -15,7 +23,7 @@ website:
     css: styles.scss
     right:
       - href: index.qmd
-        text: home # use 'text' option to update the name as you want it to appear in your navbar
+        text: home
       - href: research.qmd
         text: research
       - href: posts.qmd
@@ -26,7 +34,7 @@ website:
         text: words
       - href: cv_hv.pdf
         text: cv
-      - icon: github # add icons that link to social media, etc.
+      - icon: github
         href: https://github.com/haydenvega
   page-footer:
     background: dark
@@ -36,7 +44,7 @@ website:
         href: https://github.com/haydenvega
       - icon: linkedin
         href: https://www.linkedin.com/in/hayden-vega-6893a3207/
-  
+
 format:
   html:
     sidebar: false
