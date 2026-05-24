@@ -424,7 +424,7 @@ format:
   <!-- Research -->
   <a class="hv-card" href="research.html">
     <div class="hv-card-img">
-      <img src="images/dascyllus.jpg" alt="Research">
+      <img src="images/wounded_frag_drawing.png" alt="Research">
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Research</div>
