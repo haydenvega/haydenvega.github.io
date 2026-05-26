@@ -1,6 +1,6 @@
 ---
 title: "fish are friends"
-image: dam_poc.png
+image: dam_poc.jpg
 description: FISH ARE FRIENDS-fish help corals deal with stress!
 format: 
   html:
