@@ -6,27 +6,35 @@ lightbox: auto
 freeze: auto
 ---
 
-Fieldwork is one of my favorite things about being a scientist! Pictures never do it justice, but here are some photos of the field anyway! 
+Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway! 
 
 
 ### Mo'orea, French Polynesia 2026
 ::: {layout="[[1], [1,1,1,1,1,1,1]]"}
 ![](images/man_1.jpg){group="moorea2026"
 description="A stand of *Rhizophora stylosa*; a non-native species in French Polynesia, and a focus for my PhD work."}
+
 ![](images/man_nudi.jpg){group="moorea2026"
 description="*Hypselodoris tryoni* in the mangroves."}
+
 ![](images/coral_man_2.jpg){group="moorea2026"
 description="*Pocillopora acuta* growing on a mangrove root."}
+
 ![](images/coral_man_6.jpg){group="moorea2026"
 description="*Pocillopora acuta* growing on mangrove roots."}
+
 ![](images/coral_man_fish.jpg){group="moorea2026"
 description="A school of *Mulloidichthys vanicolensis* among the mangroves. I counted 62 individuals in this school."}
+
 ![](images/coral_man_7.jpg){group="moorea2026"
 description="A cluster of *Pocillopora acuta* growing on mangrove roots."}
+
 ![](images/coral_man_1.jpg){group="moorea2026"
 description="A cluster of *Pocillopora acuta* hiding behind a mangrove root."}
+
 ![](images/coral_man_3.jpg){group="moorea2026"
 description="A young *Pocillopora acuta* growing on a mangrove root."}
+
 :::
 
 ### Mo'orea, French Polynesia 2025
@@ -56,7 +64,7 @@ description="A toby taking a snail siesta."}
 
 ### Mo'orea, French Polynesia 2024
 
-::: {layout="[[1], [1, 1, 1, 1, 1, 1,]]"}
+::: {layout="[[1], [1, 1, 1, 1, 1, 1]]"}
 
 ![](images/coralscape.jpg){group="Mo'orea"
 description="Hilton Reef"}
