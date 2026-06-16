@@ -10,7 +10,7 @@ Fieldwork is one of my favorite things about being a scientist. Pictures never d
 
 
 ### Mo'orea, French Polynesia 2026
-::: {layout="[[1], [1,1,1,1,1,1,1]]"}
+::: {layout="[[1], [1,1,1,1,1,1,1,1]]"}
 ![](images/man_1.jpg){group="moorea2026"
 description="A stand of *Rhizophora stylosa*; a non-native species in French Polynesia, and a focus for my PhD work."}
 
@@ -19,6 +19,9 @@ description="*Hypselodoris tryoni* in the mangroves."}
 
 ![](images/coral_man_2.jpg){group="moorea2026"
 description="*Pocillopora acuta* growing on a mangrove root."}
+
+![](images/baby_jack.jpg){group="moorea2026"
+description="A baby blue fin trevally."}
 
 ![](images/coral_man_6.jpg){group="moorea2026"
 description="*Pocillopora acuta* growing on mangrove roots."}
@@ -44,7 +47,7 @@ description="A young *Pocillopora acuta* growing on a mangrove root."}
 ![](images/auhurra.jpg){group="moorea2025"
 description="My mentee, Auhurra, planting experimental corals on the reef."}
 
-![](images/puffer_2.png){group="moorea2025" description="A guineafowl puffer *(Arothron meleagris)* named Meep."}
+![](images/puffer_2.jpg){group="moorea2025" description="A guineafowl puffer *(Arothron meleagris)* named Meep."}
 
 ![](images/auhurra_liv.jpg){group="moorea2025" description="Auhurra and her other mentor, Olivia, outplanting corals."}
 
@@ -141,16 +144,16 @@ description="Western Bluebird"}
 ![](images/slough.jpg){group="COPR"
 }
 
-![](images/acorn.png){group="COPR"
+![](images/acorn.jpg){group="COPR"
 description="Acorn Woodpecker"}
 
 ![](images/redwing.png){group="COPR"
 description="Red-winged Blackbird"}
 
-![](images/treecorm.png){group="COPR"
+![](images/treecorm.jpg){group="COPR"
 description="Cormorant"}
 
-![](images/beltfisher.png){group="COPR"
+![](images/beltfisher.jpg){group="COPR"
 description="Belted Kingfisher"}
 
 :::
