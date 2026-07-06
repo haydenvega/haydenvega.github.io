@@ -16,7 +16,7 @@ format:
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
-        <meta name="description" content="Hayden Vega is a marine biologist and PhD candidate at UC Berkeley studying global climate change, shark ecology, coral reef ecology, and kelp forest ecology. Previously at UC Santa Barbara (UCSB).">
+        <meta name="description" content="Hayden Vega is a marine biologist and PhD candidate at UC Berkeley studying land sea connectivity, coral reef ecology, and fish community ecology. Previously at UC Santa Barbara (UCSB).">
         <meta name="keywords" content="Hayden Vega, marine biologist, UC Berkeley, UCSB, University of California Santa Barbara, climate change, shark ecology, coral reef ecology, kelp forest ecology, marine science, ESPM">
         <style>
           /* ── Palette variables ────────────────────────── */
