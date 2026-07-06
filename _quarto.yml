@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Hayden Vega"
-  favicon: images/logo.png
+  favicon: images/favicon.png
   site-url: https://haydenvega.github.io/
   description: "Hayden Vega is a marine biologist and PhD candidate at UC Berkeley studying coastal and ecosystem resilience. Previously at UC Santa Barbara (UCSB)."
   open-graph:
