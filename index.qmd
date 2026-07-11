@@ -404,7 +404,7 @@ format:
   <div class="hv-links">
     <a href="https://www.linkedin.com/in/hayden-vega-6893a3207/" target="_blank">LinkedIn</a>
     <a href="https://github.com/haydenvega" target="_blank">GitHub</a>
-    <a href="mailto:haydenvega@ucsb.edu">Email</a>
+    <a href="mailto:haydenvega@berkeley.edu">Email</a>
   </div>
   <div class="hv-scroll-hint">
     <span>explore</span>
