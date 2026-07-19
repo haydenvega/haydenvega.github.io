@@ -147,7 +147,7 @@ description="Western Bluebird"}
 ![](images/acorn.jpg){group="COPR"
 description="Acorn Woodpecker"}
 
-![](images/redwing.png){group="COPR"
+![](images/redwing.jpg){group="COPR"
 description="Red-winged Blackbird"}
 
 ![](images/treecorm.jpg){group="COPR"

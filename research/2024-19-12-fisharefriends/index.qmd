@@ -1,7 +1,7 @@
 ---
 title: "fish are friends"
 image: dam_poc.jpg
-description: FISH ARE FRIENDS-fish help corals deal with stress!
+description: FISH ARE FRIENDS-fish help corals deal with stress! Full manuscript published in [*Biology Letters*](https://doi.org/10.1098/rsbl.2026.0177)
 format: 
   html:
     echo: true
@@ -18,8 +18,9 @@ date: 12/24/24
 
 # Summary
 
-Coral reefs are in global decline. As corals face stronger and more frequent disturbances, reef resilience is increasingly recognized as the product of complex interactions between corals, their endosymbiotic algae, and external symbionts such as fishes and invertebrates. While previous studies have documented how coral-associated fishes influence responses to disturbances such as thermal stress, their role in supporting tissue repair remains poorly understood. Here, we experimentally test whether coral-associated fishes facilitate wound healing in the coral Pocillopora spp. We imposed small and large wounds and monitored healing in the presence and absence of coral-dwelling damselfishes (Dascyllus flavicaudus). Corals exposed to fishes exhibited faster wound closure and higher photosynthetic efficiency in recently regenerated tissue, particularly for larger wounds. Our results extend the emerging understanding of coral holobiont resilience, highlighting the importance of external symbionts in sustaining coral recovery from physical disturbances.
+Coral reefs are in global decline. As corals face stronger and more frequent disturbances, reef resilience is increasingly recognized as the product of complex interactions between corals, their endosymbiotic algae, and external symbionts such as fishes and invertebrates. While previous studies have documented how coral-associated fishes influence responses to disturbances such as thermal stress, their role in supporting tissue repair remains poorly understood. Here, we experimentally test whether coral-associated fishes facilitate wound healing in the coral Pocillopora spp. We imposed small and large wounds and monitored healing in the presence and absence of coral-dwelling damselfishes (Dascyllus flavicaudus). Corals exposed to fishes exhibited faster wound closure and higher photosynthetic efficiency in recently regenerated tissue, particularly for larger wounds. Our results extend the emerging understanding of coral holobiont resilience, highlighting the importance of external symbionts in sustaining coral recovery from physical disturbances. 
 
+> [***Read the paper here!***](https://doi.org/10.1098/rsbl.2026.0177)
 
 ## Background: Fish are friends!
 
