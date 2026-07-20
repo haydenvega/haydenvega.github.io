@@ -40,10 +40,13 @@ website:
     background: dark
     left: Hayden Vega
     right:
-      - icon: github
-        href: https://github.com/haydenvega
+      - icon: instagram
+        href: https://instagram.com/hayden_vega_
       - icon: linkedin
         href: https://www.linkedin.com/in/hayden-vega-6893a3207/
+      - icon: github
+        href: https://github.com/haydenvega
+
 
 format:
   html:

@@ -401,11 +401,12 @@ format:
     Hi, I'm Hayden! I'm a marine scientist, writer, and artist interested in leveraging ecology 
     and environmental-social science to help ecosystems and people.
   </p>
-  <div class="hv-links">
+<div class="hv-links">
+    <a href="https://instagram.com/hayden_vega_" target="_blank">Instagram</a>
     <a href="https://www.linkedin.com/in/hayden-vega-6893a3207/" target="_blank">LinkedIn</a>
     <a href="https://github.com/haydenvega" target="_blank">GitHub</a>
     <a href="mailto:haydenvega@berkeley.edu">Email</a>
-  </div>
+</div>
   <div class="hv-scroll-hint">
     <span>explore</span>
     <div class="hv-scroll-arrow"></div>
@@ -537,10 +538,11 @@ format:
     "Marine Science",
     "Environmental Science"
   ],
-  "sameAs": [
+"sameAs": [
     "https://www.linkedin.com/in/hayden-vega-6893a3207/",
-    "https://github.com/haydenvega"
-  ]
+    "https://github.com/haydenvega",
+    "https://instagram.com/hayden_vega_"
+]
 }
 </script>
 ```
