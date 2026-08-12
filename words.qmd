@@ -27,9 +27,9 @@ format:
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/flashcardreview/index.html">
+  <a class="research-card" href="words_posts/flashcard_review/index.html">
     <div class="research-card-img">
-      <img src="words_posts/flashcardreview/flashcard.png" alt="flashcard review">
+      <img src="words_posts/flashcard_review/flashcard.png" alt="flashcard review">
     </div>
     <div class="research-card-body">
       <div class="research-card-title">flashcard review</div>
@@ -38,9 +38,9 @@ format:
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/sealbeachrecycling/index.html">
+  <a class="research-card" href="words_posts/fishing_line/index.html">
     <div class="research-card-img">
-      <img src="words_posts/sealbeachrecycling/receptacle.jpg" alt="bringing fishing line recycling to Seal Beach">
+      <img src="words_posts/fishing_line/receptacle.jpg" alt="bringing fishing line recycling to Seal Beach">
     </div>
     <div class="research-card-body">
       <div class="research-card-title">bringing fishing line recycling to Seal Beach</div>
@@ -49,9 +49,9 @@ format:
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/safeboating/index.html">
+  <a class="research-card" href="words_posts/boating/index.html">
     <div class="research-card-img">
-      <img src="words_posts/safeboating/boat.png" alt="safe boating & fishing">
+      <img src="words_posts/boating/boat.png" alt="safe boating & fishing">
     </div>
     <div class="research-card-body">
       <div class="research-card-title">safe boating & fishing</div>
