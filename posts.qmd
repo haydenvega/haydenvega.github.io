@@ -1,12 +1,66 @@
 ---
-title: "outreach"
-format: html
-editor: visual
-listing: 
-  contents: blog_posts 
-  type: grid 
-  sort: "date desc" # can also sort on more than one field
-  categories: true
+title: ""
+format:
+  html:
+    toc: false
 ---
 
-My outreach touches science, activism, and nature. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.
+````{=html}
+```{=html}
+<section class="hv-research-header">
+  <div class="hv-research-header-bg"></div>
+  <h1>Outreach</h1>
+  <p>
+    My outreach touches science, activism, and mentorship. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.
+  </p>
+</section>
+
+<div class="research-list">
+  <a class="research-card" href="blog_posts/FUERTE/index.html">
+    <div class="research-card-img">
+      <img src="blog_posts/FUERTE/bigsnorkel.jpg" alt="FUERTE">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">FUERTE</div>
+      <div class="research-card-desc">The DEIJ program that made me a stronger marine ecologist and mentor.</div>
+      <div class="research-card-date">Apr 5, 2025</div>
+    </div>
+  </a>
+
+  <a class="research-card" href="blog_posts/algaemosaics/index.html">
+    <div class="research-card-img">
+      <img src="blog_posts/algaemosaics/algaemosaic.png" alt="algae mosaics">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">algae mosaics</div>
+      <div class="research-card-desc">Art and science exhibit to teach us about the beautiful diversity within our kelp forests.</div>
+      <div class="research-card-date">May 5, 2024</div>
+    </div>
+  </a>
+
+  <a class="research-card" href="blog_posts/fishinglinerecycling/index.html">
+    <div class="research-card-img">
+      <img src="blog_posts/fishinglinerecycling/line.png" alt="fishing line recycling program">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">fishing line recycling program</div>
+      <div class="research-card-desc">I founded a community program to recycle fishing debris in Seal Beach, California. Est. 2020.</div>
+      <div class="research-card-date">Jul 25, 2023</div>
+    </div>
+  </a>
+</div>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const delay = Array.from(document.querySelectorAll('.research-card')).indexOf(entry.target) * 180;
+        setTimeout(() => entry.target.classList.add('visible'), delay);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.research-card').forEach(el => observer.observe(el));
+</script>
+```
+````
