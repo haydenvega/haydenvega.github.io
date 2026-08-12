@@ -1,12 +1,77 @@
 ---
-title: "words"
-format: html
-editor: visual
-listing: 
-  contents: words_posts
-  type: grid 
-  sort: "date desc" # can also sort on more than one field
-  categories: true
+title: ""
+format:
+  html:
+    toc: false
 ---
 
-A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you. Enjoy!
+```{=html}
+<section class="hv-research-header">
+  <div class="hv-research-header-bg" style="background-image: url('images/bwrise.jpg');"></div>
+  <h1>Words</h1>
+  <p>
+    A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you.
+  </p>
+</section>
+
+<div class="research-list">
+
+  <a class="research-card" href="words_posts/eds_240_blog/index.html">
+    <div class="research-card-img">
+      <img src="words_posts/eds_240_blog/kelp-pressing.jpg" alt="visualizing the past, present, and predictions">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">visualizing the past, present, and predictions</div>
+      <div class="research-card-desc">Learning the art of data science.</div>
+      <div class="research-card-date">Mar 13, 2025</div>
+    </div>
+  </a>
+
+  <a class="research-card" href="words_posts/flashcardreview/index.html">
+    <div class="research-card-img">
+      <img src="words_posts/flashcardreview/flashcard.png" alt="flashcard review">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">flashcard review</div>
+      <div class="research-card-desc">A story, not about flashcards, but rather navigating pride, pressure, and personal loss.</div>
+      <div class="research-card-date">Jan 26, 2025</div>
+    </div>
+  </a>
+
+  <a class="research-card" href="words_posts/sealbeachrecycling/index.html">
+    <div class="research-card-img">
+      <img src="words_posts/sealbeachrecycling/receptacle.jpg" alt="bringing fishing line recycling to Seal Beach">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">bringing fishing line recycling to Seal Beach</div>
+      <div class="research-card-desc">How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website.</div>
+      <div class="research-card-date">Jan 23, 2021</div>
+    </div>
+  </a>
+
+  <a class="research-card" href="words_posts/safeboating/index.html">
+    <div class="research-card-img">
+      <img src="words_posts/safeboating/boat.png" alt="safe boating & fishing">
+    </div>
+    <div class="research-card-body">
+      <div class="research-card-title">safe boating & fishing</div>
+      <div class="research-card-desc">A page turner about boating maintenance and fishing line recycling. Originally published through the OC Coastkeeper website.</div>
+      <div class="research-card-date">Jan 21, 2021</div>
+    </div>
+  </a>
+
+</div>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const delay = Array.from(document.querySelectorAll('.research-card')).indexOf(entry.target) * 180;
+        setTimeout(() => entry.target.classList.add('visible'), delay);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.research-card').forEach(el => observer.observe(el));
+</script>
+```
