@@ -437,7 +437,7 @@ format:
   <!-- Fieldwork -->
   <a class="hv-card" href="fieldwork.html">
     <div class="hv-card-img">
-      research
+      <img src="images/auhurra.jpg" alt="Fieldwork">
     </div>
     <div class="hv-card-body">
       <div class="hv-card-title">Fieldwork</div>
