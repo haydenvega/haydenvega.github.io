@@ -8,7 +8,7 @@ format:
 ```{=html}
 <section class="hv-research-header">
   <div class="hv-research-header-bg" style="background-image: url('images/bwrise.jpg');"></div>
-  <h1>Words</h1>
+  <h1>words</h1>
   <p>
     A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you.
   </p>
