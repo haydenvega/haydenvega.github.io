@@ -7,23 +7,5 @@
       "/words_posts/fishing_line/index.html",
       "/words_posts/boating/index.html"
     ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/blog_posts/FUERTE/index.html",
-      "/blog_posts/algae mosaic/index.html",
-      "/blog_posts/SB recycling/index.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/research/2026-sharkmorphology/index.html",
-      "/research/2024-19-12-fisharefriends/index.html",
-      "/research/2023-pastpresentpredictions/index.html",
-      "/research/2022-debrisfreeseas/index.html",
-      "/research/2021-macroinverts/index.html"
-    ]
   }
 ]
