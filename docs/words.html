@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KTFM8KEX8J"></script>
 
 <script type="text/javascript">
@@ -83,6 +114,35 @@ gtag('js', new Date());
 gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Hayden Vega | Marine Scientist | UC Berkeley &amp; UCSB">
 <meta property="og:description" content="Marine biologist researching land-sea connectivity, coral reef ecology, and fish community ecology at UC Berkeley and UCSB.">
@@ -91,11 +151,10 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 <meta name="twitter:title" content="Hayden Vega | Marine Scientist">
 <meta name="twitter:description" content="Marine biologist at UC Berkeley &amp; UCSB studying land-sea connectivity, coral reef ecology, and fish community ecology.">
 <meta name="twitter:image" content="https://haydenvega.github.io/words_posts/eds_240_blog/kelp-pressing.jpg">
-<meta name="twitter:image:alt" content="visualizing the past, present, and predictions">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -316,86 +375,138 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<section class="hv-research-header">
-  <div class="hv-research-header-bg" style="background-image: url('images/bwrise.jpg');"></div>
-  <h1>Words</h1>
-  <p>
-    A fried-rice of leftover words about nature, the ocean, and my life that I've cooked up especially for you.
-  </p>
-</section>
-
-<div class="research-list">
-
-  <a class="research-card" href="words_posts/eds_240_blog/index.html">
-    <div class="research-card-img">
-      <img src="words_posts/eds_240_blog/kelp-pressing.jpg" alt="visualizing the past, present, and predictions">
-    </div>
-    <div class="research-card-body">
-      <div class="research-card-title">visualizing the past, present, and predictions</div>
-      <div class="research-card-desc">Learning the art of data science.</div>
-      <div class="research-card-date">Mar 13, 2025</div>
-    </div>
-  </a>
-
-  <a class="research-card" href="words_posts/flashcardreview/index.html">
-    <div class="research-card-img">
-      <img src="words_posts/flashcardreview/flashcard.png" alt="flashcard review">
-    </div>
-    <div class="research-card-body">
-      <div class="research-card-title">flashcard review</div>
-      <div class="research-card-desc">A story, not about flashcards, but rather navigating pride, pressure, and personal loss.</div>
-      <div class="research-card-date">Jan 26, 2025</div>
-    </div>
-  </a>
-
-  <a class="research-card" href="words_posts/sealbeachrecycling/index.html">
-    <div class="research-card-img">
-      <img src="words_posts/sealbeachrecycling/receptacle.jpg" alt="bringing fishing line recycling to Seal Beach">
-    </div>
-    <div class="research-card-body">
-      <div class="research-card-title">bringing fishing line recycling to Seal Beach</div>
-      <div class="research-card-desc">How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website.</div>
-      <div class="research-card-date">Jan 23, 2021</div>
-    </div>
-  </a>
-
-  <a class="research-card" href="words_posts/safeboating/index.html">
-    <div class="research-card-img">
-      <img src="words_posts/safeboating/boat.png" alt="safe boating &amp; fishing">
-    </div>
-    <div class="research-card-body">
-      <div class="research-card-title">safe boating &amp; fishing</div>
-      <div class="research-card-desc">A page turner about boating maintenance and fishing line recycling. Originally published through the OC Coastkeeper website.</div>
-      <div class="research-card-date">Jan 21, 2021</div>
-    </div>
-  </a>
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">words</h1>
 </div>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const delay = Array.from(document.querySelectorAll('.research-card')).indexOf(entry.target) * 180;
-        setTimeout(() => entry.target.classList.add('visible'), delay);
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.research-card').forEach(el => observer.observe(el));
-</script>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A fried-rice of leftover words about nature, the ocean, and my life that I’ve cooked up especially for you. Enjoy!</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1741849200000" data-listing-file-modified-sort="1741985979495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="26" data-listing-word-count-sort="5052">
+<a href="./words_posts/eds_240_blog/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./words_posts/eds_240_blog/kelp-pressing.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+visualizing the past, present, and predictions
+</h5>
+<div class="card-text listing-description delink">
+<p>Learning the art of data science</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 13, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1737878400000" data-listing-file-modified-sort="1741980628110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="678">
+<a href="./words_posts/flashcard_review/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./words_posts/flashcard_review/flashcard.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+flashcard review
+</h5>
+<div class="card-text listing-description delink">
+<p>A story, not about flashcards, but rather navigating pride, pressure, and personal loss.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 26, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1611388800000" data-listing-file-modified-sort="1741980628098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<a href="./words_posts/fishing_line/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./words_posts/fishing_line/receptacle.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+bringing fishing line recycling to Seal Beach
+</h5>
+<div class="card-text listing-description delink">
+<p>How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 23, 2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1611216000000" data-listing-file-modified-sort="1741980628097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="485">
+<a href="./words_posts/boating/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./words_posts/boating/boat.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+safe boating &amp; fishing
+</h5>
+<div class="card-text listing-description delink">
+<p>A page turner about boating maintenance and fishing line recycling. Orginally published through the OC Coastkeeper website</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 21, 2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
