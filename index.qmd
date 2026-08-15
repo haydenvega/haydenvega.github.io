@@ -421,7 +421,7 @@ format:
 <div class="hv-sections">
   <p class="hv-section-label">My Work</p>
 
-  <!-- research -->
+  <!-- Research -->
   <a class="hv-card" href="research.html">
     <div class="hv-card-img">
       <img src="images/coral_rfp.jpg" alt="Research">
@@ -433,7 +433,7 @@ format:
     </div>
   </a>
 
-  <!-- fieldwork -->
+  <!-- Fieldwork -->
   <a class="hv-card" href="fieldwork.html">
     <div class="hv-card-img">
       <img src="images/auhurra.jpg" alt="Fieldwork">
@@ -445,7 +445,7 @@ format:
     </div>
   </a>
 
-  <!-- outreach -->
+  <!-- Outreach -->
   <a class="hv-card" href="posts.html">
     <div class="hv-card-img">
       <img src="https://haydenvega.github.io/blog_posts/FUERTE/bigsnorkel.jpg" alt="Outreach">
@@ -457,7 +457,7 @@ format:
     </div>
   </a>
 
-  <!-- words -->
+  <!-- Words -->
   <a class="hv-card" href="words.html">
     <div class="hv-card-img">
       <img src="https://haydenvega.github.io/words_posts/eds_240_blog/kelp-pressing.jpg" alt="Words">
