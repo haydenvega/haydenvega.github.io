@@ -398,8 +398,7 @@ format:
   <h1 class="hv-name">Hayden Vega</h1>
   <p class="hv-tagline">Marine Scientist &nbsp;·&nbsp; Writer &nbsp;·&nbsp; Artist</p>
   <p class="hv-about">
-    Hi, I'm Hayden! I'm a marine scientist, writer, and artist interested in leveraging ecology 
-    and environmental-social science to help ecosystems and people.
+    Hi, I'm Hayden! I study how organisms interact with changing environments to better understand and protect marine ecosystems.
   </p>
 <div class="hv-links">
     <a href="https://instagram.com/hayden_vega_" target="_blank">Instagram</a>
@@ -422,7 +421,7 @@ format:
 <div class="hv-sections">
   <p class="hv-section-label">My Work</p>
 
-  <!-- Research -->
+  <!-- research -->
   <a class="hv-card" href="research.html">
     <div class="hv-card-img">
       <img src="images/coral_rfp.jpg" alt="Research">
@@ -434,7 +433,7 @@ format:
     </div>
   </a>
 
-  <!-- Fieldwork -->
+  <!-- fieldwork -->
   <a class="hv-card" href="fieldwork.html">
     <div class="hv-card-img">
       <img src="images/auhurra.jpg" alt="Fieldwork">
@@ -446,7 +445,7 @@ format:
     </div>
   </a>
 
-  <!-- Outreach -->
+  <!-- outreach -->
   <a class="hv-card" href="posts.html">
     <div class="hv-card-img">
       <img src="https://haydenvega.github.io/blog_posts/FUERTE/bigsnorkel.jpg" alt="Outreach">
@@ -458,7 +457,7 @@ format:
     </div>
   </a>
 
-  <!-- Words -->
+  <!-- words -->
   <a class="hv-card" href="words.html">
     <div class="hv-card-img">
       <img src="https://haydenvega.github.io/words_posts/eds_240_blog/kelp-pressing.jpg" alt="Words">
