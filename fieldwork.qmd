@@ -1,124 +1,233 @@
 ---
-title: "fieldwork"
-filters: 
+title: ""
+page-layout: full
+filters:
   - lightbox
 lightbox: auto
 freeze: auto
+format:
+  html:
+    toc: false
+    include-in-header:
+      text: |
+        <style>
+          #quarto-content.page-columns {
+            display: block !important;
+          }
+
+          #quarto-content,
+          .quarto-container,
+          main,
+          main.content,
+          #quarto-document-content {
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+
+          /* Style <summary> to look like .scroll-card, remove default marker */
+          .fieldwork-toggle summary.scroll-card {
+            cursor: pointer;
+            list-style: none;
+          }
+          .fieldwork-toggle summary.scroll-card::-webkit-details-marker {
+            display: none;
+          }
+          .fieldwork-toggle summary.scroll-card::marker {
+            content: "";
+          }
+
+          /* Down-arrow that flips when open, instead of scroll-card's default → */
+          .fieldwork-toggle .scroll-card-cta::after {
+            content: '↓';
+          }
+          .fieldwork-toggle[open] .scroll-card-cta::after {
+            transform: rotate(180deg);
+          }
+
+          .fieldwork-gallery-wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 4rem;
+          }
+
+          /* Stagger alternating covers, since each summary.scroll-card
+             is nested inside its own <details> and can't use the
+             shared :nth-child(even) rule directly */
+          .fieldwork-toggle:nth-of-type(even) summary.scroll-card .scroll-card-img {
+            order: 2;
+          }
+          .fieldwork-toggle:nth-of-type(even) summary.scroll-card .scroll-card-body {
+            order: 1;
+          }
+        </style>
 ---
 
-Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway! 
+```{=html}
+<section class="hv-research-header">
+  <div class="hv-research-header-bg" style="background-image: url('images/blacktip.jpg');"></div>
+  <h1>fieldwork</h1>
+  <p>
+    Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway!
+  </p>
+</section>
+```
 
+```{=html}
+<div class="scroll-list">
 
-### Mo'orea, French Polynesia 2026
-::: {layout="[[1], [1,1,1,1,1,1,1,1]]"}
-![](images/man_1.jpg){group="moorea2026"
-description="A stand of *Rhizophora stylosa*; a non-native species in French Polynesia, and a focus for my PhD work."}
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/man_1.jpg" alt="Mo'orea, French Polynesia 2026">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Mo'orea, French Polynesia 2026</div>
+    <div class="scroll-card-desc">Documenting mangrove-associated coral communities as part of my PhD research.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
 
-![](images/man_nudi.jpg){group="moorea2026"
-description="*Hypselodoris tryoni* in the mangroves."}
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1,1,1,1,1]]"}
 
-![](images/coral_man_2.jpg){group="moorea2026"
-description="*Pocillopora acuta* growing on a mangrove root."}
+![](images/man_1.jpg){group="moorea2026" description="A stand of *Rhizophora stylosa*; a non-native species in French Polynesia, and a focus for my PhD work."}
 
-![](images/baby_jack.jpg){group="moorea2026"
-description="A baby blue fin trevally."}
+![](images/man_nudi.jpg){group="moorea2026" description="*Hypselodoris tryoni* in the mangroves."}
 
-![](images/coral_man_6.jpg){group="moorea2026"
-description="*Pocillopora acuta* growing on mangrove roots."}
+![](images/coral_man_2.jpg){group="moorea2026" description="*Pocillopora acuta* growing on a mangrove root."}
 
-![](images/coral_man_fish.jpg){group="moorea2026"
-description="A school of *Mulloidichthys vanicolensis* among the mangroves. I counted 62 individuals in this school."}
+![](images/baby_jack.jpg){group="moorea2026" description="A baby blue fin trevally."}
 
-![](images/coral_man_7.jpg){group="moorea2026"
-description="A cluster of *Pocillopora acuta* growing on mangrove roots."}
+![](images/coral_man_6.jpg){group="moorea2026" description="*Pocillopora acuta* growing on mangrove roots."}
 
-![](images/coral_man_1.jpg){group="moorea2026"
-description="A cluster of *Pocillopora acuta* hiding behind a mangrove root."}
+![](images/coral_man_fish.jpg){group="moorea2026" description="A school of *Mulloidichthys vanicolensis* among the mangroves. I counted 62 individuals in this school."}
 
-![](images/coral_man_3.jpg){group="moorea2026"
-description="A young *Pocillopora acuta* growing on a mangrove root."}
+![](images/coral_man_7.jpg){group="moorea2026" description="A cluster of *Pocillopora acuta* growing on mangrove roots."}
+
+![](images/coral_man_1.jpg){group="moorea2026" description="A cluster of *Pocillopora acuta* hiding behind a mangrove root."}
+
+![](images/coral_man_3.jpg){group="moorea2026" description="A young *Pocillopora acuta* growing on a mangrove root."}
 
 :::
 
-### Mo'orea, French Polynesia 2025
+```{=html}
+</details>
 
-::: {layout="[[1], [1,1,1,1,1,1]]"}
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/auhurra.jpg" alt="Mo'orea, French Polynesia 2025">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Mo'orea, French Polynesia 2025</div>
+    <div class="scroll-card-desc">Mentoring the next generation of coral restoration scientists on the reef.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
 
-![](images/auhurra.jpg){group="moorea2025"
-description="My mentee, Auhurra, planting experimental corals on the reef."}
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1,1,1]]"}
+
+![](images/auhurra.jpg){group="moorea2025" description="My mentee, Auhurra, planting experimental corals on the reef."}
 
 ![](images/puffer_2.jpg){group="moorea2025" description="A guineafowl puffer *(Arothron meleagris)* named Meep."}
 
 ![](images/auhurra_liv.jpg){group="moorea2025" description="Auhurra and her other mentor, Olivia, outplanting corals."}
 
-![](images/liv.jpg){group="moorea2025"
-description="Olivia outplanting corals."}
+![](images/liv.jpg){group="moorea2025" description="Olivia outplanting corals."}
 
-![](images/puffer_3.jpg){group="moorea2025"
-description="Another adorable guineafowl puffer."}
+![](images/puffer_3.jpg){group="moorea2025" description="Another adorable guineafowl puffer."}
 
-![](images/puffer_1.jpg){group="moorea2025"
-description="Yet another guineafowl puffer - can you guess what species I worked on this summer?"}
+![](images/puffer_1.jpg){group="moorea2025" description="Yet another guineafowl puffer - can you guess what species I worked on this summer?"}
 
-![](images/toby_1.jpg){group="moorea2025"
-description="A toby taking a snail siesta."}
+![](images/toby_1.jpg){group="moorea2025" description="A toby taking a snail siesta."}
 
 :::
 
-### Mo'orea, French Polynesia 2024
+```{=html}
+</details>
 
-::: {layout="[[1], [1, 1, 1, 1, 1, 1]]"}
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/coralscape.jpg" alt="Mo'orea, French Polynesia 2024">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Mo'orea, French Polynesia 2024</div>
+    <div class="scroll-card-desc">Diving reefs and spotting rays, sharks, and humpback whales around the island.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
 
-![](images/coralscape.jpg){group="Mo'orea"
-description="Hilton Reef"}
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1,1,1]]"}
 
-![](images/stingray.jpg){group="Mo'orea"
-description="Pink Whiprays at Stingray Flats; both individuals had a five foot wingspan! "}
+![](images/coralscape.jpg){group="Mo'orea" description="Hilton Reef"}
 
-![](images/blacktip.jpg){group="Mo'orea"
-description="Blacktips at Stingray Flats"}
+![](images/stingray.jpg){group="Mo'orea" description="Pink Whiprays at Stingray Flats; both individuals had a five foot wingspan!"}
 
-![](images/humpback.jpg){group="Mo'orea"
-description="Mother and newborn humpback; PC: Kathryn Scafidi"}
+![](images/blacktip.jpg){group="Mo'orea" description="Blacktips at Stingray Flats"}
 
-![](images/surfacedive.jpg){group="Mo'orea"
-description="Hayden and Ninah after a dive on MRB Reef."}
+![](images/humpback.jpg){group="Mo'orea" description="Mother and newborn humpback; PC: Kathryn Scafidi"}
 
+![](images/surfacedive.jpg){group="Mo'orea" description="Hayden and Ninah after a dive on MRB Reef."}
 
+![](images/colorfulrock.jpg){group="Mo'orea" description="Fluorescent encrusting coral. PC: Ninah Munk"}
 
-![](images/colorfulrock.jpg){group="Mo'orea"
-description="Fluorescent encrusting coral. PC: Ninah Munk"}
-
-
-![](images/colorfulrockrock.jpg){group="Mo'orea"
-description="Encrusting coral. PC: Ninah Munk"}
+![](images/colorfulrockrock.jpg){group="Mo'orea" description="Encrusting coral. PC: Ninah Munk"}
 
 :::
 
-### Kruger National Park, South Africa
+```{=html}
+</details>
 
-::: {layout="[[1], [1, 1, 1, 1, 1]]"}
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/lion.jpg" alt="Kruger National Park, South Africa">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Kruger National Park, South Africa</div>
+    <div class="scroll-card-desc">Big cats, elephants, and rhinos on safari in South Africa.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
+
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1,1]]"}
 
 ![](images/lion.jpg){group="kruger"}
 
-![](images/roller.jpg){group="kruger"
-description="Lilac Breasted Roller"}
+![](images/roller.jpg){group="kruger" description="Lilac Breasted Roller"}
 
-![](images/leopard.jpg){group="kruger"
-description="Leopard hiding after a successful kill"}
+![](images/leopard.jpg){group="kruger" description="Leopard hiding after a successful kill"}
 
 ![](images/elephant.jpg){group="kruger"}
 
-![](images/rhino.jpg){group="kruger"
-description="Black Rhinoceros"}
+![](images/rhino.jpg){group="kruger" description="Black Rhinoceros"}
 
 ![](images/giraffe.jpg){group="kruger"}
 
 :::
 
-### Jack and Laura Dangermond Preserve
+```{=html}
+</details>
 
-::: {layout="[[1], [1, 1, 1, 1, 1]]"}
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/bwrise.jpg" alt="Jack and Laura Dangermond Preserve">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Jack and Laura Dangermond Preserve</div>
+    <div class="scroll-card-desc">Sunrise surveys and birdwatching along the California coast.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
+
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1,1]]"}
 
 ![](images/bwrise.jpg){group="dangermond"}
 
@@ -128,32 +237,44 @@ description="Black Rhinoceros"}
 
 ![](images/morning.jpg){group="dangermond"}
 
-![](images/rosie.jpg){group="dangermond"
-description="Rosie during an auditory survey"}
+![](images/rosie.jpg){group="dangermond" description="Rosie during an auditory survey"}
 
-![](images/bluebird.jpg){group="dangermond"
-description="Western Bluebird"}
+![](images/bluebird.jpg){group="dangermond" description="Western Bluebird"}
 
 :::
 
+```{=html}
+</details>
 
-### Coal Oil Point Nature Reserve
+<details class="fieldwork-toggle">
+<summary class="scroll-card">
+  <div class="scroll-card-img">
+    <img src="images/slough.jpg" alt="Coal Oil Point Nature Reserve">
+  </div>
+  <div class="scroll-card-body">
+    <div class="scroll-card-title">Coal Oil Point Nature Reserve</div>
+    <div class="scroll-card-desc">Shorebird and songbird surveys at a local nature reserve.</div>
+    <div class="scroll-card-cta">View gallery</div>
+  </div>
+</summary>
+```
 
-::: {layout="[[1], [1, 1, 1, 1]]"}
+::: {.fieldwork-gallery-wrap layout="[[1,1,1,1]]"}
 
-![](images/slough.jpg){group="COPR"
-}
+![](images/slough.jpg){group="COPR"}
 
-![](images/acorn.jpg){group="COPR"
-description="Acorn Woodpecker"}
+![](images/acorn.jpg){group="COPR" description="Acorn Woodpecker"}
 
-![](images/redwing.jpg){group="COPR"
-description="Red-winged Blackbird"}
+![](images/redwing.jpg){group="COPR" description="Red-winged Blackbird"}
 
-![](images/treecorm.jpg){group="COPR"
-description="Cormorant"}
+![](images/treecorm.jpg){group="COPR" description="Cormorant"}
 
-![](images/beltfisher.jpg){group="COPR"
-description="Belted Kingfisher"}
+![](images/beltfisher.jpg){group="COPR" description="Belted Kingfisher"}
 
 :::
+
+```{=html}
+</details>
+
+</div>
+```

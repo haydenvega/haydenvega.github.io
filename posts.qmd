@@ -1,12 +1,29 @@
 ---
 title: ""
+page-layout: full
 format:
   html:
     toc: false
+    include-in-header:
+      text: |
+        <style>
+          #quarto-content.page-columns {
+            display: block !important;
+          }
+
+          #quarto-content,
+          .quarto-container,
+          main,
+          main.content,
+          #quarto-document-content {
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+        </style>
 ---
 
 ```{=html}
-
 <section class="hv-research-header">
   <div class="hv-research-header-bg" style="background-image: url('blog_posts/FUERTE/snorkeling.jpg');"></div>
   <h1>outreach</h1>
@@ -15,51 +32,40 @@ format:
   </p>
 </section>
 
-<div class="research-list">
-  <a class="research-card" href="blog_posts/FUERTE/index.html">
-    <div class="research-card-img">
+<div class="scroll-list">
+
+  <a class="scroll-card" href="blog_posts/FUERTE/index.html">
+    <div class="scroll-card-img">
       <img src="blog_posts/FUERTE/bigsnorkel.jpg" alt="FUERTE">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">FUERTE</div>
-      <div class="research-card-desc">The DEIJ program that made me a stronger marine ecologist and mentor.</div>
-      <div class="research-card-date">Apr 5, 2025</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">FUERTE</div>
+      <div class="scroll-card-desc">The DEIJ program that made me a stronger marine ecologist and mentor.</div>
+      <div class="scroll-card-date">Apr 5, 2025</div>
     </div>
   </a>
 
-  <a class="research-card" href="blog_posts/algae mosaic/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="blog_posts/algae mosaic/index.html">
+    <div class="scroll-card-img">
       <img src="blog_posts/algae mosaic/algaemosaic.png" alt="algae mosaics">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">algae mosaics</div>
-      <div class="research-card-desc">Art and science exhibit to teach us about the beautiful diversity within our kelp forests.</div>
-      <div class="research-card-date">May 5, 2024</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">algae mosaics</div>
+      <div class="scroll-card-desc">Art and science exhibit to teach us about the beautiful diversity within our kelp forests.</div>
+      <div class="scroll-card-date">May 5, 2024</div>
     </div>
   </a>
 
-  <a class="research-card" href="blog_posts/SB recycling/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="blog_posts/SB recycling/index.html">
+    <div class="scroll-card-img">
       <img src="blog_posts/SB recycling/line.png" alt="fishing line recycling program">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">fishing line recycling program</div>
-      <div class="research-card-desc">I founded a community program to recycle fishing debris in Seal Beach, California. Est. 2020.</div>
-      <div class="research-card-date">Jul 25, 2023</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">fishing line recycling program</div>
+      <div class="scroll-card-desc">I founded a community program to recycle fishing debris in Seal Beach, California. Est. 2020.</div>
+      <div class="scroll-card-date">Jul 25, 2023</div>
     </div>
   </a>
-</div>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const delay = Array.from(document.querySelectorAll('.research-card')).indexOf(entry.target) * 180;
-        setTimeout(() => entry.target.classList.add('visible'), delay);
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.research-card').forEach(el => observer.observe(el));
-</script>
+</div>
 ```

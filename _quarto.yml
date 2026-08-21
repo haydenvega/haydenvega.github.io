@@ -59,4 +59,5 @@ format:
         - darkly
         - styles-dark.scss
     mainfont: Lexend
+    include-after-body: scroll-reveal.html
     toc: true

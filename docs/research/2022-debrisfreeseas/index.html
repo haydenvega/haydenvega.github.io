@@ -80,9 +80,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dd3180d5942985bcc88c76d9b0c01d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-b223072b17b3c4fed9fd9655240489d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-dd3180d5942985bcc88c76d9b0c01d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-719fa2074fbe58906222b43606f29d8d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0f02364036b1e0c286c43075ce3fa0a4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-719fa2074fbe58906222b43606f29d8d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -410,6 +410,33 @@ gtag('config', 'G-KTFM8KEX8J', { 'anonymize_ip': true});
 </section>
 
 </main> <!-- /main -->
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {
+
+        entry.target.classList.add('visible');
+
+        observer.unobserve(entry.target);
+
+      }
+
+    });
+
+  }, { threshold: 0.15 });
+
+
+
+  document.querySelectorAll('.scroll-card').forEach(el => observer.observe(el));
+
+});
+
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

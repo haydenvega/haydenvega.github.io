@@ -31,6 +31,17 @@ $code-block-bg: $dark-surface;
 
 /*-- scss:rules --*/
 
+:root {
+  --card-bg:      #{$dark-surface};
+  --card-text:    #{$offwhite};
+  --card-accent:  #{$powder-blue};
+  --card-shadow:  rgba(0, 0, 0, 0.4);
+  --card-shadow-hover: rgba(0, 0, 0, 0.6);
+  --card-cv-bg:   #{$dark-nav};
+  --card-cv-text: #{$offwhite};
+  --card-cv-accent: #{$powder-blue};
+}
+
 // Force true black — overrides darkly theme's built-in dark navy
 body {
   background-color: #111111 !important;

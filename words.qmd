@@ -1,8 +1,26 @@
 ---
 title: ""
+page-layout: full
 format:
   html:
     toc: false
+    include-in-header:
+      text: |
+        <style>
+          #quarto-content.page-columns {
+            display: block !important;
+          }
+
+          #quarto-content,
+          .quarto-container,
+          main,
+          main.content,
+          #quarto-document-content {
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+        </style>
 ---
 
 ```{=html}
@@ -14,64 +32,51 @@ format:
   </p>
 </section>
 
-<div class="research-list">
+<div class="scroll-list">
 
-  <a class="research-card" href="words_posts/eds_240_blog/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="words_posts/eds_240_blog/index.html">
+    <div class="scroll-card-img">
       <img src="words_posts/eds_240_blog/kelp-pressing.jpg" alt="visualizing the past, present, and predictions">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">visualizing the past, present, and predictions</div>
-      <div class="research-card-desc">Learning the art of data science.</div>
-      <div class="research-card-date">Mar 13, 2025</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">visualizing the past, present, and predictions</div>
+      <div class="scroll-card-desc">Learning the art of data science.</div>
+      <div class="scroll-card-date">Mar 13, 2025</div>
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/flashcard_review/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="words_posts/flashcard_review/index.html">
+    <div class="scroll-card-img">
       <img src="words_posts/flashcard_review/flashcard.png" alt="flashcard review">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">flashcard review</div>
-      <div class="research-card-desc">A story, not about flashcards, but rather navigating pride, pressure, and personal loss.</div>
-      <div class="research-card-date">Jan 26, 2025</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">flashcard review</div>
+      <div class="scroll-card-desc">A story, not about flashcards, but rather navigating pride, pressure, and personal loss.</div>
+      <div class="scroll-card-date">Jan 26, 2025</div>
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/fishing_line/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="words_posts/fishing_line/index.html">
+    <div class="scroll-card-img">
       <img src="words_posts/fishing_line/receptacle.jpg" alt="bringing fishing line recycling to Seal Beach">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">bringing fishing line recycling to Seal Beach</div>
-      <div class="research-card-desc">How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website.</div>
-      <div class="research-card-date">Jan 23, 2021</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">bringing fishing line recycling to Seal Beach</div>
+      <div class="scroll-card-desc">How and why I started a fishing line recycling program. Originally published through the OC Coastkeeper website.</div>
+      <div class="scroll-card-date">Jan 23, 2021</div>
     </div>
   </a>
 
-  <a class="research-card" href="words_posts/boating/index.html">
-    <div class="research-card-img">
+  <a class="scroll-card" href="words_posts/boating/index.html">
+    <div class="scroll-card-img">
       <img src="words_posts/boating/boat.png" alt="safe boating & fishing">
     </div>
-    <div class="research-card-body">
-      <div class="research-card-title">safe boating & fishing</div>
-      <div class="research-card-desc">A page turner about boating maintenance and fishing line recycling. Originally published through the OC Coastkeeper website.</div>
-      <div class="research-card-date">Jan 21, 2021</div>
+    <div class="scroll-card-body">
+      <div class="scroll-card-title">safe boating & fishing</div>
+      <div class="scroll-card-desc">A page turner about boating maintenance and fishing line recycling. Originally published through the OC Coastkeeper website.</div>
+      <div class="scroll-card-date">Jan 21, 2021</div>
     </div>
   </a>
 
 </div>
-
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const delay = Array.from(document.querySelectorAll('.research-card')).indexOf(entry.target) * 180;
-        setTimeout(() => entry.target.classList.add('visible'), delay);
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.research-card').forEach(el => observer.observe(el));
-</script>
 ```
