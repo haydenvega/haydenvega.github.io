@@ -25,7 +25,9 @@ format:
 
 ```{=html}
 <section class="hv-research-header">
-  <div class="hv-research-header-bg"></div>
+  <img class="hv-research-header-bg"
+       src="images/coral_rfp.JPG"
+       alt="">
   <h1>research</h1>
   <p>
     I study species interactions, leveraging ecology, morphology, social science, and modeling to understand how overlooked pathways can contribute to marine ecosystem resilience and conservation.
