@@ -26,7 +26,7 @@ format:
 ```{=html}
 <section class="hv-research-header">
   <img class="hv-research-header-bg"
-       src="images/coral_rfp.JPG"
+       src="images/coral_rfp.jpg"
        alt="">
   <h1>research</h1>
   <p>
