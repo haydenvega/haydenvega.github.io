@@ -65,7 +65,7 @@ format:
 
 ```{=html}
 <section class="hv-research-header">
-  <div class="hv-research-header-bg" style="background-image: url('images/blacktip.jpg');"></div>
+  <div class="hv-research-header-bg" style="background-image: url('images/obaza_abalone.jpeg');"></div>
   <h1>fieldwork</h1>
   <p>
     Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway!
@@ -121,7 +121,7 @@ format:
   </div>
   <div class="scroll-card-body">
     <div class="scroll-card-title">Mo'orea, French Polynesia 2025</div>
-    <div class="scroll-card-desc">Mentoring the next generation of coral restoration scientists on the reef.</div>
+    <div class="scroll-card-desc">Pufferfish, corallivory, and mentorship in the South Pacific.</div>
     <div class="scroll-card-cta">View gallery</div>
   </div>
 </summary>
@@ -155,7 +155,7 @@ format:
   </div>
   <div class="scroll-card-body">
     <div class="scroll-card-title">Mo'orea, French Polynesia 2024</div>
-    <div class="scroll-card-desc">Diving reefs and spotting rays, sharks, and humpback whales around the island.</div>
+    <div class="scroll-card-desc">Spotting rays, sharks, and whales around the island.</div>
     <div class="scroll-card-cta">View gallery</div>
   </div>
 </summary>
@@ -189,7 +189,7 @@ format:
   </div>
   <div class="scroll-card-body">
     <div class="scroll-card-title">Kruger National Park, South Africa</div>
-    <div class="scroll-card-desc">Big cats, elephants, and rhinos on safari in South Africa.</div>
+    <div class="scroll-card-desc">Big cats, elephants, and rhinos in South Africa.</div>
     <div class="scroll-card-cta">View gallery</div>
   </div>
 </summary>
@@ -221,7 +221,7 @@ format:
   </div>
   <div class="scroll-card-body">
     <div class="scroll-card-title">Jack and Laura Dangermond Preserve</div>
-    <div class="scroll-card-desc">Sunrise surveys and birdwatching along the California coast.</div>
+    <div class="scroll-card-desc">Wildlife surveys along the California coast.</div>
     <div class="scroll-card-cta">View gallery</div>
   </div>
 </summary>

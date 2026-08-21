@@ -26,7 +26,7 @@ format:
             padding: 0 !important;
             margin: 0 !important;
           }
-          
+
           .hv-hero {
             min-height: 100vh;
             display: flex;
@@ -304,11 +304,11 @@ format:
     </div>
   </a>
 
-  <a class="scroll-card scroll-card-full" href="cv_hv.pdf" target="_blank">
+  <a class="scroll-card scroll-card-full" href="cv.html">
     <div class="scroll-card-body">
       <div class="scroll-card-title">CV</div>
       <div class="scroll-card-desc">Education, research experience, publications, and more.</div>
-      <div class="scroll-card-cta">Download PDF</div>
+      <div class="scroll-card-cta">View CV</div>
     </div>
   </a>
 

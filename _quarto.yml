@@ -32,7 +32,7 @@ website:
         text: fieldwork
       - href: words.qmd
         text: words
-      - href: cv_hv.pdf
+      - href: cv.qmd
         text: cv
       - icon: github
         href: https://github.com/haydenvega

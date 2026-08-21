@@ -1,0 +1,91 @@
+---
+title: ""
+page-layout: full
+format:
+  html:
+    toc: false
+    include-in-header:
+      text: |
+        <style>
+          #quarto-content.page-columns {
+            display: block !important;
+          }
+
+          #quarto-content,
+          .quarto-container,
+          main,
+          main.content,
+          #quarto-document-content {
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+
+          .cv-header {
+            text-align: center;
+            padding: 1rem 2rem 0.75rem;
+          }
+
+          .cv-download {
+            font-family: 'Lexend', sans-serif;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--card-accent);
+            text-decoration: none;
+            border-bottom: 1px solid currentColor;
+            padding-bottom: 2px;
+            transition: color 0.2s;
+          }
+
+          .cv-download:hover {
+            color: var(--card-text);
+          }
+
+          .cv-embed-wrap {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 1rem 1rem;
+          }
+
+          .cv-embed-wrap iframe {
+            width: 100%;
+            height: 94vh;
+            height: 94dvh;
+            border: none;
+            box-shadow: 0 2px 20px var(--card-shadow);
+          }
+
+          /* Mobile: many phone browsers can't render embedded PDFs well;
+             fall back to a clear link instead of a broken/frozen iframe */
+          @media (max-width: 640px) {
+            .cv-embed-wrap iframe {
+              display: none;
+            }
+            .cv-mobile-fallback {
+              display: block;
+            }
+          }
+          .cv-mobile-fallback {
+            display: none;
+            text-align: center;
+            font-family: 'Lexend', sans-serif;
+            color: var(--card-text);
+            padding: 2rem;
+          }
+        </style>
+---
+
+```{=html}
+<div class="cv-header">
+  <a class="cv-download" href="cv_hv.pdf" download>Download PDF</a>
+</div>
+
+<div class="cv-embed-wrap">
+  <iframe src="cv_hv.pdf#toolbar=0" title="Hayden Vega CV"></iframe>
+  <div class="cv-mobile-fallback">
+    <p>PDF preview isn't available on this device.</p>
+    <a class="cv-download" href="cv_hv.pdf" download>Download the CV</a>
+  </div>
+</div>
+```
