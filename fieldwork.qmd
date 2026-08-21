@@ -64,11 +64,15 @@ format:
 ---
 
 ```{=html}
-<section class="hv-research-header">
-  <div class="hv-research-header-bg" style="background-image: url('images/obaza_abalone.jpeg');"></div>
+<section class="hv-research-header hv-fieldwork-header">
+  <img class="hv-research-header-bg"
+       src="images/obaza_abalone.jpg"
+       alt="">
+
   <h1>fieldwork</h1>
   <p>
-    Fieldwork is one of my favorite things about being a scientist. Pictures never do it justice, but here are some anyway!
+    Fieldwork is one of my favorite things about being a scientist.
+    Pictures never do it justice, but here are some anyway!
   </p>
 </section>
 ```
