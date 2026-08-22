@@ -24,9 +24,15 @@ format:
 ---
 
 ```{=html}
-<section class="hv-research-header">
-  <div class="hv-research-header-bg" style="background-image: url('blog_posts/FUERTE/snorkeling.jpg');"></div>
+<section class="hv-research-header hv-outreach-header">
+  <img
+    class="hv-research-header-bg"
+    src="blog_posts/FUERTE/snorkeling.jpg"
+    alt=""
+  >
+
   <h1>outreach</h1>
+
   <p>
     My outreach touches science, activism, and mentorship. And, if nothing else, I hope to use facts and feelings to help others appreciate the world around them a little more.
   </p>
@@ -38,9 +44,12 @@ format:
     <div class="scroll-card-img">
       <img src="blog_posts/FUERTE/bigsnorkel.jpg" alt="FUERTE">
     </div>
+
     <div class="scroll-card-body">
       <div class="scroll-card-title">FUERTE</div>
-      <div class="scroll-card-desc">The DEIJ program that made me a stronger marine ecologist and mentor.</div>
+      <div class="scroll-card-desc">
+        The DEIJ program that made me a stronger marine ecologist and mentor.
+      </div>
       <div class="scroll-card-date">Apr 5, 2025</div>
     </div>
   </a>
@@ -49,9 +58,12 @@ format:
     <div class="scroll-card-img">
       <img src="blog_posts/algae mosaic/algaemosaic.png" alt="algae mosaics">
     </div>
+
     <div class="scroll-card-body">
       <div class="scroll-card-title">algae mosaics</div>
-      <div class="scroll-card-desc">Art and science exhibit to teach us about the beautiful diversity within our kelp forests.</div>
+      <div class="scroll-card-desc">
+        Art and science exhibit to teach us about the beautiful diversity within our kelp forests.
+      </div>
       <div class="scroll-card-date">May 5, 2024</div>
     </div>
   </a>
@@ -60,9 +72,12 @@ format:
     <div class="scroll-card-img">
       <img src="blog_posts/SB recycling/line.png" alt="fishing line recycling program">
     </div>
+
     <div class="scroll-card-body">
       <div class="scroll-card-title">fishing line recycling program</div>
-      <div class="scroll-card-desc">I founded a community program to recycle fishing debris in Seal Beach, California. Est. 2020.</div>
+      <div class="scroll-card-desc">
+        I founded a community program to recycle fishing debris in Seal Beach, California. Est. 2020.
+      </div>
       <div class="scroll-card-date">Jul 25, 2023</div>
     </div>
   </a>

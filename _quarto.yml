@@ -7,20 +7,23 @@ website:
   favicon: images/favicon.png
   site-url: https://haydenvega.github.io/
   description: "Hayden Vega is a marine biologist and PhD student at UC Berkeley studying land-sea connectivity, coral reef ecology, and fish community ecology. Previously at UC Santa Barbara (UCSB)."
+
   open-graph:
     title: "Hayden Vega | Marine Scientist | UC Berkeley & UCSB"
     description: "Marine biologist researching land-sea connectivity, coral reef ecology, and fish community ecology at UC Berkeley and UCSB."
     image: "https://haydenvega.github.io/images/_ERK4501.jpg"
+
   twitter-card:
     title: "Hayden Vega | Marine Scientist"
     description: "Marine biologist at UC Berkeley & UCSB studying land-sea connectivity, coral reef ecology, and fish community ecology."
-  google-analytics: 
+
+  google-analytics:
     tracking-id: "G-KTFM8KEX8J"
     anonymize-ip: true
+
   navbar:
     title: false
     logo: images/logo.png
-    css: styles.scss
     right:
       - href: index.qmd
         text: home
@@ -36,6 +39,7 @@ website:
         text: cv
       - icon: github
         href: https://github.com/haydenvega
+
   page-footer:
     background: dark
     left: Hayden Vega
@@ -46,7 +50,6 @@ website:
         href: https://www.linkedin.com/in/hayden-vega-6893a3207/
       - icon: github
         href: https://github.com/haydenvega
-
 
 format:
   html:

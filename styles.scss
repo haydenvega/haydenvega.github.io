@@ -1,4 +1,5 @@
 /*-- scss:defaults --*/
+
 // Import fonts
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&display=swap');
 
@@ -6,18 +7,15 @@
 $fig: 'Figtree', sans-serif;
 $lexend: 'Lexend', sans-serif;
 
-// ── New Palette ─────────────────────────────────
-//   #355872  deep slate blue
-//   #7AAACE  sky blue
-//   #9CD5FF  powder blue
-//   #F7F8F0  off-white
+
+// ── Palette ─────────────────────────────────────
+
 $deep-slate:   #355872;
 $sky-blue:     #7AAACE;
 $powder-blue:  #9CD5FF;
 $offwhite:     #F7F8F0;
 
 // Keep old variable names pointing to new palette
-// so any existing references still resolve cleanly
 $dark-green:    $sky-blue;
 $darker-green:  $deep-slate;
 $light-green:   $powder-blue;
@@ -26,14 +24,19 @@ $orange:        $sky-blue;
 $cream:         $offwhite;
 $beigeish:      $powder-blue;
 
-// Base document colors
-$navbar-bg:    $deep-slate;   // navbar background
-$navbar-fg:    $offwhite;     // navbar foreground / links
-$navbar-hl:    $powder-blue;  // hover highlight on navbar links
-$body-bg:      $offwhite;     // page background
-$body-color:   $deep-slate;   // page text
-$footer-bg:    $deep-slate;   // footer background
-$link-color:   $sky-blue;     // hyperlinks
+
+// ── Base document colors ─────────────────────────
+
+$navbar-bg:    $deep-slate;
+$navbar-fg:    $offwhite;
+$navbar-hl:    $powder-blue;
+
+$body-bg:      $offwhite;
+$body-color:   $deep-slate;
+
+$footer-bg:    $deep-slate;
+$link-color:   $sky-blue;
+
 
 // Inline code
 $code-bg:      $offwhite;
@@ -42,32 +45,44 @@ $code-color:   $deep-slate;
 // Code blocks
 $code-block-bg: $offwhite;
 
+
 /*-- scss:rules --*/
+
+
+// ── Card variables ──────────────────────────────
 
 :root {
   --card-bg:      #{$offwhite};
   --card-text:    #{$deep-slate};
   --card-accent:  #{$sky-blue};
-  --card-shadow:  rgba(53, 88, 114, 0.08);
+
+  --card-shadow:       rgba(53, 88, 114, 0.08);
   --card-shadow-hover: rgba(53, 88, 114, 0.15);
-  --card-cv-bg:   #{$deep-slate};
-  --card-cv-text: #{$offwhite};
+
+  --card-cv-bg:     #{$deep-slate};
+  --card-cv-text:   #{$offwhite};
   --card-cv-accent: #{$powder-blue};
 }
 
-// Resize logo
+
+// ── Logo ─────────────────────────────────────────
+
+// Keep the large fish logo working
 img[src="images/fish logo.png"] {
   width: 1050px !important;
   height: auto !important;
 }
 
-// Navbar logo sizing
+
+// Navbar logo
 .navbar-brand img {
   max-height: 85px;
   width: auto;
 }
 
-// Navbar link hover & active
+
+// ── Navbar ───────────────────────────────────────
+
 .navbar-nav .nav-link:hover {
   color: $powder-blue !important;
 }
@@ -77,7 +92,8 @@ img[src="images/fish logo.png"] {
   color: $powder-blue !important;
 }
 
-// Navbar icons (GitHub etc.)
+
+// Navbar icons
 .navbar-nav .bi {
   color: $offwhite !important;
 }
@@ -85,6 +101,7 @@ img[src="images/fish logo.png"] {
 .navbar-nav a:hover .bi {
   color: $powder-blue !important;
 }
+
 
 // Mobile hamburger
 .navbar-toggler {
@@ -95,7 +112,9 @@ img[src="images/fish logo.png"] {
   filter: brightness(0) invert(1);
 }
 
-// Footer text & links
+
+// ── Footer ───────────────────────────────────────
+
 .nav-footer,
 .nav-footer-left,
 .nav-footer-center,
@@ -108,7 +127,10 @@ img[src="images/fish logo.png"] {
 .nav-footer .bi {
   color: $powder-blue !important;
   opacity: 0.85;
-  transition: color 0.2s, opacity 0.2s;
+
+  transition:
+    color 0.2s,
+    opacity 0.2s;
 }
 
 .nav-footer a:hover,
@@ -118,271 +140,593 @@ img[src="images/fish logo.png"] {
   opacity: 1;
 }
 
-// "About page" button
+
+// About page button
 div.quarto-about-jolla .about-link {
   color: $sky-blue;
 }
 
-/* ELEMENT SELECTORS */
-h1, h2, h3, h4, h5, h6 {
+
+// ── Typography ──────────────────────────────────
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $lexend;
+
   letter-spacing: 1px;
+
   font-weight: 700;
+
   color: $deep-slate;
 }
 
 body {
   font-family: $fig;
+
   line-height: 1.5;
+
   font-size: 19.5px;
+
   font-weight: 375;
 }
 
-// Blockquote styling
+
+// ── Blockquote ──────────────────────────────────
+
 blockquote {
   margin: 0 0 1rem;
+
   padding: 0.625rem 1.25rem;
+
   border-left: 0.25rem solid $sky-blue;
 }
 
 a {
   text-decoration: none;
 }
-// Research page header
+
+
+// ════════════════════════════════════════════════
+// HEADER
+// ════════════════════════════════════════════════
+
 .hv-research-header {
   position: relative;
+
   overflow: hidden;
+
+  width: 100%;
+
   min-height: 40vh;
+
   display: flex;
+
   flex-direction: column;
+
   align-items: center;
+
   justify-content: center;
+
   text-align: center;
+
   padding: 3rem 2rem;
+
   margin-bottom: 2rem;
+
+  box-sizing: border-box;
 }
+
+
+// ── Header image ────────────────────────────────
+
+// IMPORTANT:
+// This is now an actual <img>, not a background image.
+// object-fit: cover crops the image instead of stretching it.
+
 .hv-research-header-bg {
   position: absolute;
+
   inset: 0;
+
   width: 100%;
   height: 100%;
+
   object-fit: cover;
-  object-position: center;
+
+  object-position: center center;
+
   filter: brightness(0.5);
+
   z-index: 0;
 }
-.hv-fieldwork-header .hv-research-header-bg {
-  object-position: center 75%;
+
+
+// ── Individual header positioning ───────────────
+
+// Research
+.hv-research-header:not(.hv-fieldwork-header):not(.hv-outreach-header)
+.hv-research-header-bg {
+  object-position: center center;
 }
+
+
+// Fieldwork
+.hv-fieldwork-header .hv-research-header-bg {
+  object-position: center 50%;
+}
+
+
+// Outreach
+.hv-outreach-header .hv-research-header-bg {
+  object-position: center 80%;
+}
+
+
+// Header text
 .hv-research-header > *:not(.hv-research-header-bg) {
   position: relative;
+
   z-index: 1;
 }
+
+
+// Header title
 .hv-research-header h1 {
   font-family: $lexend;
+
   font-weight: 300;
+
   font-size: clamp(2rem, 5vw, 3rem);
-  color: $offwhite;             /* white text over the dark image */
+
+  color: $offwhite;
+
   margin-bottom: 0.8rem;
 }
+
+
+// Header description
 .hv-research-header p {
   max-width: 600px;
+
   font-family: $fig;
-  color: rgba(247,248,240,0.85);
+
+  color: rgba(247, 248, 240, 0.85);
+
   line-height: 1.7;
 }
 
-/* ── Mobile cards ─────────────────────────────── */
-@media (max-width: 640px) {
 
-  .scroll-card {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    width: 100%;
-    height: auto;
-    min-height: 0;
-  }
+// ════════════════════════════════════════════════
+// SCROLL CARDS
+// ════════════════════════════════════════════════
 
-  /* Always put the image above the text on mobile */
-  .scroll-card:nth-child(even) .scroll-card-img {
-    order: 0;
-  }
-
-  .scroll-card:nth-child(even) .scroll-card-body {
-    order: 1;
-  }
-
-  .scroll-card-img {
-    width: 100%;
-    height: 55vw;
-    max-height: 260px;
-    min-height: 180px;
-  }
-
-  .scroll-card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .scroll-card-body {
-    padding: 3rem 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 0;
-    box-sizing: border-box;
-  }
-
-  .scroll-card-title {
-    font-size: clamp(1.6rem, 7vw, 2.2rem);
-    line-height: 1.15;
-    margin-bottom: 0.8rem;
-  }
-
-  .scroll-card-desc {
-    max-width: none;
-    font-size: 1rem;
-    line-height: 1.6;
-    overflow-wrap: break-word;
-  }
-
-  .scroll-card-cta {
-    font-size: 0.7rem;
-    margin-top: 0.6rem;
-  }
-
-  /* CV card */
-  .scroll-card-full {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto;
-    height: auto;
-    min-height: 220px;
-    padding: 2rem 1.5rem;
-  }
-}
-
-// ── Shared full-width staggered card component ──────
 .scroll-card {
   display: grid;
+
   grid-template-columns: 1fr 1fr;
+
   gap: 0;
+
   margin-bottom: 0;
+
   background: var(--card-bg);
+
   text-decoration: none;
+
   color: inherit;
 
   width: 100%;
+
   min-width: 0;
+
   height: 60vh;
   height: 60dvh;
+
   box-sizing: border-box;
 
   opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 1s ease, transform 1s ease, box-shadow 0.3s ease;
-}
-.scroll-card:nth-child(even) .scroll-card-img { order: 2; }
-.scroll-card:nth-child(even) .scroll-card-body { order: 1; }
 
+  transform: translateY(40px);
+
+  transition:
+    opacity 1s ease,
+    transform 1s ease,
+    box-shadow 0.3s ease;
+}
+
+
+// Alternate card layout
+.scroll-card:nth-child(even) .scroll-card-img {
+  order: 2;
+}
+
+.scroll-card:nth-child(even) .scroll-card-body {
+  order: 1;
+}
+
+
+// Visible state
 .scroll-card.visible {
   opacity: 1;
+
   transform: translateY(0);
 }
 
+
+// Hover
 .scroll-card:hover {
-  box-shadow: 0 12px 40px var(--card-shadow-hover);
+  box-shadow:
+    0 12px 40px var(--card-shadow-hover);
 }
+
+
+// ── Card image ──────────────────────────────────
 
 .scroll-card-img {
   overflow: hidden;
+
   height: 100%;
 }
 
 .scroll-card-img img {
   width: 100%;
+
   height: 100%;
+
   object-fit: cover;
-  transition: transform 0.6s ease;
+
+  transition:
+    transform 0.6s ease;
 }
 
-.scroll-card:hover .scroll-card-img img { transform: scale(1.04); }
+.scroll-card:hover .scroll-card-img img {
+  transform: scale(1.04);
+}
+
+
+// ── Card body ───────────────────────────────────
 
 .scroll-card-body {
   padding: 3rem 4rem;
+
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
   overflow: hidden;
 }
 
+
+// Card title
 .scroll-card-title {
   font-family: $lexend;
-  font-size: clamp(1.8rem, 3.2vw, 2.6rem);
+
+  font-size: clamp(
+    1.8rem,
+    3.2vw,
+    2.6rem
+  );
+
   font-weight: 300;
+
   line-height: 1.1;
+
   color: var(--card-text);
+
   margin-bottom: 1rem;
+
   text-transform: lowercase;
 }
 
+
+// Card description
 .scroll-card-desc {
   font-family: $fig;
+
   font-size: 0.95rem;
+
   line-height: 1.75;
+
   color: var(--card-accent);
+
   margin-bottom: 0.6rem;
+
   max-width: 480px;
 }
 
+
+// Card date
 .scroll-card-date {
   font-family: $fig;
+
   font-size: 0.7rem;
+
   letter-spacing: 0.1em;
+
   text-transform: uppercase;
+
   color: var(--card-accent);
+
   opacity: 0.7;
 }
 
+
+// ── CTA ─────────────────────────────────────────
+
 .scroll-card-cta {
   font-family: $lexend;
+
   font-size: 0.72rem;
+
   letter-spacing: 0.18em;
+
   text-transform: uppercase;
+
   color: var(--card-accent);
+
   display: inline-flex;
+
   align-items: center;
+
   gap: 0.5rem;
+
   margin-top: 0.8rem;
 }
 
 .scroll-card-cta::after {
   content: '→';
-  transition: transform 0.2s;
+
+  transition:
+    transform 0.2s;
 }
 
-.scroll-card:hover .scroll-card-cta::after { transform: translateX(4px); }
-.scroll-card:hover .scroll-card-cta { color: var(--card-text); }
+.scroll-card:hover .scroll-card-cta::after {
+  transform: translateX(4px);
+}
 
-// Full-width, centered variant (used for CV card)
+.scroll-card:hover .scroll-card-cta {
+  color: var(--card-text);
+}
+
+
+// ════════════════════════════════════════════════
+// CV CARD
+// ════════════════════════════════════════════════
+
 .scroll-card-full {
   grid-template-columns: 1fr !important;
+
   background: var(--card-cv-bg);
+
   color: var(--card-cv-text);
+
   text-align: center;
+
   padding: 3rem 2rem;
+
   justify-items: center;
+
   align-content: center;
 }
-.scroll-card-full .scroll-card-title { color: var(--card-cv-text); }
-.scroll-card-full .scroll-card-desc  { color: var(--card-cv-accent); }
-.scroll-card-full .scroll-card-cta   { color: var(--card-cv-accent); }
-.scroll-card-full:hover .scroll-card-cta { color: var(--card-cv-text); }
+
+.scroll-card-full .scroll-card-title {
+  color: var(--card-cv-text);
+}
+
+.scroll-card-full .scroll-card-desc {
+  color: var(--card-cv-accent);
+}
+
+.scroll-card-full .scroll-card-cta {
+  color: var(--card-cv-accent);
+}
+
+.scroll-card-full:hover .scroll-card-cta {
+  color: var(--card-cv-text);
+}
+
+
+// ════════════════════════════════════════════════
+// SCROLL LIST
+// ════════════════════════════════════════════════
 
 .scroll-list {
   width: 100%;
+
   max-width: 100%;
+
   margin: 0;
+
   padding: 1rem 0 4rem;
+
   box-sizing: border-box;
+}
+
+
+// ════════════════════════════════════════════════
+// MOBILE
+// ════════════════════════════════════════════════
+
+@media (max-width: 640px) {
+
+  html,
+  body {
+    width: 100%;
+
+    max-width: 100%;
+
+    overflow-x: hidden;
+  }
+
+
+  // ── Mobile header ────────────────────────────
+
+  .hv-research-header {
+    width: 100%;
+
+    min-height: 45dvh;
+
+    padding: 2.5rem 1.25rem;
+
+    box-sizing: border-box;
+  }
+
+
+  // Keep image filling the header
+  // while cropping instead of stretching
+
+  .hv-research-header-bg {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+
+  // ── Mobile image positioning ─────────────────
+
+  // Research
+  .hv-research-header:not(.hv-fieldwork-header):not(.hv-outreach-header)
+  .hv-research-header-bg {
+    object-position: center center;
+  }
+
+
+  // Fieldwork
+  .hv-fieldwork-header .hv-research-header-bg {
+    object-position: center 40%;
+  }
+
+
+  // Outreach
+  .hv-outreach-header .hv-research-header-bg {
+    object-position: center 70%;
+  }
+
+
+  // ── Mobile header text ───────────────────────
+
+  .hv-research-header h1 {
+    font-size: clamp(
+      2rem,
+      10vw,
+      3rem
+    );
+  }
+
+  .hv-research-header p {
+    width: 100%;
+
+    max-width: 32rem;
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+  }
+
+
+  // ════════════════════════════════════════════
+  // MOBILE CARDS
+  // ════════════════════════════════════════════
+
+  .scroll-card {
+    width: 100%;
+
+    max-width: 100%;
+
+    min-width: 0;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto auto;
+
+    height: auto;
+
+    min-height: 0;
+
+    margin: 0;
+  }
+
+
+  // Image first
+  .scroll-card .scroll-card-img {
+    order: 0;
+
+    width: 100%;
+
+    height: 56vw;
+
+    min-height: 180px;
+
+    max-height: 260px;
+  }
+
+
+  // Text second
+  .scroll-card .scroll-card-body {
+    order: 1;
+
+    width: 100%;
+
+    min-width: 0;
+
+    padding: 2rem 1.5rem;
+
+    box-sizing: border-box;
+  }
+
+
+  // Mobile card title
+  .scroll-card-title {
+    font-size: clamp(
+      1.7rem,
+      8vw,
+      2.3rem
+    );
+
+    line-height: 1.1;
+  }
+
+
+  // Mobile description
+  .scroll-card-desc {
+    width: 100%;
+
+    max-width: none;
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+  }
+
+
+  // Mobile CV card
+  .scroll-card-full {
+    width: 100%;
+
+    min-height: 220px;
+
+    padding: 2.5rem 1.5rem;
+
+    box-sizing: border-box;
+  }
+
+
+  // Mobile scroll list
+  .scroll-list {
+    width: 100%;
+
+    max-width: 100%;
+
+    padding-left: 0;
+
+    padding-right: 0;
+  }
 }
